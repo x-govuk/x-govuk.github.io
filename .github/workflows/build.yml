@@ -27,4 +27,4 @@ jobs:
         git config --global user.name "build-bot"
         git add --all
         git commit -m "Build" || exit 0
-        git push origin main:build
+        git push origin main:build --force
