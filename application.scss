@@ -1,0 +1,10 @@
+$govuk-new-link-styles: true;
+
+// Override the default GOV.UK Frontend font stack
+$govuk-font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+
+@import "govuk-frontend/govuk/all";
+
+.app-header__container--pink {
+  border-bottom-color: govuk-colour("pink");
+}
