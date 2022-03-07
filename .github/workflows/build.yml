@@ -18,9 +18,9 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Build Sass
-      run: npx sass --load-path=node_modules --quiet-deps application.scss _build/application.css
+      run: npx sass --load-path=node_modules --quiet-deps application.scss docs/application.css
     - name: Build Eleventy
-      run: npm run eleventy -- --output=_build
+      run: npm run eleventy -- --output=docs
     - name: Commit and push generated site
       run: |
         git config --global user.email "build-bot@example.com"
