@@ -18,7 +18,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Build Eleventy
-      run: npm run build
+      run: npx eleventy --quiet --output=docs
     - name: Commit and push generated site
       run: |
         git config --global user.email "build-bot@example.com"
