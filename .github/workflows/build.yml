@@ -17,10 +17,8 @@ jobs:
         node-version: 16.x
     - name: Install dependencies
       run: npm install
-    - name: Build Sass
-      run: npx sass --load-path=node_modules --quiet-deps application.scss docs/application.css
     - name: Build Eleventy
-      run: npm run eleventy -- --output=docs
+      run: npm run build
     - name: Commit and push generated site
       run: |
         git config --global user.email "build-bot@example.com"
