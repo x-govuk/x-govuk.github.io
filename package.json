@@ -9,12 +9,11 @@
   "repository": "github:x-govuk/x-govuk.github.io",
   "bugs": "https://github.com/x-govuk/govuk-design-history/issues",
   "scripts": {
-    "sass": "npx sass --load-path=node_modules --quiet-deps application.scss _site/application.css",
-    "eleventy": "npx @11ty/eleventy",
-    "build": "npm run sass && npm run eleventy"
+    "build": "eleventy --quiet --output=docs",
+    "dev": "eleventy --serve --quiet"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
-    "govuk-eleventy-plugin": "^1.0.5"
+    "govuk-eleventy-plugin": "paulrobertlloyd/govuk-eleventy-plugin"
   }
 }
