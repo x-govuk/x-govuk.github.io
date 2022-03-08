@@ -7,7 +7,7 @@
   "description": "A blog about collaboration across the UK government.",
   "homepage": "https://x-govuk.github.io",
   "repository": "github:x-govuk/x-govuk.github.io",
-  "bugs": "https://github.com/x-govuk/govuk-design-history/issues",
+  "bugs": "https://github.com/x-govuk/x-govuk.github.io/issues",
   "scripts": {
     "build": "eleventy --quiet --output=docs",
     "dev": "eleventy --serve --quiet"
