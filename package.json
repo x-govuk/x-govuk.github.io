@@ -9,7 +9,7 @@
   "repository": "github:x-govuk/x-govuk.github.io",
   "bugs": "https://github.com/x-govuk/x-govuk.github.io/issues",
   "scripts": {
-    "build": "eleventy --quiet --output=docs",
+    "build": "eleventy --quiet --output=_site",
     "dev": "eleventy --serve --quiet"
   },
   "dependencies": {
