@@ -8,16 +8,13 @@
   "homepage": "https://x-govuk.github.io",
   "repository": "github:x-govuk/x-govuk.github.io",
   "bugs": "https://github.com/x-govuk/govuk-design-history/issues",
-  "scripts": {},
-  "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "govuk-frontend": "^4.0.1",
-    "sass": "^1.49.9",
-    "nunjucks": "^3.2.3"
-  },
   "scripts": {
     "sass": "npx sass --load-path=node_modules --quiet-deps application.scss _site/application.css",
     "eleventy": "npx @11ty/eleventy",
     "build": "npm run sass && npm run eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "govuk-eleventy-plugin": "^1.0.5"
   }
 }
