@@ -1,0 +1,30 @@
+{% extends "_layouts/base.njk" %}
+
+{% from "x-govuk/components/masthead/macro.njk" import xGovukMasthead %}
+
+{% block main %}
+  {{ xGovukMasthead({
+    classes: "x-govuk-masthead--large",
+    title: {
+      html: title
+    } if title,
+    description: {
+      html: description | markdown("inline") | noOrphans
+    } if description,
+    startButton: startButton,
+    image: image,
+    breadcrumbs: {
+      classes: "govuk-!-display-none-print",
+      items: collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) | items
+    } if eleventyNavigation.parent
+  }) }}
+
+  <div class="govuk-width-container">
+    {% block beforeContent %}{% endblock %}
+    <main class="govuk-main-wrapper {{ mainClasses }}" id="main-content" role="main"{% if mainLang %} lang="{{ mainLang }}"{% endif %}>
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+    </main>
+  </div>
+{% endblock %}

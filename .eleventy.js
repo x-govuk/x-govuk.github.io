@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: 'njk',
     templateFormats: ['njk', 'md'],
     dir: {
-      layouts: './node_modules/govuk-eleventy-plugin/app/layouts',
+      layouts: '_layouts',
       // govukEleventyPlugin requires `output` to save compiled assets
       output: process.argv[3].split('=')[1] || '_site'
     }
