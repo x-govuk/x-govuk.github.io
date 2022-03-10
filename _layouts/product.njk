@@ -1,30 +1,20 @@
-{% extends "_layouts/base.njk" %}
+{% extends "app/layouts/product.njk" %}
 
-{% from "x-govuk/components/masthead/macro.njk" import xGovukMasthead %}
-
-{% block main %}
-  {{ xGovukMasthead({
-    classes: "x-govuk-masthead--large",
-    title: {
-      html: title
-    } if title,
-    description: {
-      html: description | markdown("inline") | noOrphans
-    } if description,
-    startButton: startButton,
-    image: image,
-    breadcrumbs: {
-      classes: "govuk-!-display-none-print",
-      items: collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) | items
-    } if eleventyNavigation.parent
-  }) }}
-
-  <div class="govuk-width-container">
-    {% block beforeContent %}{% endblock %}
-    <main class="govuk-main-wrapper {{ mainClasses }}" id="main-content" role="main"{% if mainLang %} lang="{{ mainLang }}"{% endif %}>
-    {% block content %}
-      {{ content }}
-    {% endblock %}
-    </main>
-  </div>
+{% block footer %}
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/x-govuk/x-govuk.github.io">GitHub source</a>
+            </li>
+          </ul>
+          <div class="govuk-footer__meta-custom">
+            An unofficial community project
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 {% endblock %}
