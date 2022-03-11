@@ -10,7 +10,7 @@
   "bugs": "https://github.com/x-govuk/x-govuk.github.io/issues",
   "scripts": {
     "build": "eleventy --quiet --output=_site",
-    "dev": "eleventy --serve --quiet"
+    "start": "eleventy --serve --quiet"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
