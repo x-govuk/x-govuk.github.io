@@ -41,7 +41,7 @@ description: A community-maintained collection of resources which are useful for
 
 ## Prototyping
 
-* [GOVU.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs)
+* [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs)
 * [Experimental components for prototyping](https://github.com/x-govuk/govuk-prototype-components)
 * [Navigation radios extension](https://github.com/x-govuk/prototype-navigation-radios)
 * [Wizard extension](https://github.com/x-govuk/govuk-prototype-wizard)
