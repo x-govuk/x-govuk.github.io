@@ -1,20 +1,49 @@
-{% extends "app/layouts/product.njk" %}
+{% extends "_layouts/base.njk" %}
 
-{% block footer %}
-  <footer class="govuk-footer" role="contentinfo">
-    <div class="govuk-width-container">
-      <div class="govuk-footer__meta">
-        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
-          <ul class="govuk-footer__inline-list">
-            <li class="govuk-footer__inline-list-item">
-              <a class="govuk-footer__link" href="https://github.com/x-govuk/x-govuk.github.io">GitHub source</a>
+{% block main %}
+  {{ xGovukMasthead({
+    classes: "x-govuk-masthead--large",
+    title: {
+      html: title
+    } if title,
+    description: {
+      html: description | markdown("inline") | noOrphans
+    } if description,
+    startButton: startButton,
+    image: {
+      alt: image.alt,
+      src: image.src | url
+    } if image,
+    breadcrumbs: {
+      classes: "govuk-!-display-none-print",
+      items: collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) | items
+    } if eleventyNavigation.parent
+  }) }}
+
+  <div class="govuk-width-container">
+    {% block beforeContent %}{% endblock %}
+
+    <div class="govuk-grid-row govuk-main-wrapper">
+      <div class="govuk-grid-column-two-thirds">
+        <main id="main-content" role="main"{% if mainLang %} lang="{{ mainLang }}"{% endif %}>
+          {% block content %}
+            {{ content }}
+          {% endblock %}
+        </main>
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+        <h2 class="govuk-heading-m">Blog posts</h2>
+
+        <ul class="govuk-list">
+          {%- for post in collections.post -%}
+            <li>
+              <h2 class="govuk-heading-s govuk-!-margin-bottom-2"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+              <div class="govuk-body-s"><time>{{ post.data.date | date("d LLLL y") }}</time></div>
             </li>
+          {%- endfor -%}
           </ul>
-          <div class="govuk-footer__meta-custom">
-            An unofficial community project
-          </div>
-        </div>
       </div>
     </div>
-  </footer>
+  </div>
 {% endblock %}
