@@ -1,5 +1,11 @@
 {% extends "app/layouts/product.njk" %}
 
+{% block pageTitle %}
+  {{- title if title -}}
+  {{- " (page " + pageNumber + " of " + pageCount + ")" if pageCount > 1 -}}
+  {{- " - X-GOVUK" -}}
+{% endblock %}
+
 {% block footer %}
   <footer class="govuk-footer" role="contentinfo">
     <div class="govuk-width-container">
