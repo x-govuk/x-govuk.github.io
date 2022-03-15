@@ -12,11 +12,15 @@
           <div class="govuk-hint">
             Published
             <time>{{ date | date("d LLLL y") }}</time>
-            by
-            {% set comma = joiner() %}
-            {% for author in authors -%}
-              {{ comma() }} {{ author }}
-            {%- endfor %}
+            {% if author or authors %} by {% endif %}
+            {% if author %}
+              {{ author }}
+            {% elif authors %}
+              {% set comma = joiner() %}
+              {% for author in authors -%}
+                {{ comma() }} {{ author }}
+              {%- endfor %}
+            {% endif %}
           </div>
           <hr>
           {% block content %}
