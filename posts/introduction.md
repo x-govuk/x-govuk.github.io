@@ -30,8 +30,8 @@ Projects include:
 * a [template for writing design histories](https://github.com/x-govuk/govuk-design-history)
 * a [crowdsourced list of UK government digital services](https://govuk-digital-services.herokuapp.com)
 * an [extension for the GOV.UK Prototype Kit to enable forking questions based on radios](https://github.com/x-govuk/prototype-navigation-radios)
-* a [wizard tool](https://github.com/x-govuk/govuk-prototype-wizard) for building and iterating ’one thing per page’ user journeys in prototypes
+* a [wizard tool](https://github.com/x-govuk/govuk-prototype-wizard) for building and iterating 'one thing per page' user journeys in prototypes
 
 The [X-GOVUK](/) homepage also contains a list of useful design, content, prototyping and front-end resources from across government.
 
-You can contribute links by opening a Pull Request on the [GitHub source](https://github.com/x-govuk/x-govuk.github.io) for this website – or by reaching out to any of us on the [cross-government Slack](https://ukgovernmentdigital.slack.com/).
+You can contribute links by opening a pull request on the [GitHub source](https://github.com/x-govuk/x-govuk.github.io) for this website -- or by reaching out to any of us on the [cross-government Slack](https://ukgovernmentdigital.slack.com/).
