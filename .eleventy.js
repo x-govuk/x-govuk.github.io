@@ -13,7 +13,13 @@ module.exports = function(eleventyConfig) {
     }
   })
 
+  // Pass through
+  eleventyConfig.addPassthroughCopy('./assets')
+
   return {
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    markdownTemplateEngine: 'njk',
     dir: {
       layouts: 'node_modules/govuk-eleventy-plugin/app/layouts'
     }
