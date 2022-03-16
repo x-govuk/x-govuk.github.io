@@ -4,9 +4,12 @@ date: 2022-03-16
 tags: post
 layout: post
 authors:
-  - Frankie Roberto
-  - Paul Lloyd
-  - Paul Hayes
+  - name: Frankie Roberto
+    url: https://github.com/frankieroberto
+  - name: Paul Lloyd
+    url: https://github.com/paulrobertlloyd
+  - name: Paul Hayes
+    url: https://github.com/fofr
 image:
   src: /assets/posts/introduction/x-govuk-logo.png
   alt: The GOV.UK crown viewed from above.
