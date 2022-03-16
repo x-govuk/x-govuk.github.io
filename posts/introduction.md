@@ -6,6 +6,7 @@ layout: post
 authors:
   - Frankie Roberto
   - Paul Lloyd
+  - Paul Hayes
 ---
 
 Hello! X-GOVUK is an unofficial community-maintained space for people working on government digital services in the UK.
