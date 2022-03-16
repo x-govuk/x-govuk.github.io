@@ -14,6 +14,9 @@ module.exports = function(eleventyConfig) {
   })
 
   return {
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    markdownTemplateEngine: 'njk',
     dir: {
       layouts: 'node_modules/govuk-eleventy-plugin/app/layouts'
     }
