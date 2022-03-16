@@ -4,6 +4,7 @@ homepage: true
 title: Welcome to X-GOVUK
 description: A community-maintained collection of resources which are useful for working on GOV.UK services.
 ---
+{% set content %}
 
 ## Design
 
@@ -62,3 +63,17 @@ description: A community-maintained collection of resources which are useful for
 ## Services
 
 * [A list of services on GOV.UK](https://govuk-digital-services.herokuapp.com)
+{% endset %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    {{ content }}
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <h2 class="govuk-heading-m">Posts</h2>
+    {% from "app/components/document-list/macro.njk" import appDocumentList %}
+    {{ appDocumentList({
+      items: collections.post
+    }) }}
+  </div>
+</div>
