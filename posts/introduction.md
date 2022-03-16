@@ -7,6 +7,9 @@ authors:
   - Frankie Roberto
   - Paul Lloyd
   - Paul Hayes
+image:
+  src: /assets/posts/introduction/x-govuk-logo.png
+  alt: The GOV.UK crown viewed from above.
 ---
 
 Hello! X-GOVUK is an unofficial community-maintained space for people working on government digital services in the UK.

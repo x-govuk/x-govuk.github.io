@@ -13,6 +13,9 @@ module.exports = function(eleventyConfig) {
     }
   })
 
+  // Pass through
+  eleventyConfig.addPassthroughCopy('./assets')
+
   return {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
