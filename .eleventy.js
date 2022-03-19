@@ -1,6 +1,6 @@
 const govukEleventyPlugin = require('govuk-eleventy-plugin')
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     header: {
       organisationLogo: 'x-govuk',
