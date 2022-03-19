@@ -1,10 +1,9 @@
-const fs = require('node:fs');
 const govukEleventyPlugin = require('govuk-eleventy-plugin')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     header: {
-      organisationLogo: fs.readFileSync('./assets/logo.svg', 'utf8'),
+      organisationLogo: 'x-govuk',
       organisationName: 'X-GOVUK',
     },
     footer: {
