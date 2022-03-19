@@ -2,6 +2,12 @@ const govukEleventyPlugin = require('govuk-eleventy-plugin')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
+    brandColour: '#28a',
+    fontFamily: 'system-ui, sans-serif',
+    stylesheets: [
+      '/assets/styles/application.css'
+    ],
+    homeKey: 'X-GOVUK',
     header: {
       organisationLogo: 'x-govuk',
       organisationName: 'X-GOVUK',
@@ -13,14 +19,16 @@ module.exports = function (eleventyConfig) {
   })
 
   // Pass through
-  eleventyConfig.addPassthroughCopy('./assets')
+  eleventyConfig.addPassthroughCopy('./app/assets')
 
   return {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
     dir: {
-      layouts: 'node_modules/govuk-eleventy-plugin/app/layouts'
+      input: 'app',
+      data: 'data',
+      layouts: '../node_modules/govuk-eleventy-plugin/app/layouts'
     }
   }
 }

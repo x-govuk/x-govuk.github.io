@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-fetch": "^3.0.0",
     "govuk-eleventy-plugin": "paulrobertlloyd/govuk-eleventy-plugin"
   },
   "devDependencies": {

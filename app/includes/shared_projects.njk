@@ -1,0 +1,22 @@
+<hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
+<h2 class="govuk-heading-l govuk-!-margin-bottom-1" id="shared-projects">Shared projects</h2>
+<p class="govuk-body-l app-!-colour-muted">Collaborative projects in active development</p>
+<div class="govuk-grid-row">
+{% for repo in repos %}
+  {% if repo.has_pages and repo.name != "x-govuk.github.io" %}
+  <section class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
+    <h3 class="govuk-heading-m govuk-!-margin-bottom-2">
+      <a class="govuk-link" href="{{ repo.homepage }}">{{ repo.name | replace("-", " ") | title | replace("Govuk", "GOV.UK") }}</a>
+    </h3>
+    <p class="govuk-body">{{ repo.description }}</p>
+  </section>
+  {% endif %}
+{% endfor %}
+  {# Add this project manually as hosted on Heroku #}
+  <section class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-8">
+    <h3 class="govuk-heading-m govuk-!-margin-bottom-2">
+      <a class="govuk-link" href="https://govuk-digital-services.herokuapp.com">UK Government digital services</a>
+    </h3>
+    <p class="govuk-body">A catalogue of government services that are fully digital as part of GOV.UK.</p>
+  </section>
+</div>
