@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: 'app',
       data: 'data',
-      layouts: '../node_modules/govuk-eleventy-plugin/app/layouts'
+      layouts: '../node_modules/govuk-eleventy-plugin/layouts'
     }
   }
 }
