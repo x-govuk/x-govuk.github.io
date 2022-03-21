@@ -4,11 +4,14 @@ homepage: true
 title: Welcome to X-GOVUK
 description: A community-maintained collection of resources which are useful for working on GOV.UK services.
 ---
-{% set content %}
+<h2 class="govuk-heading-l" id="resources">Resources</h2>
 
-## Design
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
 
-### Design systems, patterns and components
+### Design
+
+#### Design systems, patterns and components
 
 * [GOV.UK Design System](https://design-system.service.gov.uk)
 * [CJS Crime Programme design patterns](https://cjscpp-design-patterns.herokuapp.com)
@@ -29,12 +32,15 @@ description: A community-maintained collection of resources which are useful for
 * [Hackney Design System](https://design-system.hackney.gov.uk)
 * [Croydon design and content guidelines](https://www.croydon.gov.uk/design-and-content-guidelines)
 
-### Other design resources
+#### Other design resources
 
 * [GOV.UK Design histories](https://github.com/x-govuk/govuk-design-history)
 * [Statistics on usage of `govuk-frontend` components](https://github.com/x-govuk/govuk-frontend-component-stats)
 
-## Content design
+</div>
+<div class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
+
+### Content design
 
 * [Government Digital Service style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)
 * [Department for Education glossary](https://dfe-glossary.herokuapp.com)
@@ -42,18 +48,16 @@ description: A community-maintained collection of resources which are useful for
 * [HMRC content style guide](https://design.tax.service.gov.uk/hmrc-content-style-guide/)
 * [NHS style guide](https://service-manual.nhs.uk/content)
 
-## Prototyping
+### Prototyping
 
 * [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs)
-* [Experimental components for prototyping](https://github.com/x-govuk/govuk-prototype-components)
 * [Navigation radios extension](https://github.com/x-govuk/prototype-navigation-radios)
 * [Wizard extension](https://github.com/x-govuk/govuk-prototype-wizard)
 
-## Front-end
+### Front-end
 
 * [Jinja](https://github.com/LandRegistry/govuk-frontend-jinja)
 * [Markdown](https://github.com/x-govuk/govuk-markdown)
-* [Markdown - extensions for Marked](https://github.com/x-govuk/marked-govspeak)
 * [R Markdown](https://github.com/ukgovdatascience/govdown)
 * [React](https://github.com/surevine/govuk-react-jsx)
 * [Ruby on Rails components](https://github.com/DFE-Digital/govuk-components)
@@ -62,20 +66,11 @@ description: A community-maintained collection of resources which are useful for
 * [Twirl](https://github.com/hmrc/play-frontend-hmrc)
 * [WTForms](https://github.com/LandRegistry/govuk-frontend-wtf)
 
-## Services
-
-* [A list of services on GOV.UK](https://govuk-digital-services.herokuapp.com)
-{% endset %}
-
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    {{ content }}
-  </div>
-  <div class="govuk-grid-column-one-third">
-    <h2 class="govuk-heading-m">Posts</h2>
-    {% from "app/components/document-list/macro.njk" import appDocumentList %}
-    {{ appDocumentList({
-      items: collections.post
-    }) }}
-  </div>
 </div>
+</div>
+
+<p class="govuk-body-s govuk-!-margin-bottom-8"><a class="govuk-link" href="https://github.com/{{ pkg.repository.url | replace(".git", "") }}/blob/main/{{ page.inputPath | replace("./", "") }}">Edit this list on GitHub</a></p>
+
+{% include "../app/includes/shared_projects.njk" %}
+
+{% include "../app/includes/posts.njk" %}

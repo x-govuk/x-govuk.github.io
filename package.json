@@ -1,19 +1,40 @@
 {
   "name": "x-govuk",
   "version": "1.0.0",
-  "engines": {
-    "node": "^16.0.0"
-  },
-  "description": "A blog about collaboration across the UK government.",
+  "description": "A blog about collaboration across the UK government",
   "homepage": "https://x-govuk.github.io",
-  "repository": "github:x-govuk/x-govuk.github.io",
-  "bugs": "https://github.com/x-govuk/x-govuk.github.io/issues",
+  "bugs": {
+    "url": "https://github.com/x-govuk/x-govuk.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x-govuk/x-govuk.github.io.git"
+  },
   "scripts": {
     "build": "eleventy --quiet",
-    "start": "eleventy --serve --quiet"
+    "start": "eleventy --serve --quiet",
+    "lint": "standard && stylelint '**/*.scss'"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
-    "govuk-eleventy-plugin": "paulrobertlloyd/govuk-eleventy-plugin"
+    "@11ty/eleventy-fetch": "^3.0.0",
+    "govuk-eleventy-plugin": "^2.0.0-beta"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-gds": "^0.1.0"
+  },
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "private": true,
+  "standard": {
+    "ignore": [
+      "!.eleventy.js"
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-gds/scss"
   }
 }
