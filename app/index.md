@@ -37,6 +37,10 @@ description: A community-maintained collection of resources which are useful for
 * [GOV.UK Design histories](https://github.com/x-govuk/govuk-design-history)
 * [Statistics on usage of `govuk-frontend` components](https://github.com/x-govuk/govuk-frontend-component-stats)
 
+### User research
+
+* [Local government user research library](https://research.localgov.digital/)
+
 </div>
 <div class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
 
