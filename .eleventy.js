@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
     homeKey: 'X-GOVUK',
     header: {
       organisationLogo: 'x-govuk',
-      organisationName: 'X-GOVUK',
+      organisationName: 'X-GOVUK'
     },
     footer: {
       copyright: '© X-GOVUK',
