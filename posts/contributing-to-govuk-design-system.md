@@ -8,19 +8,19 @@ author:
   url: https://github.com/frankieroberto
 ---
 
-Last week a new pattern was published in the GOV.UK Design System that helps users to [confirm a phone number](https://design-system.service.gov.uk/patterns/confirm-a-phone-number/) using a security code sent by text message.
+Last week a new pattern was published in the GOV.UK Design System that helps users [confirm a phone number](https://design-system.service.gov.uk/patterns/confirm-a-phone-number/) using a security code sent by text message.
 
 I initiated this contribution almost two years ago when working on a service that was switching to using its own sign in system to avoid relying upon an off-the-shelf authentication service which was hard to maintain.
 
-As the service was quite sensitive, we decided to require a text message confirmation code when signing in – sometimes known as 'two factor authentication'.
+As the service was quite sensitive, we decided to require a text message confirmation code when signing in – sometimes known as two factor authentication.
 
 The pattern of sending and requesting an SMS code is quite well established, used by many services in and out of government.
 
 However we still had a bunch of detailed design questions. Things like:
 
-* should we call it a ‘security code’, a ‘verification code’, or something else?
+* should we call it a security code, a verification code, or something else?
 * how long should the codes be valid for?
-* if a code doesn’t arrive straight away and the user requests a new one, should we resend the same code or generate a new one?
+* if a code doesn't arrive straight away and the user requests a new one, should we resend the same code or generate a new one?
 * how many digits should the code contain?
 * when first setting up an account, how we can we make sure the phone number is valid and can receive text messages without letting the user get stuck?
 
