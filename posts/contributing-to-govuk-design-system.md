@@ -28,7 +28,7 @@ For each of these questions, we looked at what existing services like GOV.UK Not
 
 There was also an existing thread on the GOV.UK Design System backlog for [identifying users](https://github.com/alphagov/govuk-design-system-backlog/issues/25), where designers and researchers had shared some screenshots and discussed the pattern. These [backlog threads](https://github.com/alphagov/govuk-design-system-backlog/issues) are another great resource, if sometimes hard to find.
 
-Once we had assimilated some of this existing work, plus made some design iterations of our own, we were ready to ship our feature. And once the dust had settled, I realised that writing this all up might be useful for other designers in the same situation.
+When we had assimilated some of this existing work, plus made some design iterations of our own, we were ready to ship. And once the dust had settled, I realised that writing this all up might be useful for other designers in the same situation.
 
 Contributing a [new pattern or component](https://design-system.service.gov.uk/community/propose-a-component-or-pattern/) to the GOV.UK Design System can be a daunting prospect. The designs that are included need to be useful for multiple services. There’s also a working group who review all new patterns and components, and the design system team themselves will also help to make sure the written content is consistent with their style guide and the other pages.
 
