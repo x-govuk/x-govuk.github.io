@@ -37,6 +37,8 @@ There was also an existing thread on the GOV.UK Design System backlog for [ident
 
 When we had assimilated some of this existing work, plus made some design iterations of our own, we were ready to ship. And once the dust had settled, I realised that writing this all up might be useful for other designers in the same situation.
 
+## The process of contributing
+
 Contributing a [new pattern or component](https://design-system.service.gov.uk/community/propose-a-component-or-pattern/) to the GOV.UK Design System can be a daunting prospect. The designs that are included need to be useful for multiple services. There’s also a working group who review all new patterns and components, and the design system team themselves will also help to make sure the written content is consistent with their style guide and the other pages.
 
 However this is all a process of continual improvement, making sure that the published page is as high quality and useful as possible. As a contributor it’s helpful to enter in a spirit of collaboration, remembering that the design system is the product of the work of a whole community.
@@ -44,6 +46,8 @@ However this is all a process of continual improvement, making sure that the pub
 Why do this? I do find it personally satisfying when a contribution I worked on makes its way onto the website. But the primary reason I contribute is because the GOV.UK Design System is so important and useful to my day-to-day work as a designer.
 
 Every addition, amendment or clarification to the design system makes my work slightly easier, allowing me more time to focus on the problems unique to the service I’m working on. I see contributing back as part of the day job, even if the immediate pay-off isn’t quite so apparent.
+
+## How you can contribute
 
 For designers, researchers and developers working on government digital services, I’d encourage you to contribute too!
 
