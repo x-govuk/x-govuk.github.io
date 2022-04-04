@@ -18,7 +18,7 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-fetch": "^3.0.0",
-    "govuk-eleventy-plugin": "^2.0.0-beta"
+    "govuk-eleventy-plugin": "^2.0.0"
   },
   "devDependencies": {
     "standard": "^16.0.4",
