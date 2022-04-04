@@ -1,5 +1,6 @@
 ---
 title: Why I contribute to the GOV.UK Design System (and why you should too)
+description: How I helped to publish a pattern for confirming a phone number, and ways in which you can contribute to the GOV.UK Design System too.
 date: 2022-05-03
 tags: post
 layout: post
