@@ -12,7 +12,7 @@ Last week a new pattern was published in the GOV.UK Design System that helps use
 
 I initiated this contribution almost two years ago when working on a service that was switching to using its own sign in system to avoid relying upon an off-the-shelf authentication service which was hard to maintain.
 
-As the service was quite sensitive, we decided to require a text message confirmation code when signing in – sometimes known as two factor authentication.
+As the service was sensitive, we chose to use a text message confirmation code when signing in – sometimes known as two factor authentication.
 
 The pattern of sending and requesting an SMS code is quite well established, used by many services in and out of government.
 
