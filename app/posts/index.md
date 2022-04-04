@@ -6,6 +6,7 @@ collection: "Latest posts"
 pagination:
   data: collections.post
   size: 20
+  reverse: true
 eleventyNavigation:
   parent: X-GOVUK
 ---
