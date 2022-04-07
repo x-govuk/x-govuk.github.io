@@ -57,6 +57,7 @@ description: A community-maintained collection of resources which are useful for
 * [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs)
 * [Navigation radios extension](https://github.com/x-govuk/prototype-navigation-radios)
 * [Wizard extension](https://github.com/x-govuk/govuk-prototype-wizard)
+* [GOV.UK Figma library](https://www.figma.com/file/NWuFffKvPQhl3aJ9nKU0p3/GOV.UK-Design-System?node-id=0%3A1)
 
 ### Front-end
 
