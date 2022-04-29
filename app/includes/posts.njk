@@ -1,6 +1,5 @@
 <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
-<h2 class="govuk-heading-l govuk-!-margin-bottom-1" id="posts">Posts</h2>
-<p class="govuk-body-l app-!-colour-muted">Notes and updates on projects being developed across government teams</p>
+<h2 class="govuk-heading-l" id="posts">Posts</h2>
 <div class="govuk-grid-row">
 {% set columns = cycler("1", "2") %}
 {% for post in collections.post | reverse %}

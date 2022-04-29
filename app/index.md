@@ -4,6 +4,13 @@ homepage: true
 title: Welcome to X-GOVUK
 description: A community-maintained collection of resources which are useful for working on GOV.UK services.
 ---
+
+{% include "../app/includes/shared_projects.njk" %}
+
+{% include "../app/includes/posts.njk" %}
+
+<hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
+
 <h2 class="govuk-heading-l" id="resources">Resources</h2>
 
 <div class="govuk-grid-row">
@@ -75,7 +82,3 @@ description: A community-maintained collection of resources which are useful for
 </div>
 
 <p class="govuk-body-s govuk-!-margin-bottom-8"><a class="govuk-link" href="https://github.com/{{ pkg.repository.url | replace(".git", "") }}/blob/main/{{ page.inputPath | replace("./", "") }}">Edit this list on GitHub</a></p>
-
-{% include "../app/includes/shared_projects.njk" %}
-
-{% include "../app/includes/posts.njk" %}
