@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "standard": "^16.0.4",
-    "stylelint": "^14.6.1",
+    "stylelint": "^14.8.5",
     "stylelint-config-gds": "^0.2.0"
   },
   "engines": {
