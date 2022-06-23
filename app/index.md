@@ -81,4 +81,4 @@ description: A community-maintained collection of resources which are useful for
 </div>
 </div>
 
-<p class="govuk-body-s govuk-!-margin-bottom-8"><a class="govuk-link" href="https://github.com/{{ pkg.repository.url | replace(".git", "") }}/blob/main/{{ page.inputPath | replace("./", "") }}">Edit this list on GitHub</a></p>
+<p class="govuk-body-s govuk-!-margin-bottom-8"><a class="govuk-link" href="{{ pkg.repository.url | replace("io.git", "io") }}/blob/main/{{ page.inputPath | replace("./", "") }}">Edit this list on GitHub</a></p>
