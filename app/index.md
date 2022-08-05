@@ -68,13 +68,14 @@ description: A community-maintained collection of resources which are useful for
 
 ### Front-end
 
+* [Flask](https://github.com/LandRegistry/govuk-frontend-flask)
 * [Jinja](https://github.com/LandRegistry/govuk-frontend-jinja)
 * [Markdown](https://github.com/x-govuk/govuk-markdown)
 * [R Markdown](https://github.com/ukgovdatascience/govdown)
 * [React](https://github.com/surevine/govuk-react-jsx)
+* [Ruby on Rails asset pipeline](https://github.com/dxw/dxw_govuk_frontend_rails)
 * [Ruby on Rails components](https://github.com/DFE-Digital/govuk-components)
 * [Ruby on Rails formbuilder](https://github.com/DFE-Digital/govuk-formbuilder)
-* [Ruby on Rails asset pipeline](https://github.com/dxw/dxw_govuk_frontend_rails)
 * [Twirl](https://github.com/hmrc/play-frontend-hmrc)
 * [WTForms](https://github.com/LandRegistry/govuk-frontend-wtf)
 
