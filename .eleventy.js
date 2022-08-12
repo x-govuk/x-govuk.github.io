@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
       shortcut: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-favicon.ico',
       touch: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-apple-touch-icon.png'
     },
-    ogImage: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
+    opengraphImageUrl: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
     stylesheets: [
       '/assets/styles/application.css'
     ],
@@ -19,8 +19,12 @@ module.exports = function (eleventyConfig) {
       organisationName: 'X-GOVUK'
     },
     footer: {
-      copyright: '© X-GOVUK',
-      licence: 'An unofficial community project. [GitHub source](https://github.com/x-govuk/x-govuk.github.io).'
+      contentLicence: {
+        html: 'An unofficial community project. <a class="govuk-footer__link" href="https://github.com/x-govuk/x-govuk.github.io">GitHub source</a>.'
+      },
+      copyright: {
+        text: '© X-GOVUK'
+      }
     }
   })
 
