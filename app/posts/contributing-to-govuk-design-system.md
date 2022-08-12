@@ -10,7 +10,7 @@ author:
 image:
   src: /assets/posts/contributing-to-govuk-design-system/check-your-phone.png
   alt: Illustration of a laptop showing a website saying 'Check your phone' and a phone with an SMS saying '62134 is your security code'
-ogImage:
+opengraphImage:
   src: /assets/posts/contributing-to-govuk-design-system/check-your-phone.png
   alt: Illustration of a laptop showing a website saying 'Check your phone' and a phone with an SMS saying '62134 is your security code
 ---

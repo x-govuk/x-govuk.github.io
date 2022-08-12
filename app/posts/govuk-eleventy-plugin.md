@@ -10,7 +10,7 @@ author:
 image:
   src: /assets/posts/govuk-eleventy-plugin/govuk-eleventy-plugin.png
   alt: The homepage illustration for the GOV.UK Eleventy Plugin.
-ogImage:
+opengraphImage:
   src: /assets/posts/govuk-eleventy-plugin/customisation-examples.png
   alt: Examples of customised websites using the plugin.
 ---
