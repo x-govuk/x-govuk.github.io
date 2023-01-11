@@ -43,7 +43,6 @@ description: A community-maintained collection of resources which are useful for
 
 #### Other design resources
 
-* [GOV.UK Design histories](https://github.com/x-govuk/govuk-design-history)
 * [Statistics on usage of `govuk-frontend` components](https://github.com/x-govuk/govuk-frontend-component-stats)
 
 ### User research

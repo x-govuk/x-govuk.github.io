@@ -15,13 +15,13 @@ opengraphImage:
   alt: Examples of customised websites using the plugin.
 ---
 
-Back in 2018, the Becoming a teacher team at the Department for Education wanted to [document the design evolution of the services they were building](https://design-history.herokuapp.com/keeping-a-design-history/). A small website was built using the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs), but this soon became difficult to manage as more people joined the team and wanted to write posts.
+Back in 2018, the Becoming a teacher team at the Department for Education wanted to [document the design evolution of the services they were building](https://x-govuk.github.io/govuk-design-history-docs/case-study/). A small website was built using the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs), but this soon became difficult to manage as more people joined the team and wanted to write posts.
 
 Looking for alternatives, the team chose [Eleventy](https://11ty.dev), a static website generator developed by Zach Leatherman[^1]. Like the Prototype Kit, it uses Node.js, yet is designed around organising and publishing content-focused websites.
 
 This includes support for [Markdown](https://www.markdownguide.org), a lightweight markup language for formatting plain text documents. Posts can incorporate metadata like publication dates and authors, and be organised into different collections.
 
-With this foundation in place, [the design history](https://bat-design-history.netlify.app/) grew to over 500 posts written by more than 20 authors. In 2020 we made this tool available as [a template repository on GitHub](https://github.com/x-govuk/govuk-design-history) so that other teams could quickly begin writing their own design histories. The tool has since been adopted by other teams, both inside the Department for Education and across government.
+With this foundation in place, [the design history](https://bat-design-history.netlify.app/) grew to over 500 posts written by more than 20 authors. In 2020 we made this tool available as [a template repository on GitHub](https://github.com/x-govuk/govuk-design-history-template) so that other teams could quickly begin writing their own design histories. The tool has since been adopted by other teams, both inside the Department for Education and across government.
 
 However, as the number of websites using this template has grown, the harder it has become to share improvements. Abstracting the common parts into an npm module makes it easier for us to do this.
 
