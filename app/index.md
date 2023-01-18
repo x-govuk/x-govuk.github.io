@@ -22,8 +22,7 @@ description: A community-maintained collection of resources which are useful for
 
 * [GOV.UK Design System](https://design-system.service.gov.uk)
 * [CJS Crime Programme design patterns](https://cjscpp-design-patterns.herokuapp.com)
-* [Department for Education - Apply the Service Standard](https://apply-the-service-standard.education.gov.uk/)
-* [Department for Education - Design Manual](https://design.education.gov.uk)
+* [Department for Education - User-centred design in DfE]([https://apply-the-service-standard.education.gov.uk/](https://design.education.gov.uk))
 * [Digital Land design system](https://digital-land.github.io/design-system/)
 * [Digital Scotland Design System](https://designsystem.gov.scot)
 * [DWP Design System](https://design-system.dwp.gov.uk/index)
