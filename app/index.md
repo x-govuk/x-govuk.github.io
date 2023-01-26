@@ -68,6 +68,7 @@ description: A community-maintained collection of resources which are useful for
 
 ### Front-end
 
+* [GOV.UK Frontend](https://frontend.design-system.service.gov.uk)
 * [Flask](https://github.com/LandRegistry/govuk-frontend-flask)
 * [Jinja](https://github.com/LandRegistry/govuk-frontend-jinja)
 * [Markdown](https://github.com/x-govuk/govuk-markdown)
