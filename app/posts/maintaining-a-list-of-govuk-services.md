@@ -23,7 +23,7 @@ The Government Digital Service (GDS) used to maintain a 'register of services on
 
 To fill this gap, I’ve been helping to run a [community-maintained list of government services](https://govuk-digital-services.herokuapp.com). There’s now over 400 services listed.
 
-Why do this? Lots of people have found it useful. Designers like being able to find other services to get inspiration from. Product managers working on platforms like GOV.UK Pay and GOV.UK Single Sign On use it to work out which services might use their platform. Researchers from outside government have even used it as a starting point for academic work.
+Why do this? Lots of people have found it useful. Designers like being able to find other services to get inspiration from. Product managers working on platforms like GOV.UK Pay and GOV.UK One Login use it to work out which services might use their platform. Researchers from outside government have even used it as a starting point for academic work.
 
 Maintaining this list is hard. So far we’ve used numerous sources, including:
 
