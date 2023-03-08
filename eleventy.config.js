@@ -1,4 +1,4 @@
-const govukEleventyPlugin = require('govuk-eleventy-plugin')
+const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
@@ -38,7 +38,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: 'app',
       data: 'data',
-      layouts: '../node_modules/govuk-eleventy-plugin/layouts'
+      layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
     }
   }
 }

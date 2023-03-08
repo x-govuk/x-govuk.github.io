@@ -16,9 +16,9 @@
     "lint": "standard && stylelint '**/*.scss'"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^3.0.0",
-    "govuk-eleventy-plugin": "^4.0.0"
+    "@x-govuk/govuk-eleventy-plugin": "^5.0.0"
   },
   "devDependencies": {
     "standard": "^17.0.0",
