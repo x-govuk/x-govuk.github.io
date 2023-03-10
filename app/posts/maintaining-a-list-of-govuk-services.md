@@ -45,5 +45,6 @@ Finally, I’ve also added a few fun bonus features which use the data:
 * the list of services [organised by the verb they start with](https://govuk-digital-services.herokuapp.com/verbs)
 * a page containing [screenshots of the first page for each service](https://govuk-digital-services.herokuapp.com/screenshots)
 * a [list of the domains and subdomains](https://govuk-digital-services.herokuapp.com/domains) the services run on
+* the [list of the original 25 exemplars](https://govuk-digital-services.herokuapp.com/original-25-exemplars)
 
 Let us know if you find it useful in any way, or have any suggestions for improvements.
