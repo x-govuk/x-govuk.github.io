@@ -25,7 +25,7 @@ To fill this gap, I’ve been helping to run a [community-maintained list of gov
 
 Why do this? Lots of people have found it useful. Designers like being able to find other services to get inspiration from. Product managers working on platforms like GOV.UK Pay and GOV.UK One Login use it to work out which services might use their platform. Researchers from outside government have even used it as a starting point for academic work.
 
-Maintaining this list is hard. So far we’ve used numerous sources, including:
+Maintaining this list is hard. So far I’ve used numerous sources, including:
 
 * published [service standard reports](https://www.gov.uk/service-standard-reports)
 * ‘start pages’ on GOV.UK
