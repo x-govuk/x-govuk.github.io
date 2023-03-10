@@ -9,7 +9,7 @@ author:
   url: https://github.com/frankieroberto
 ---
 
-Back in 2013, after the successful launch of GOV.UK, the Government Digital Service [began looking at services](https://gds.blog.gov.uk/2013/07/17/the-pivot-from-publishing-to-transactions/), starting with a list of 25 which would be 'exemplars'.
+Back in 2013, after the successful launch of GOV.UK, the Government Digital Service [began looking at services](https://gds.blog.gov.uk/2013/07/17/the-pivot-from-publishing-to-transactions/), starting with a list of 25 which would be ‘exemplars’.
 
 The distinction between services and the main GOV.UK website itself is tricky to define and has gotten blurrier over time. As I understand it, the original decision was to move all static content onto the single government website (itself a huge task), but to keep services requiring users to submit information separate.
 
@@ -17,7 +17,7 @@ Since then, the number of GOV.UK branded digital services has grown. There are n
 
 How many are there exactly though? The truth is, no one can answer that question. Whilst there are some central controls over the funding and launch of services, UK government is distributed across so many separate organisations that it’s impossible to keep track of them all.
 
-The Government Digital Service (GDS) used to maintain a 'register of services on a *.service.gov.uk domain', but this was closed when the [registers service was retired](https://dataingovernment.blog.gov.uk/2021/02/18/new-guidance-for-publishing-data/) in 2021.
+The Government Digital Service (GDS) used to maintain a ‘register of services on a *.service.gov.uk domain’, but this was closed when the [registers service was retired](https://dataingovernment.blog.gov.uk/2021/02/18/new-guidance-for-publishing-data/) in 2021.
 
 ## A community-maintained list
 
@@ -28,7 +28,7 @@ Why do this? Lots of people have found it useful. Designers like being able to f
 Maintaining this list is hard. So far we’ve used numerous sources, including:
 
 * published [service standard reports](https://www.gov.uk/service-standard-reports)
-* 'start pages' on GOV.UK
+* ‘start pages’ on GOV.UK
 * source code published on department GitHub accounts
 * the list of [75 services prioritised in the government’s 2022 to 2025 roadmap](https://www.gov.uk/government/publications/roadmap-for-digital-and-data-2022-to-2025/transforming-for-a-digital-future-2022-to-2025-roadmap-for-digital-and-data)
 
