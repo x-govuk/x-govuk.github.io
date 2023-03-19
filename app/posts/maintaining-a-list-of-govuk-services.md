@@ -1,6 +1,6 @@
 ---
 title: Maintaining a list of GOV.UK services
-description: TODO
+description: Why the community has built a list of over 400 digital UK government services, including links to source code and service assessments, and how you can contribute.
 date: 2023-03-07
 tags: post
 layout: post
