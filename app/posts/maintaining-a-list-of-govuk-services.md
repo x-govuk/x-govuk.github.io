@@ -7,17 +7,23 @@ layout: post
 author:
   name: Frankie Roberto
   url: https://github.com/frankieroberto
+image:
+  src: /assets/posts/maintaining-a-list-of-govuk-services/govuk-services.png
+  alt: Illustration containing screenshots of the first page of 24 different government service, arranged in a grid.
+opengraphImage:
+  src: /assets/posts/maintaining-a-list-of-govuk-services/govuk-services.png
+  alt: Illustration containing screenshots of the first page of 24 different government service, arranged in a grid.
 ---
 
-Back in 2013, after the successful launch of GOV.UK, the Government Digital Service [began looking at services](https://gds.blog.gov.uk/2013/07/17/the-pivot-from-publishing-to-transactions/), starting with a list of 25 which would be ‘exemplars’.
+Back in 2013, after the successful launch of GOV.UK, the Government Digital Service (GDS) [began looking at services](https://gds.blog.gov.uk/2013/07/17/the-pivot-from-publishing-to-transactions/), starting with a list of 25 which would be ‘exemplars’.
 
 The distinction between services and the main GOV.UK website itself is tricky to define and has gotten blurrier over time. As I understand it, the original decision was to move all static content onto the single government website (itself a huge task), but to keep services requiring users to submit information separate.
 
 Since then, the number of GOV.UK branded digital services has grown. There are now services from every major department and agency, covering everything from [registering a design](https://www.gov.uk/register-a-design/send-your-application) to [checking MOT history](https://www.gov.uk/check-mot-history).
 
-How many are there exactly though? The truth is, no one can answer that question. Whilst there are some central controls over the funding and launch of services, UK government is distributed across so many separate organisations that it’s impossible to keep track of them all.
+How many are there exactly though? The truth is, no one can answer that question. Whilst there are some central controls over the funding and launch of services, the UK government is distributed across so many separate organisations that it’s impossible to keep track of them all.
 
-The Government Digital Service (GDS) used to maintain a ‘register of services on a *.service.gov.uk domain’, but this was closed when the [registers service was retired](https://dataingovernment.blog.gov.uk/2021/02/18/new-guidance-for-publishing-data/) in 2021.
+There used to be a ‘register of services on a service.gov.uk subdomain’, but this was closed when the [registers service was retired](https://dataingovernment.blog.gov.uk/2021/02/18/new-guidance-for-publishing-data/) in 2021.
 
 ## A community-maintained list
 
