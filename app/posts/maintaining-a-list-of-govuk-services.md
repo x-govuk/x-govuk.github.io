@@ -11,7 +11,7 @@ image:
   src: /assets/posts/maintaining-a-list-of-govuk-services/govuk-services.png
   alt: Illustration containing screenshots of the first page of 24 different government service, arranged in a grid.
 opengraphImage:
-  src: /assets/posts/maintaining-a-list-of-govuk-services/govuk-services.png
+  src: https://x-govuk.github.io/assets/posts/maintaining-a-list-of-govuk-services/govuk-services.png
   alt: Illustration containing screenshots of the first page of 24 different government service, arranged in a grid.
 ---
 
