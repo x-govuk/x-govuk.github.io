@@ -14,6 +14,7 @@ authors:
 image:
   src: /assets/posts/introduction/x-govuk-logo.png
   alt: The GOV.UK crown viewed from above.
+  opengraphImage: true
 ---
 
 Hello! X-GOVUK is an unofficial community-maintained space for people working on government digital services in the UK.

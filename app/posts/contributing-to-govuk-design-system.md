@@ -9,10 +9,8 @@ author:
   url: https://github.com/frankieroberto
 image:
   src: /assets/posts/contributing-to-govuk-design-system/check-your-phone.png
-  alt: Illustration of a laptop showing a website saying 'Check your phone' and a phone with an SMS saying '62134 is your security code'
-opengraphImage:
-  src: /assets/posts/contributing-to-govuk-design-system/check-your-phone.png
-  alt: Illustration of a laptop showing a website saying 'Check your phone' and a phone with an SMS saying '62134 is your security code
+  alt: Illustration of a laptop showing a website saying ‘Check your phone’ and a phone with an SMS saying ‘62134 is your security code’.
+  opengraphImage: true
 ---
 
 Last week a new pattern was published in the GOV.UK Design System that helps users [confirm a phone number](https://design-system.service.gov.uk/patterns/confirm-a-phone-number/) using a security code sent by text message.

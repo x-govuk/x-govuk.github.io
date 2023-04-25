@@ -10,9 +10,7 @@ author:
 image:
   src: /assets/posts/govuk-eleventy-plugin/govuk-eleventy-plugin.png
   alt: The homepage illustration for the GOV.UK Eleventy Plugin.
-opengraphImage:
-  src: /assets/posts/govuk-eleventy-plugin/customisation-examples.png
-  alt: Examples of customised websites using the plugin.
+  opengraphImage: true
 ---
 
 Back in 2018, the Becoming a teacher team at the Department for Education wanted to [document the design evolution of the services they were building](https://x-govuk.github.io/govuk-design-history-docs/case-study/). A small website was built using the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs), but this soon became difficult to manage as more people joined the team and wanted to write posts.

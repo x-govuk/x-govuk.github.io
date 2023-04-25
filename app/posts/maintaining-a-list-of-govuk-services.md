@@ -10,9 +10,7 @@ author:
 image:
   src: /assets/posts/maintaining-a-list-of-govuk-services/govuk-services.png
   alt: Illustration containing screenshots of the first page of 24 different government service, arranged in a grid.
-opengraphImage:
-  src: https://x-govuk.github.io/assets/posts/maintaining-a-list-of-govuk-services/govuk-services.png
-  alt: Illustration containing screenshots of the first page of 24 different government service, arranged in a grid.
+  opengraphImage: true
 ---
 
 Back in 2013, after the successful launch of GOV.UK, the Government Digital Service (GDS) [began looking at services](https://gds.blog.gov.uk/2013/07/17/the-pivot-from-publishing-to-transactions/), starting with a list of 25 which would be ‘exemplars’.
