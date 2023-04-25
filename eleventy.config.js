@@ -14,6 +14,9 @@ module.exports = function (eleventyConfig) {
       '/assets/styles/application.css'
     ],
     homeKey: 'X-GOVUK',
+    url: process.env.GITHUB_ACTIONS
+      ? 'https://x-govuk.github.io/'
+      : '/',
     header: {
       organisationLogo: 'x-govuk',
       organisationName: 'X-GOVUK'
