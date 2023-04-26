@@ -28,7 +28,6 @@ description: A community-maintained collection of resources which are useful for
 * [DWP Design System](https://design-system.dwp.gov.uk/index)
 * [GOV.WALES components](https://gov.wales/govwales-components)
 * [HM Land Registry Design System](https://hmlr-design-system.herokuapp.com)
-* [HMCTS Design System](https://hmcts-design-system.herokuapp.com)
 * [HMRC Design Patterns](https://design.tax.service.gov.uk/hmrc-design-patterns/)
 * [Home Office Design System](https://design.homeoffice.gov.uk)
 * [Ministry of Justice Pattern Library](https://design-patterns.service.justice.gov.uk)
