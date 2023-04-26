@@ -21,7 +21,6 @@ description: A community-maintained collection of resources which are useful for
 #### Design systems, patterns and components
 
 * [GOV.UK Design System](https://design-system.service.gov.uk)
-* [CJS Crime Programme design patterns](https://cjscpp-design-patterns.herokuapp.com)
 * [Department for Education - User-centred design in DfE]([https://apply-the-service-standard.education.gov.uk/](https://design.education.gov.uk))
 * [Digital Land design system](https://digital-land.github.io/design-system/)
 * [Digital Scotland Design System](https://designsystem.gov.scot)
