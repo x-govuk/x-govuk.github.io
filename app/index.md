@@ -21,13 +21,12 @@ description: A community-maintained collection of resources which are useful for
 #### Design systems, patterns and components
 
 * [GOV.UK Design System](https://design-system.service.gov.uk)
-* [Department for Education - User-centred design in DfE]([https://apply-the-service-standard.education.gov.uk/](https://design.education.gov.uk))
+* [Department for Education - Guidance for good design](https://design.education.gov.uk)
 * [Digital Land design system](https://digital-land.github.io/design-system/)
 * [Digital Scotland Design System](https://designsystem.gov.scot)
 * [DWP Design System](https://design-system.dwp.gov.uk/index)
 * [GOV.WALES components](https://gov.wales/govwales-components)
 * [HM Land Registry Design System](https://hmlr-design-system.herokuapp.com)
-* [HMCTS Design System](https://hmcts-design-system.herokuapp.com)
 * [HMRC Design Patterns](https://design.tax.service.gov.uk/hmrc-design-patterns/)
 * [Home Office Design System](https://design.homeoffice.gov.uk)
 * [Ministry of Justice Pattern Library](https://design-patterns.service.justice.gov.uk)
