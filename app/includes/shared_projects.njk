@@ -1,8 +1,7 @@
 <h2 class="govuk-heading-l" id="projects">Projects</h2>
 <div class="govuk-grid-row">
 {% set columns = cycler("1", "2") %}
-{% for repo in repos %}
-  {% if repo.has_pages and repo.name != "x-govuk.github.io" %}
+{% for repo in repos | includes("topics", "project") | sort(false, true, "name") %}
   <section class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
     <h3 class="govuk-heading-m govuk-!-margin-bottom-2">
       <a class="govuk-link" href="{{ repo.homepage }}">{{ repo.name | replace("-", " ") | title | replace("Govuk", "GOV.UK") }}</a>
@@ -10,13 +9,5 @@
     <p class="govuk-body">{{ repo.description }}</p>
   </section>
   {% if columns.next() == "2" %}</div><div class="govuk-grid-row">{% endif %}
-  {% endif %}
 {% endfor %}
-  {# Add this project manually as hosted on Heroku #}
-  <section class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
-    <h3 class="govuk-heading-m govuk-!-margin-bottom-2">
-      <a class="govuk-link" href="https://govuk-digital-services.herokuapp.com">GOV.UK Services list</a>
-    </h3>
-    <p class="govuk-body">A catalogue of digital services from the UK government and its agencies.</p>
-  </section>
 </div>
