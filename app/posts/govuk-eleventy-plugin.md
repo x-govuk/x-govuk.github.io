@@ -2,7 +2,6 @@
 title: Write documentation using Markdown and publish it using GOV.UK styles
 description: The GOV.UK Eleventy Plugin makes it easy to start writing documentation rather than spend time building a website for it.
 date: 2022-04-04
-tags: post
 layout: post
 author:
   name: Paul Lloyd
