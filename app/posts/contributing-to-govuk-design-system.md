@@ -2,8 +2,6 @@
 title: Why I contribute to the GOV.UK Design System (and why you should too)
 description: How I helped to publish a pattern for confirming a phone number, and ways in which you can contribute to the GOV.UK Design System too.
 date: 2022-04-07
-tags: post
-layout: post
 author:
   name: Frankie Roberto
   url: https://github.com/frankieroberto

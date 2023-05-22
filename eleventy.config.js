@@ -31,6 +31,11 @@ module.exports = function (eleventyConfig) {
     }
   })
 
+  // Collections
+  eleventyConfig.addCollection('post', collection => {
+    return collection.getFilteredByGlob('app/posts/*.md')
+  })
+
   // Pass through
   eleventyConfig.addPassthroughCopy('./app/assets')
 
