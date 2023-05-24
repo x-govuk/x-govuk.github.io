@@ -17,7 +17,7 @@ It means you can now use components, styles and other features, either from with
 
 One feature plugins can provide is template filters. A feature of the Nunjucks templating language, filters are functions that allow you to modify variables. Separated by a pipe symbol (`|`), they can be chained together, with the output of one filter passed on to the next.
 
-For example, `{{ "<p>GOV.UK</p>" | striptags | lower }}` will remove the HTML tags, lower-case the remaining string and output `gov.uk`.
+For example, `{% raw %}{{ "<p>GOV.UK</p>" | striptags | lower }}{% endraw %}` will remove the HTML tags, lower-case the remaining string and output `gov.uk`.
 
 Both `striptags` and `lower` are examples of [filters builtin to Nunjucks](https://mozilla.github.io/nunjucks/templating.html#builtin-filters). While it’s always been possible to add your own filters to the Prototype Kit, it can be time-consuming, if not entirely frustrating at times.
 
