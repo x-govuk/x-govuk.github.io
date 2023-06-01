@@ -21,7 +21,7 @@
     "@x-govuk/govuk-eleventy-plugin": "x-govuk/govuk-eleventy-plugin"
   },
   "devDependencies": {
-    "standard": "^17.0.0",
+    "standard": "^17.1.0",
     "stylelint": "^14.14.0",
     "stylelint-config-gds": "^0.3.0"
   },
