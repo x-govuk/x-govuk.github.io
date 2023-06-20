@@ -40,6 +40,7 @@ description: A community-maintained collection of resources which are useful for
 
 #### Other design resources
 
+* [Accessibility Personas](https://alphagov.github.io/accessibility-personas/)
 * [Statistics on usage of `govuk-frontend` components](https://github.com/x-govuk/govuk-frontend-component-stats)
 
 ### User research
