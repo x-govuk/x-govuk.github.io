@@ -64,16 +64,16 @@ description: A community-maintained collection of resources which are useful for
 * [Wizard extension](https://github.com/x-govuk/govuk-prototype-wizard)
 * [GOV.UK Figma library](https://www.figma.com/file/NWuFffKvPQhl3aJ9nKU0p3/GOV.UK-Design-System?node-id=0%3A1)
 
-### Front-end
+### Frontend
 
 * [GOV.UK Frontend](https://frontend.design-system.service.gov.uk)
-* [Flask](https://github.com/LandRegistry/govuk-frontend-flask)
-* [Jinja](https://github.com/LandRegistry/govuk-frontend-jinja)
+* [GOV.UK Frontend Flask](https://github.com/LandRegistry/govuk-frontend-flask)
+* [GOV.UK Frontend Jinja](https://github.com/LandRegistry/govuk-frontend-jinja)
+* [GOV.UK Form Builder (Ruby on Rails)](https://github.com/x-govuk/govuk-formbuilder)
+* [GOV.UK Components (Ruby on Rails)](https://github.com/x-govuk/govuk-components)
 * [Markdown extension for Marked](https://github.com/x-govuk/govuk-markdown)
 * [Markdown plugin for markdown-it](https://github.com/x-govuk/markdown-it-govuk)
 * [R Markdown](https://github.com/ukgovdatascience/govdown)
-* [Ruby on Rails components](https://github.com/x-govuk/govuk-components)
-* [Ruby on Rails formbuilder](https://github.com/x-govuk/govuk-formbuilder)
 * [Twirl](https://github.com/hmrc/play-frontend-hmrc)
 * [WTForms](https://github.com/LandRegistry/govuk-frontend-wtf)
 
