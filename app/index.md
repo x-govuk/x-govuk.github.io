@@ -21,7 +21,6 @@ description: A community-maintained collection of resources which are useful for
 #### Design systems, patterns and components
 
 * [GOV.UK Design System](https://design-system.service.gov.uk)
-* [Department for Education - Guidance for good design](https://design.education.gov.uk)
 * [Digital Land design system](https://digital-land.github.io/design-system/)
 * [Digital Scotland Design System](https://designsystem.gov.scot)
 * [DWP Design System](https://design-system.dwp.gov.uk/index)
@@ -41,6 +40,7 @@ description: A community-maintained collection of resources which are useful for
 #### Other design resources
 
 * [Accessibility Personas](https://alphagov.github.io/accessibility-personas/)
+* [Department for Education Design Manual](https://design.education.gov.uk)
 * [Statistics on usage of `govuk-frontend` components](https://github.com/x-govuk/govuk-frontend-component-stats)
 
 ### User research
