@@ -29,7 +29,7 @@ description: A community-maintained collection of resources which are useful for
 * [HMRC Design Patterns](https://design.tax.service.gov.uk/hmrc-design-patterns/)
 * [Home Office Design System](https://design.homeoffice.gov.uk)
 * [Ministry of Justice Pattern Library](https://design-patterns.service.justice.gov.uk)
-* [MOD.UK Design System](https://design-system.digital.mod.uk)
+* [MOD.UK Design System](https://design-system.service.mod.gov.uk)
 * [NHS Design System](https://service-manual.nhs.uk/design-system)
 * [NICE Design System](https://design-system.nice.org.uk)
 * [Office for National Statistics Design System](https://ons-design-system.netlify.app)
