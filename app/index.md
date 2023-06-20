@@ -73,8 +73,8 @@ description: A community-maintained collection of resources which are useful for
 * [R Markdown](https://github.com/ukgovdatascience/govdown)
 * [React](https://github.com/surevine/govuk-react-jsx)
 * [Ruby on Rails asset pipeline](https://github.com/dxw/dxw_govuk_frontend_rails)
-* [Ruby on Rails components](https://github.com/DFE-Digital/govuk-components)
-* [Ruby on Rails formbuilder](https://github.com/DFE-Digital/govuk-formbuilder)
+* [Ruby on Rails components](https://github.com/x-govuk/govuk-components)
+* [Ruby on Rails formbuilder](https://github.com/x-govuk/govuk-formbuilder)
 * [Twirl](https://github.com/hmrc/play-frontend-hmrc)
 * [WTForms](https://github.com/LandRegistry/govuk-frontend-wtf)
 
