@@ -72,7 +72,6 @@ description: A community-maintained collection of resources which are useful for
 * [Markdown extension for Marked](https://github.com/x-govuk/govuk-markdown)
 * [Markdown plugin for markdown-it](https://github.com/x-govuk/markdown-it-govuk)
 * [R Markdown](https://github.com/ukgovdatascience/govdown)
-* [React](https://github.com/surevine/govuk-react-jsx)
 * [Ruby on Rails components](https://github.com/x-govuk/govuk-components)
 * [Ruby on Rails formbuilder](https://github.com/x-govuk/govuk-formbuilder)
 * [Twirl](https://github.com/hmrc/play-frontend-hmrc)
