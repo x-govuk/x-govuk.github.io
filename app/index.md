@@ -21,7 +21,7 @@ description: A community-maintained collection of resources which are useful for
 #### Design systems, patterns and components
 
 * [GOV.UK Design System](https://design-system.service.gov.uk)
-* [Digital Land design system](https://digital-land.github.io/design-system/)
+* [Digital Land Design System](https://digital-land.github.io/design-system/)
 * [Digital Scotland Design System](https://designsystem.gov.scot)
 * [DWP Design System](https://design-system.dwp.gov.uk/index)
 * [GOV.WALES components](https://gov.wales/govwales-components)
@@ -56,13 +56,13 @@ description: A community-maintained collection of resources which are useful for
 * [Department for Education glossary](https://dfe-glossary.herokuapp.com)
 * [GOV.WALES style guide](https://gov.wales/govwales-style-guide)
 * [HMRC content style guide](https://design.tax.service.gov.uk/hmrc-content-style-guide/)
-* [NHS style guide](https://service-manual.nhs.uk/content)
+* [NHS content style guide](https://service-manual.nhs.uk/content)
 
 ### Prototyping
 
 * [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk/docs/)
+* [GOV.UK Prototype Wizard](https://github.com/x-govuk/govuk-prototype-wizard)
 * [Navigation radios extension](https://github.com/x-govuk/prototype-navigation-radios)
-* [Wizard extension](https://github.com/x-govuk/govuk-prototype-wizard)
 * [GOV.UK Figma library](https://www.figma.com/file/NWuFffKvPQhl3aJ9nKU0p3/GOV.UK-Design-System?node-id=0%3A1)
 
 ### Frontend
