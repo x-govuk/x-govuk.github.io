@@ -7,7 +7,7 @@ author:
   url: https://github.com/frankieroberto
 image:
   src: /assets/posts/contributing-to-govuk-design-system/check-your-phone.png
-  alt: Illustration of a laptop showing a website saying ‘Check your phone’ and a phone with an SMS saying ‘62134 is your security code’.
+  alt: Illustration of a laptop showing a website saying ‘Check your phone’ and a phone with a text message saying ‘62134 is your GOV.UK security code’.
   opengraphImage: true
 ---
 
