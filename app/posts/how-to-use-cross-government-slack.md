@@ -33,7 +33,9 @@ There's tons of reasons to use cross-government Slack. Here's a list of what I'v
 * Find meeting rooms in other government buildings
 * Keep up with what other people are working on in the [#weeknotes](https://ukgovernmentdigital.slack.com/archives/CE2K1LU3Y) channel
 
-The cool thing about cross-government Slack is that no question is too silly, and there are always kind people around who are willing to help you out. It's an open, inviting community and questions are usually answered quite quickly. I was involved in a workshop looking at the benefits of cross-government Slack recently, and other people who were part of the session said the same. They mentioned shared problem-solving, learning about agile and delivery management, and collaboration as examples of how using cross-government Slack had impacted their day-to-day work positively.
+The cool thing about cross-government Slack is that no question is too silly, and there are always kind people around who are willing to help you out. It's an open, inviting community and questions are usually answered quite quickly.
+
+I was involved in a workshop looking at the benefits of cross-government Slack recently, and other people who were part of the session said the same. They mentioned shared problem-solving, learning about agile and delivery management, and collaboration as examples of how using cross-government Slack had impacted their day-to-day work positively.
 
 ## Be careful what you say
 
