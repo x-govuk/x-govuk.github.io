@@ -23,7 +23,7 @@ However we still had a bunch of detailed design questions. Things like:
 
 * should we call it a security code, a verification code, or something else?
 * how long should the codes be valid for?
-* if a code doesn't arrive straight away and the user requests a new one, should we resend the same code or generate a new one?
+* if a code doesn’t arrive straight away and the user requests a new one, should we resend the same code or generate a new one?
 * how many digits should the code contain?
 * when first setting up an account, how we can we make sure the phone number is valid and can receive text messages without letting the user get stuck?
 

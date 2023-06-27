@@ -29,7 +29,7 @@ It does this by providing [a set of layouts](https://x-govuk.github.io/govuk-ele
 
 Markdown written using [an extended syntax](https://x-govuk.github.io/govuk-eleventy-plugin/markdown-advanced/) is also supported, meaning authors can easily include tables, abbreviations, footnotes and code examples in their posts, too.
 
-Knowing that teams often need to write documentation for internal users, or build websites that don't meet [the criteria for using the GOV.UK logo and GDS Transport typeface](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk), the plugin enables the following to be customised:
+Knowing that teams often need to write documentation for internal users, or build websites that don’t meet [the criteria for using the GOV.UK logo and GDS Transport typeface](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk), the plugin enables the following to be customised:
 
 * Organisation name and logo
 * Font family
@@ -43,8 +43,8 @@ Knowing that teams often need to write documentation for internal users, or buil
 
 The plugin is already being used by different teams across government who have built marketing pages, blogs, glossaries – and design histories, of course.
 
-One of the benefits of static websites is they don't need a database, which means they can be hosted pretty much anywhere. Popular platforms for hosting static websites include [GitHub Pages](https://pages.github.com) and [Netlify](https://www.netlify.com).
+One of the benefits of static websites is they don’t need a database, which means they can be hosted pretty much anywhere. Popular platforms for hosting static websites include [GitHub Pages](https://pages.github.com) and [Netlify](https://www.netlify.com).
 
-Get started with the plugin by following the [instructions on the documentation website](https://x-govuk.github.io/govuk-eleventy-plugin/get-started). This project [is open source](https://github.com/x-govuk/govuk-eleventy-plugin) and contributions are welcome. If you come across an issue or have an idea for a feature, please [submit an issue](https://github.com/x-govuk/govuk-eleventy-plugin/issues). We're excited to see how you use this tool.
+Get started with the plugin by following the [instructions on the documentation website](https://x-govuk.github.io/govuk-eleventy-plugin/get-started). This project [is open source](https://github.com/x-govuk/govuk-eleventy-plugin) and contributions are welcome. If you come across an issue or have an idea for a feature, please [submit an issue](https://github.com/x-govuk/govuk-eleventy-plugin/issues). We’re excited to see how you use this tool.
 
-[^1]: If you're wondering, the possum tied to a red balloon is Eleventy's mascot. The [illustration is by Geri Coady](https://www.11ty.dev/blog/new-mascot-from-geri-coady/).
+[^1]: If you’re wondering, the possum tied to a red balloon is Eleventy’s mascot. The [illustration is by Geri Coady](https://www.11ty.dev/blog/new-mascot-from-geri-coady/).
