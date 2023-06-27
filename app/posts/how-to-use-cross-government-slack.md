@@ -25,13 +25,13 @@ The workspace is overseen by the [Central Digital & Data Office](https://www.gov
 
 There's tons of reasons to use cross-government Slack. Here's a list of what I've found useful, but there's probably parts of the workspace I haven't made use of yet!
 
-- Network with other people in similar roles, for sharing techniques and tools
-- Find out about new programmes of work or job vacancies
-- Learn from other teams on how they approach accessibility
-- Discuss and share examples of applying the GOV.UK Design System to your service
-- Get help and support using GOV.UK Pay and GOV.UK Notify
-- Find meeting rooms in other government buildings
-- Keep up with what other people are working on in the [#weeknotes](https://ukgovernmentdigital.slack.com/archives/CE2K1LU3Y) channel
+* Network with other people in similar roles, for sharing techniques and tools
+* Find out about new programmes of work or job vacancies
+* Learn from other teams on how they approach accessibility
+* Discuss and share examples of applying the GOV.UK Design System to your service
+* Get help and support using GOV.UK Pay and GOV.UK Notify
+* Find meeting rooms in other government buildings
+* Keep up with what other people are working on in the [#weeknotes](https://ukgovernmentdigital.slack.com/archives/CE2K1LU3Y) channel
 
 The cool thing about cross-government Slack is that no question is too silly, and there are always kind people around who are willing to help you out. It's an open, inviting community and questions are usually answered quite quickly. I was involved in a workshop looking at the benefits of cross-government Slack recently, and other people who were part of the session said the same. They mentioned shared problem-solving, learning about agile and delivery management, and collaboration as examples of how using cross-government Slack had impacted their day-to-day work positively.
 
