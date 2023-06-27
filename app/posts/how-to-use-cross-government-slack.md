@@ -11,7 +11,7 @@ image:
   opengraphImage: true
 ---
 
-[Cross-government Slack](https://ukgovernmentdigital.slack.com/) is a Slack workspace for anyone working in central government, with channels on a range of topics. It's a place to connect with other people working on digital services across government.
+[Cross-government Slack](https://ukgovernmentdigital.slack.com/) is a Slack workspace for anyone working in central government, with channels on a range of topics. It’s a place to connect with other people working on digital services across government.
 
 ## A bit of history
 
