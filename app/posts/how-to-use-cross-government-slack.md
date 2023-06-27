@@ -46,3 +46,4 @@ The workspace is open to anyone working in government with a `.gov.uk` email add
 A number of public sector email domains are able to sign-up without being invited, so check out the [list of allowed email domains](https://ukgovernmentdigital.slack.com/signup#/domain-signup).
 
 For public sector organisations not on the email domain list, they can be invited by any existing Slack workspace member.
+
