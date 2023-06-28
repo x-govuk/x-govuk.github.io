@@ -17,7 +17,7 @@ image:
 
 The cross-government Slack was created by the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service) (GDS) in 2015 as a way for GDS to collaborate with other public sector digital service teams.
 
-Over time, the workspace naturally grew and became a place to share knowledge on all things about digital, data and technology in the public sector.
+Over time, the workspace naturally grew and became a place to share knowledge on all things about digital, data and technology in the public sector. It also started to be used an an official support channel by some product teams, such as the GOV.UK Design System and GOV.UK Notify.
 
 The workspace is now managed by the [Central Digital & Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office).
 
