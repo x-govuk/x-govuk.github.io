@@ -19,7 +19,7 @@ The cross-government Slack was created by the [Government Digital Service](https
 
 Over time, the workspace naturally grew and became a place to share knowledge on all things about digital, data and technology in the public sector.
 
-The workspace is overseen by the [Central Digital & Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office).
+The workspace is now managed by the [Central Digital & Data Office](https://www.gov.uk/government/organisations/central-digital-and-data-office).
 
 ## Why should you use it?
 
