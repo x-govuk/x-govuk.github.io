@@ -1,7 +1,7 @@
 ---
 title: How to use cross-government Slack
 description: Tips on how to join and make the most of the cross-government Slack workspace.
-date: 2023-06-27
+date: 2023-06-28
 author:
   name: Steve Messer
   url: https://github.com/stevenjmesser
