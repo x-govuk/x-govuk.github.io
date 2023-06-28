@@ -6,8 +6,8 @@ author:
   name: Steve Messer
   url: https://github.com/stevenjmesser
 image:
-  src: 
-  alt: 
+  src: /assets/posts/how-to-use-cross-government-slack/illustration.png
+  alt: Slack conversation illustration.
   opengraphImage: true
 ---
 
