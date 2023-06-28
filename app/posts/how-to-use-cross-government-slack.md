@@ -37,7 +37,7 @@ There's probably also parts of the workspace I haven't made use of yet!
 
 The cool thing about cross-government Slack is that no question is too silly, and there are always kind people around who are willing to help you out. It's an open, inviting community and questions are usually answered quite quickly.
 
-I was involved in a workshop looking at the benefits of cross-government Slack recently, and other people who were part of the session said the same. They mentioned shared problem-solving, learning about agile and delivery management, and collaboration as examples of how using cross-government Slack had impacted their day-to-day work positively.
+I was involved in a workshop looking at the benefits of cross-government Slack recently with colleagues from across government. We all agreed that the cross-government Slack has positively impacted our day-to-day work by enabling collaboration, shared problem-solving and learning about agile and delivery management.
 
 ## Be careful what you say
 
