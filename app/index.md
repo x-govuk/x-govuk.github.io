@@ -73,6 +73,7 @@ description: A community-maintained collection of resources which are useful for
 * [GOV.UK Form Builder for Ruby on Rails](https://github.com/x-govuk/govuk-formbuilder)
 * [GOV.UK Components for Ruby on Rails](https://github.com/x-govuk/govuk-components)
 * [GOV.UK Design System for ASP.NET MVC and Umbraco](https://github.com/thepensionsregulator/govuk-frontend-aspnetcore-extensions)
+* [GOV.UK Vue](https://govukvue.org)
 * [Markdown extension for Marked](https://github.com/x-govuk/govuk-markdown)
 * [Markdown plugin for markdown-it](https://github.com/x-govuk/markdown-it-govuk)
 * [R Markdown](https://github.com/ukgovdatascience/govdown)
