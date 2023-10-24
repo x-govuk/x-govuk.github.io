@@ -33,7 +33,7 @@ In the middle of the day, Vicky Teinaki gave a fantastic keynote titled [Design 
 
 Her conclusion was that it pays to understand the history of where a pattern came from, to keep testing and sharing your findings, and to remember that best practice can and will continue to change!
 
-### Contributing to design systems
+## Contributing to design systems
 
 The talk I gave was titled ‘Design Systems: the contributor perspective’.
 
@@ -55,6 +55,8 @@ One consideration with this component is that wanted to make sure teams only use
 
 The second small contribution was some new guidance on the [Date input](https://design-system.service.gov.uk/components/date-input/) to suggest that teams should accept dates where the month is written in words ('aug' or 'august') as well as as a number. This was prompted by data from my service showing common validation errors, which is a great source of research.
 
+### Contributions from other people
+
 As well as talking about my own contributions, I also wanted to give a shout out to others who have contributed to the wider government Design System ecosystem, including here on X-GOVUK.
 
 Paul Lloyd has led 2 super useful plugins for the Prototype Kit. The first, [Prototype filters](https://x-govuk.github.io/govuk-prototype-filters/), is really useful if you are prototyping a service like a case management system which has a lot of data in it. The second, [Prototype components](https://x-govuk.github.io/govuk-prototype-components/), contains a selection of components which are widely used across services, but haven’t yet made their way into the GOV.UK Design System.
@@ -66,6 +68,8 @@ I also mentioned the [header for services using GOV.UK One Login](https://github
 As was hopefully obvious from my talk, I see huge value in contributing to design systems, and encourage others to do so too.
 
 However I’m also painfully aware of how much time and energy it can take up. The contributions I mentioned above took between 5 and 15 months to go live – mainly because I and others involved were working on them alongside our main role working on services.
+
+### How do people feel about contributing?
 
 Ultimately, I think the pay-off of helping to build a collective system which saves us all time is worth it. But I thought I’d ask some other contributors what they thought too.
 
@@ -97,6 +101,7 @@ Finally, I asked people to hypothesise what would encourage others to contribute
 * Make it clear you don’t have to be a designer
 * Responsiveness is key
 
+### Alternative contribution models
 
 I also suggested a few ideas around alternative contribution models and processes, some of which are based upon experience from outside government:
 
