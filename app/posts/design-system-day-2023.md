@@ -1,7 +1,7 @@
 ---
 title: Notes from Design System Day 2023
 description: What I learned at the conference, and the talk I gave about contributing to design systems.
-date: 2023-09-24
+date: 2023-10-24
 author:
   name: Frankie Roberto
   url: https://github.com/frankieroberto
