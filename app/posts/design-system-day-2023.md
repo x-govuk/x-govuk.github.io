@@ -25,7 +25,7 @@ The second day was held as a multi-track online conference.
 
 I enjoyed attending a fireside chat with [Ethan Marcotte](https://ethanmarcotte.com), which touched upon the history of responsive design, as well as the many different forms of design systems and brand guidelines. 
 
-In the middle of the day, Vicky Teinaki gave a fantastic keynote titled [Design pattern histories](https://www.vickyteinaki.com/blog/design-pattern-histories/), where she delved deep into the history of now-familiar design patterns like pull-to-refresh, news feeds and task lists, as well ideas now discouraged like [external link icons](https://designnotes.blog.gov.uk/2016/11/28/removing-the-external-link-icon-from-gov-uk/?ref=vickyteinaki.com) and [carousels](https://shouldiuseacarousel.com).
+In the middle of the day, Vicky Teinaki gave a fantastic keynote titled [Design pattern histories](https://www.vickyteinaki.com/blog/design-pattern-histories/), where she delved deep into the history of now-familiar design patterns like pull-to-refresh, news feeds and task lists, as well ideas now discouraged like [external link icons](https://designnotes.blog.gov.uk/2016/11/28/removing-the-external-link-icon-from-gov-uk/) and [carousels](https://shouldiuseacarousel.com).
 
 Her conclusion was that it pays to understand the history of where a pattern came from, to keep testing and sharing your findings, and to remember that ‘best practice’ can and will continue to change!
 
