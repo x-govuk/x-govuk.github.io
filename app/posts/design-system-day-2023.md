@@ -5,6 +5,10 @@ date: 2023-09-23
 author:
   name: Frankie Roberto
   url: https://github.com/frankieroberto
+image:
+  src: /assets/posts/design-system-day-2023/dsday2023.png
+  alt: Illustration with the words 'Notes from Design System Day 2023'
+  opengraphImage: true
 ---
 
 This month I was thrilled to take part in [Design System Day 2023](https://design-system.service.gov.uk/community/design-system-day-2023/), a 2-day conference run by the GOV.UK Design System team to collaborate and share knowledge about design systems.
