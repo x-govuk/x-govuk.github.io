@@ -1,6 +1,6 @@
 ---
 title: Notes from Design System Day 2023
-description: TODO
+description: What I learned at the conference, and the talk I gave about contributing to design systems.
 date: 2023-09-23
 author:
   name: Frankie Roberto
