@@ -15,7 +15,7 @@ Here are my notes from the conference, as well as an outline of the talk I gave.
 
 The first day was held in-person at Our Dynamic Earth in Edinburgh, and included sessions on research operations, the [Scottish Government Digital Design System](https://designsystem.gov.scot) and trauma-informed research. I also took part in a panel discussion on how design systems manage contributions, where we discussed how and why to encourage teams using design systems to contribute back.
 
-The final session of the day was a keynote by Tash Willcocks called ‘Design systems don’t solve problems, people do’ (love the Goldie Lookin Chain reference!) – where Tash implored design system teams to continually "socialise" their design systems by being in the spaces where teams using the design hang out, and making the effort to understand the reasons why a design might not be being adopted.
+The final session of the day was a keynote by Tash Willcocks called ‘Design systems don’t solve problems, people do’ – love the Goldie Lookin Chain reference! – where Tash implored design system teams to continually "socialise" their design systems by being in the spaces where teams using the design hang out, and making the effort to understand the reasons why a design might not be being adopted.
 
 The videos from each of these sessions will be released online soon.
 
