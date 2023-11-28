@@ -47,7 +47,10 @@ Like all digital communication channels used by public servants, the cross-gover
 
 The workspace is open to anyone working in government with a `.gov.uk` email address, and other qualified public sector organisations. If you're a contractor or commercial supplier working with a public sector organisation, you will need to ask for a `.gov.uk` address (or other qualified public sector email address) before you can join this Slack workspace.
 
-A number of public sector email domains are able to sign-up without being invited, so check out the [list of allowed email domains](https://ukgovernmentdigital.slack.com/signup#/domain-signup).
+A number of public sector email domains are able to sign-up without being invited, so check out the [list of allowed email domains](https://ukgovernmentdigital.slack.com/signup#/domain-signup). 
 
-For public sector organisations not on the email domain list, they can be invited by any existing Slack workspace member.
+### Not on the list?
 
+The list isn't long enough to add all email domains, so if your organisation isn't on there you'll need to ask an existing Slack workspace member to invite you. 
+
+Any existing Slack workspace member can invite someone to join the workspace: Open Slack and click `File` > `Invite People` or type `/invite` in any chat window and press Enter. The invitation will be reviewed by an administrator and you'll get a notification if they have been added.
