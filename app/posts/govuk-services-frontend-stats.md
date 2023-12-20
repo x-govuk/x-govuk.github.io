@@ -5,10 +5,6 @@ date: 2023-12-20
 author:
   name: Frankie Roberto
   url: https://github.com/frankieroberto
-image:
-  src: /assets/posts/govuk-services-frontend-stats/govuk-frontend-version-stats.png
-  alt: GOV.UK Frontend Version stats
-  opengraphImage: true  
 ---
 
 To celebrate the release of [GOV.UK Frontend version 5](https://github.com/alphagov/govuk-frontend/releases/tag/v5.0.0), as a fund end-of-year project, I’ve written a script to report which version of GOV.UK Frontend the different government services are currently using.
