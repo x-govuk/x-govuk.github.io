@@ -7,9 +7,9 @@ author:
   url: https://github.com/frankieroberto
 ---
 
-To celebrate the release of [GOV.UK Frontend version 5](https://github.com/alphagov/govuk-frontend/releases/tag/v5.0.0), as a fund end-of-year project, I’ve written a script to report which version of GOV.UK Frontend the different government services are currently using.
+To celebrate the release of [GOV.UK Frontend version 5](https://github.com/alphagov/govuk-frontend/releases/tag/v5.0.0), as a fun end-of-year project, I’ve written a script to report which version of GOV.UK Frontend different government services are currently using.
 
-[Using common patterns and components](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns) helps users to have a more consistent experience as they move between different services, and is part of the service standard, and GOV.UK Frontend is a way to achieve this.
+[Using common patterns and components](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns) helps users to have a more consistent experience as they move between different services, and is part of the service standard. GOV.UK Frontend helps service teams achieve this.
 
 However, maintaining and upgrading GOV.UK Frontend across hundreds of government services is no small feat!
 
@@ -19,7 +19,7 @@ By scheduling a daily run of the script using GitHub actions, the list can be ke
 
 [GOV.UK services: govuk-frontend version status](https://github.com/x-govuk/govuk-services-frontend-stats)
 
-At the time of publishing this, 6 services have already upgraded to GOV.UK Frontend version 5!
+At the time of publishing, 6 services have already upgraded to GOV.UK Frontend version 5.
 
 Well done to:
 
