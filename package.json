@@ -13,7 +13,12 @@
   "scripts": {
     "build": "eleventy --quiet",
     "start": "eleventy --serve --quiet",
-    "lint": "standard"
+    "lint:prettier": "prettier . --check",
+    "lint:prettier:fix": "prettier . --write",
+    "lint:js": "eslint '**/*.js'",
+    "lint:js:fix": "eslint '**/*.js' --fix",
+    "lint": "npm run lint:prettier && npm run lint:js",
+    "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
@@ -21,15 +26,17 @@
     "@x-govuk/govuk-eleventy-plugin": "^5.0.6"
   },
   "devDependencies": {
-    "standard": "^17.0.0"
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-prettier": "^5.1.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.1.0"
   },
   "engines": {
     "node": "^20.0.0"
   },
-  "private": true,
-  "standard": {
-    "ignore": [
-      "!.eleventy.js"
-    ]
-  }
+  "private": true
 }
