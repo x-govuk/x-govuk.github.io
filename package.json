@@ -13,7 +13,7 @@
   "scripts": {
     "build": "eleventy --quiet",
     "start": "eleventy --serve --quiet",
-    "lint": "standard && stylelint '**/*.scss'"
+    "lint": "standard"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
@@ -21,9 +21,7 @@
     "@x-govuk/govuk-eleventy-plugin": "^5.0.6"
   },
   "devDependencies": {
-    "standard": "^17.0.0",
-    "stylelint": "^15.11.0",
-    "stylelint-config-gds": "^1.0.0"
+    "standard": "^17.0.0"
   },
   "engines": {
     "node": "^20.0.0"
@@ -33,8 +31,5 @@
     "ignore": [
       "!.eleventy.js"
     ]
-  },
-  "stylelint": {
-    "extends": "stylelint-config-gds/scss"
   }
 }

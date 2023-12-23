@@ -10,9 +10,6 @@ module.exports = function (eleventyConfig) {
       touch: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-apple-touch-icon.png'
     },
     opengraphImageUrl: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
-    stylesheets: [
-      '/assets/styles/application.css'
-    ],
     homeKey: 'X-GOVUK',
     url: process.env.GITHUB_ACTIONS
       ? 'https://x-govuk.github.io/'
