@@ -2,8 +2,6 @@ const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
-    brandColour: '#28a',
-    fontFamily: 'system-ui, sans-serif',
     icons: {
       mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-mask-icon.svg?raw=true',
       shortcut:
@@ -14,10 +12,9 @@ module.exports = function (eleventyConfig) {
     opengraphImageUrl:
       'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
     homeKey: 'X-GOVUK',
-    url: process.env.GITHUB_ACTIONS ? 'https://x-govuk.github.io/' : '/',
+    url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/',
     header: {
-      organisationLogo: 'x-govuk',
-      organisationName: 'X-GOVUK'
+      logotype: 'x-govuk'
     },
     footer: {
       contentLicence: {

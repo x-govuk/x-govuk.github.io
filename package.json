@@ -23,7 +23,7 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^4.0.0",
-    "@x-govuk/govuk-eleventy-plugin": "^5.0.6"
+    "@x-govuk/govuk-eleventy-plugin": "^6.0.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
