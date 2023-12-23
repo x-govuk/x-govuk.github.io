@@ -25,13 +25,13 @@ The workspace is now managed by the [Central Digital & Data Office](https://www.
 
 There's tons of reasons to use cross-government Slack. Here's what I've found useful:
 
-* networking with other people in similar roles, to share techniques and tools
-* finding out about new programmes of work or job vacancies
-* learning from other teams on how they approach accessibility
-* discussing and sharing examples of applying the GOV.UK Design System to services
-* getting help and support using GOV.UK Pay and GOV.UK Notify
-* finding meeting rooms in other government buildings
-* keeping up with what other people are working on in the [#weeknotes](https://ukgovernmentdigital.slack.com/archives/CE2K1LU3Y) channel
+- networking with other people in similar roles, to share techniques and tools
+- finding out about new programmes of work or job vacancies
+- learning from other teams on how they approach accessibility
+- discussing and sharing examples of applying the GOV.UK Design System to services
+- getting help and support using GOV.UK Pay and GOV.UK Notify
+- finding meeting rooms in other government buildings
+- keeping up with what other people are working on in the [#weeknotes](https://ukgovernmentdigital.slack.com/archives/CE2K1LU3Y) channel
 
 There's probably also parts of the workspace I haven't made use of yet!
 
@@ -47,10 +47,10 @@ Like all digital communication channels used by public servants, the cross-gover
 
 The workspace is open to anyone working in government with a `.gov.uk` email address, and other qualified public sector organisations. If you're a contractor or commercial supplier working with a public sector organisation, you will need to ask for a `.gov.uk` address (or other qualified public sector email address) before you can join this Slack workspace.
 
-A number of public sector email domains are able to sign-up without being invited, so check out the [list of allowed email domains](https://ukgovernmentdigital.slack.com/signup#/domain-signup). 
+A number of public sector email domains are able to sign-up without being invited, so check out the [list of allowed email domains](https://ukgovernmentdigital.slack.com/signup#/domain-signup).
 
 ### Not on the list?
 
-The list isn't long enough to add all email domains, so if your organisation isn't on there you'll need to ask an existing Slack workspace member to invite you. 
+The list isn't long enough to add all email domains, so if your organisation isn't on there you'll need to ask an existing Slack workspace member to invite you.
 
 Any existing Slack workspace member can invite someone to join the workspace: Open Slack and click `File` > `Invite People` or type `/invite` in any chat window and press Enter. The invitation will be reviewed by an administrator and you'll get a notification if they have been added.

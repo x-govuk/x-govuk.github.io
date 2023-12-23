@@ -29,10 +29,10 @@ Why do this? Lots of people have found it useful. Designers like being able to f
 
 Maintaining this list is hard. So far I’ve used numerous sources, including:
 
-* published [service standard reports](https://www.gov.uk/service-standard-reports)
-* ‘start pages’ on GOV.UK
-* source code published on department GitHub accounts
-* the list of [75 services prioritised in the government’s 2022 to 2025 roadmap](https://www.gov.uk/government/publications/roadmap-for-digital-and-data-2022-to-2025/transforming-for-a-digital-future-2022-to-2025-roadmap-for-digital-and-data)
+- published [service standard reports](https://www.gov.uk/service-standard-reports)
+- ‘start pages’ on GOV.UK
+- source code published on department GitHub accounts
+- the list of [75 services prioritised in the government’s 2022 to 2025 roadmap](https://www.gov.uk/government/publications/roadmap-for-digital-and-data-2022-to-2025/transforming-for-a-digital-future-2022-to-2025-roadmap-for-digital-and-data)
 
 ## Contributing to the list
 
@@ -44,9 +44,9 @@ Each service can include metadata including a brief description, the organisatio
 
 Finally, I’ve also added a few fun bonus features which use the data:
 
-* the list of services [organised by the verb they start with](https://govuk-digital-services.herokuapp.com/verbs)
-* a page containing [screenshots of the first page for each service](https://govuk-digital-services.herokuapp.com/screenshots)
-* a [list of the domains and subdomains](https://govuk-digital-services.herokuapp.com/domains) the services run on
-* the [list of the original 25 exemplars](https://govuk-digital-services.herokuapp.com/original-25-exemplars)
+- the list of services [organised by the verb they start with](https://govuk-digital-services.herokuapp.com/verbs)
+- a page containing [screenshots of the first page for each service](https://govuk-digital-services.herokuapp.com/screenshots)
+- a [list of the domains and subdomains](https://govuk-digital-services.herokuapp.com/domains) the services run on
+- the [list of the original 25 exemplars](https://govuk-digital-services.herokuapp.com/original-25-exemplars)
 
 Let us know if you find it useful in any way, or have any suggestions for improvements.

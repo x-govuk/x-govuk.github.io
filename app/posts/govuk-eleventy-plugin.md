@@ -31,11 +31,11 @@ Markdown written using [an extended syntax](https://x-govuk.github.io/govuk-elev
 
 Knowing that teams often need to write documentation for internal users, or build websites that don’t meet [the criteria for using the GOV.UK logo and GDS Transport typeface](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk), the plugin enables the following to be customised:
 
-* Organisation name and logo
-* Font family
-* Brand colour
-* Licence and copyright information
-* Site icons and Open Graph share images
+- Organisation name and logo
+- Font family
+- Brand colour
+- Licence and copyright information
+- Site icons and Open Graph share images
 
 ![Examples of customised websites using the plugin.](/assets/posts/govuk-eleventy-plugin/customisation-examples.png)
 

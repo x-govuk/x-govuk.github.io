@@ -21,11 +21,11 @@ The pattern of sending and requesting an SMS code is quite well established, use
 
 However we still had a bunch of detailed design questions. Things like:
 
-* should we call it a security code, a verification code, or something else?
-* how long should the codes be valid for?
-* if a code doesn’t arrive straight away and the user requests a new one, should we resend the same code or generate a new one?
-* how many digits should the code contain?
-* when first setting up an account, how we can we make sure the phone number is valid and can receive text messages without letting the user get stuck?
+- should we call it a security code, a verification code, or something else?
+- how long should the codes be valid for?
+- if a code doesn’t arrive straight away and the user requests a new one, should we resend the same code or generate a new one?
+- how many digits should the code contain?
+- when first setting up an account, how we can we make sure the phone number is valid and can receive text messages without letting the user get stuck?
 
 For each of these questions, we looked at what existing services like GOV.UK Notify and HMRC did, and spoke to some of their designers to try to understand the reasons behind the decision they’d taken. Being able to reach out to the wider government design community like this, through platforms like the cross-government Slack and Twitter, is super valuable.
 
@@ -49,10 +49,10 @@ For designers, researchers and developers working on government digital services
 
 Contributing doesn’t always mean proposing a whole new component or pattern – it’s just as valuable to:
 
-* ask questions
-* say where you find some existing guidance confusing or ambiguous
-* post screenshots of components and patterns used within your service or other services you’ve looked at
-* share the results of any research or usability testing you’ve done
+- ask questions
+- say where you find some existing guidance confusing or ambiguous
+- post screenshots of components and patterns used within your service or other services you’ve looked at
+- share the results of any research or usability testing you’ve done
 
 You can do this on the [discussions in the backlog](https://github.com/alphagov/govuk-design-system-backlog/issues) (requires a free GitHub account), on the [cross-government Slack](https://ukgovernmentdigital.slack.com/app_redirect?channel=govuk-design-system) or by [contacting the GOV.UK Design System team](https://design-system.service.gov.uk/get-in-touch/).
 

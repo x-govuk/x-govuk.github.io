@@ -15,7 +15,7 @@ However, maintaining and upgrading GOV.UK Frontend across hundreds of government
 
 The script I wrote checks the version of GOV.UK Frontend specified in the `package.json` file of as many government services as possible. It can do this because many services [make their source code open](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open) by publishing it to GitHub.
 
-By scheduling a daily run of the script using GitHub actions, the list can be kept up to date, and the results are published on GitHub: 
+By scheduling a daily run of the script using GitHub actions, the list can be kept up to date, and the results are published on GitHub:
 
 [GOV.UK services: govuk-frontend version status](https://github.com/x-govuk/govuk-services-frontend-stats)
 
@@ -23,11 +23,11 @@ At the time of publishing, 6 services have already upgraded to GOV.UK Frontend v
 
 Well done to:
 
-* Apply for legal aid
-* Check if your client qualifies for legal aid
-* GOV.UK Design System
-* GOV.UK Forms
-* GOV.UK Platform as a Service
-* Product safety database
+- Apply for legal aid
+- Check if your client qualifies for legal aid
+- GOV.UK Design System
+- GOV.UK Forms
+- GOV.UK Platform as a Service
+- Product safety database
 
 If your service isn’t included in the full list, you can add it by [contributing to the X-GOVUK services list](https://govuk-digital-services.herokuapp.com/contribute).

@@ -27,7 +27,7 @@ The videos from each of these sessions will be released online soon.
 
 The second day was held as a multi-track online conference.
 
-I enjoyed attending a fireside chat with [Ethan Marcotte](https://ethanmarcotte.com), which touched upon the history of responsive design, as well as the many different forms of design systems and brand guidelines. 
+I enjoyed attending a fireside chat with [Ethan Marcotte](https://ethanmarcotte.com), which touched upon the history of responsive design, as well as the many different forms of design systems and brand guidelines.
 
 In the middle of the day, Vicky Teinaki gave a fantastic keynote titled [Design pattern histories](https://www.vickyteinaki.com/blog/design-pattern-histories/), where she delved deep into the history of now-familiar design patterns like pull-to-refresh, news feeds and task lists, as well ideas now discouraged like [external link icons](https://designnotes.blog.gov.uk/2016/11/28/removing-the-external-link-icon-from-gov-uk/) and [carousels](https://shouldiuseacarousel.com).
 
@@ -75,39 +75,39 @@ Ultimately, I think the pay-off of helping to build a collective system which sa
 
 When asked “Why do you contribute?”, I got a variety of answers:
 
-* Wanting to help others
-* A chance to work with other people across government
-* Wanting to to make it better
-* A peek behind the curtains to see how patterns and components are made
-* To be able to point to something I’d contributed to  
+- Wanting to help others
+- A chance to work with other people across government
+- Wanting to to make it better
+- A peek behind the curtains to see how patterns and components are made
+- To be able to point to something I’d contributed to
 
 The altruistic intent is clear though, as well as the development opportunities that contributing itself affords.
 
 I also asked “What stops you contributing?”. Here’s a selection of answers:
 
-* The effort involved
-* Time. It can be a struggle juggling this with other work
-* Feeling like I don’t know enough or I’m not ‘experienced’ enough to contribute
-* Not all teams accommodate people working on things that aren't directly related to their service
+- The effort involved
+- Time. It can be a struggle juggling this with other work
+- Feeling like I don’t know enough or I’m not ‘experienced’ enough to contribute
+- Not all teams accommodate people working on things that aren't directly related to their service
 
 This highlights that time and perceived experience are the main barriers.
 
 Finally, I asked people to hypothesise what would encourage others to contribute. Here are their answers:
 
-* A commitment to publishing
-* Describing what is expected and what the process looks like
-* Saying what the design system needs more help on
-* Workshops – a great way to get people involved
-* Make it clear you don’t have to be a designer
-* Responsiveness is key
+- A commitment to publishing
+- Describing what is expected and what the process looks like
+- Saying what the design system needs more help on
+- Workshops – a great way to get people involved
+- Make it clear you don’t have to be a designer
+- Responsiveness is key
 
 ### Alternative contribution models
 
 I also suggested a few ideas around alternative contribution models and processes, some of which are based upon experience from outside government:
 
-* the central design system team can sometimes be structured as more of an internal agency, where they can be commissioned (with cross-charging) to develop new patterns or components
-* organisations might encourage people to be temporarily seconded either into a central design system team, or out from a central team into service teams - encouraging more people to develop an understanding of both roles
-* design system teams can take more of an active role in engaging with and monitoring the output of teams using their design, suggesting options, learning what the needs are and enforcing more consistency where appropriate
-* the community around a design system can be given more ownership of it through a wider network of maintainers - this is more common in open source communities but was also true in the early days of the government design community which relied upon a wiki
+- the central design system team can sometimes be structured as more of an internal agency, where they can be commissioned (with cross-charging) to develop new patterns or components
+- organisations might encourage people to be temporarily seconded either into a central design system team, or out from a central team into service teams - encouraging more people to develop an understanding of both roles
+- design system teams can take more of an active role in engaging with and monitoring the output of teams using their design, suggesting options, learning what the needs are and enforcing more consistency where appropriate
+- the community around a design system can be given more ownership of it through a wider network of maintainers - this is more common in open source communities but was also true in the early days of the government design community which relied upon a wiki
 
 The alternative models each come with their downsides, and might not be appropriate for your institution - but I think it’s worth considering the many and varied approaches of maintaining design systems in different contexts.
