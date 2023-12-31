@@ -13,66 +13,113 @@ The short turnaround time might suggest it was a quick job, but work on the incl
 
 For the uninitiated, the form builder and components libraries are implementations of the [GOV.UK Design System](https://design-system.service.gov.uk/) for [Ruby on Rails](https://rubyonrails.org/), one of the most popular web frameworks used across government.
 
-Without these libraries, teams working on GOV.UK services would need to implement all the markup and behaviour described in the design system themselves. This would be huge a waste of effort.
+Without these and other projects like it, teams working on GOV.UK services would need to implement all the patterns and behaviour described in the design system themselves. This would be huge a waste of effort and slow down delivery to a crawl.
 
-Time spent on [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code) is time not spent focussing on user needs.
+> Time spent on [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) is time spent not focussing on user needs.
 
-## How it began
+When working on anything that's used by lots of teams, like [referring serious teacher misconduct](https://refer-serious-misconduct.education.gov.uk), [whistleblowing at a company](https://make-a-business-whistleblower-report.service.gov.uk/) or even [GOV.UK forms itself](https://www.forms.service.gov.uk/), there's a great deal of pressure not to break anything. This responsibility forces us to make changes with a degree of caution and to rigorously test and review.
 
-I joined the [School Experience](https://schoolexperience.education.gov.uk/) team in 2019 and it was my first role in a government department. Our first challenge was to work out how to build a multi-page form and I was surprised there wasn't already an easy way to do it - there wasn't even a [Simple Form](https://github.com/heartcombo/simple_form) config.
+There are two main reasons for us making changes:
 
-Despite only having worked in DfE Digital for a few weeks I'd seen how important collaboration was. I remember how refreshing it was that working collaboratively was the default, and that was reinforced by [point 13 of The GOV.UK Service Manual](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns).
+* **following upstream changes** --- like adding a new GOV.UK component or adding support for a new version of Ruby or Rails
+* **improvements we feel make the library better** --- like adding features, tidying code or making the tests run faster
 
-> If you develop your own patterns or components, share them publicly so others can use them.
+Conveniently, the two main updates in version 5 fit squarely into these categories.
 
-I'd found a gap. Something I thought should exist but didn't. Something I was certain others would find useful. Something I thought I could do.
+## The task list
 
-I decided to have a go at building and sharing a form builder and spent my free time over the next month building it. I announced it [via a very nervous-sounding YouTube screencast](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns) and, thankfully, it was well received.
+The [GOV.UK design system task list component](https://design-system.service.gov.uk/components/task-list/) has been a long time in the making, with discussions [stretching back to 2018](https://github.com/alphagov/govuk-design-system-backlog/issues/72), but thanks to Frankie Roberto and the GOV.UK design system team's tireless efforts, [the PR](https://github.com/alphagov/govuk-frontend/pull/2261) was approved and merged in June.
 
-It was my first time building and publishing a library before, but having used plenty I had a good idea of what to prioritise if I wanted to make it useful for others:
+Task lists are intended to help users manage many tasks, especially when the user:
 
-### 1. Active development 
+* might not be able to do them all in one sitting
+* is able to complete them in any order
 
-Unmaintained repositories are likely to become a burden, and might even hold you back from upgrading your application. It's a huge red flag.
+Like with the other components, the Rails implementation borrows heavily from the GOV.UK design system reference, but translates it into an syntax that will be immediately familiar to Ruby on Rails developers.
 
-### 2. A responsive maintainer
+```erb
+<h2 class="govuk-heading-m">Confirm your identity</h2>
 
-Knowing there's someone who will respond to queries on Slack, fix bugs and keep the library up to date and in sync with the design system is a must.
+<%=
+  govuk_task_list(id_prefix: "about-you") do |task_list|
+    task_list.with_item do |item|
+      item.with_title(text: "Personal details")
+      item.with_status do
+        govuk_tag(text: "Complete", colour: "green")
+      end
+    end
+    task_list.with_item do |item|
+      item.with_title(text: "Contact details")
+      item.with_status do
+        govuk_tag(text: "Not started yet", colour: "Red")
+      end
+    end
+    task_list.with_item(cannot_start_yet: true) do |item|
+      item.with_title(
+        text: "Identity check",
+        hint: <<~HINT
+          We need your personal and contact details in order
+          to begin confirming your identity
+        HINT
+      )
+      item.with_status(text: "Cannot start")
+    end
+  end
+%>
+```
 
-### 3. An intuitive design
+The above snippet will render this task list:
 
-There was already a reference implementation written in [Nunjucks](https://mozilla.github.io/nunjucks/) that would provide inspiration but this had to feel like Rails. We use blocks instead of strings of HTML, we use `snake_case` instead of `camelCase`. If the ergonomics weren't right developers wouldn't use it.
+![A GOV.UK design system task list with entries for personal and contact details, and a greyed out identity check task that cannot yet be started](/assets/posts/releasing-rails-libraries-for-version-5/rendered-task-list.png)
 
-### 4. Proper documentation
 
-Good documentation is probably the best way to give projects an air of legitimacy. A user guide with copyable code snippets and fully rendered examples is a worthwhile investment, especially when it has fantastic artwork on the homepage.
+## New link helpers
 
-<!-- TODO: screenshots of the guide homepages? -->
+I tried adding [a feature](https://github.com/x-govuk/govuk-components/pull/363) in November 2022 that lets developers create links that open in new tabs, but [had to remove it](https://github.com/x-govuk/govuk-components/pull/399) shortly after because our pre-release testing showed it caused problems by trying to mix different kinds of arguments.
 
-### 5. Going the extra mile
+The old link helpers support all of Rails' functionality, even the archaic old stuff that's no longer recommended in the official documentation. They've not really changed much since they were introduced in 2004.
 
-While the upstream Nunjucks macros are a great starting point, I took every opportunity to make the developer experience a bit smoother. Being able to make a [tag](https://design-system.service.gov.uk/components/tag/) blue with `colour: blue` instead of passing in `classes: "govuk-tag--blue"` or open a link in a new tab with `new_tab: true` rather than `rel="noreferrer noopener" target="_blank"` are small improvements, but they add up.
 
-### 6. Encouraging contributions
+Their role is to simply take `some text` and `#a-hyperlink` and generate a link, so:
 
-This is a big one, but no library author is able to predict what teams will need. Ensuring the codebase is clean, tidy and well tested makes the process of contributing easier.
+```erb
+<%= govuk_link_to("some text", "#a-hyperlink") %>
 
-Contributions aren't always fully-fledged pull requests, feature requests count too and they've helped make the libraries more useful for everyone.
+<!-- or -->
 
-So far, nearly all suggestions made have been accommodated.
+<%= govuk_link_to("#a-hyperlink") do %>
+  some text
+<% end %>
 
-### 7. Getting real users
+<!-- becomes -->
 
-I was incredibly lucky that the team building [Apply for teacher training](https://www.gov.uk/apply-for-teacher-training) were just getting started when I launched the form builder.
+<a class="govuk-link" href="#a-hyperlink">some text</a>
+```
 
-Being one of the Department for Education's flagship projects and I'm positive them being listed as users gave others the confidence to give it a try.
+Links and buttons in the GOV.UK design have lots additional classes that change how they look and act.
 
-Real users find real bugs and limitations, it's crucial in taking your hobby project to the next level.
+Unfortunately, in those years since Rails added link helpers, Ruby has changed. A lot. It gained [keyword arguments in 2013](https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/), which make methods easier to understand, work with and document.
 
-## What happened next
+Not being able to use them in the link helpers because they break things nobody really uses any more means maintaining code that's hard, or impossible, to cleanly improve.
 
-In the months after the form builder's release it saw a significant number of teams begin using it. Shortly after we began work on the components library and it followed suit.
+I decided to give up on supporting everything that Rails does in favour of supporting what most developers use most of the time.
 
-Now they're the go-to libaries for developing GOV.UK applications in Rails and between them are used in about 125 services.
+In the new version, all of the GOV.UK Design System options for links and buttons are represented by keyword arguments. They allow us to [support a large number of options](https://govuk-components.netlify.app/helpers/link/) while keeping the code clean and succinct.
 
-## Version 5
+Now developers can reliably build complex link markup with ease:
+
+```erb
+<%= govuk_link_to(
+  "View",
+  "#my-profile",
+  visually_hidden_suffix: "my profile",
+  new_tab: true,
+  no_visited_state: true
+) %>
+
+<!-- becomes -->
+
+<a class="govuk-link govuk-link--no-visited-state" target="_blank" rel="noreferrer noopener">
+  View<span class="govuk-visually-hidden"> my profile</span>
+</a>
+```
