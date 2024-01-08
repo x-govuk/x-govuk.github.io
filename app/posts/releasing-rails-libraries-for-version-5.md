@@ -5,6 +5,10 @@ date: 2024-01-10
 author:
   name: Peter Yates
   url: https://github.com/peteryates
+image:
+  src: /assets/posts/releasing-rails-libraries-for-version-5/illustration.png
+  alt: Numeral 5, with a background of coloured stripes based on the shape of the number.
+  opengraphImage: true
 ---
 
 Version 5 of the GOV.UK Design System was released on December 8th 2023. Half an hour later, we released version 5 of the x-govuk [form builder](https://govuk-form-builder.netlify.app/) and [components](https://govuk-components.netlify.app/) libraries.
@@ -21,8 +25,8 @@ When working on anything that's used by lots of teams, like [referring serious t
 
 There are two main reasons for us making changes:
 
-* **following upstream changes** --- like adding a new GOV.UK component or adding support for a new version of Ruby or Rails
-* **improvements we feel make the library better** --- like adding features, tidying code or making the tests run faster
+- **following upstream changes** --- like adding a new GOV.UK component or adding support for a new version of Ruby or Rails
+- **improvements we feel make the library better** --- like adding features, tidying code or making the tests run faster
 
 Conveniently, the two main updates in version 5 fit squarely into these categories.
 
@@ -32,8 +36,8 @@ The [GOV.UK design system task list component](https://design-system.service.gov
 
 Task lists are intended to help users manage many tasks, especially when the user:
 
-* might not be able to do them all in one sitting
-* is able to complete them in any order
+- might not be able to do them all in one sitting
+- is able to complete them in any order
 
 Like with the other components, the Rails implementation borrows heavily from the GOV.UK design system reference, but translates it into an syntax that will be immediately familiar to Ruby on Rails developers.
 
@@ -71,7 +75,6 @@ Like with the other components, the Rails implementation borrows heavily from th
 The above snippet will render this task list:
 
 ![A GOV.UK design system task list with entries for personal and contact details, and a greyed out identity check task that cannot yet be started](/assets/posts/releasing-rails-libraries-for-version-5/rendered-task-list.png)
-
 
 ## New link and button helpers
 
