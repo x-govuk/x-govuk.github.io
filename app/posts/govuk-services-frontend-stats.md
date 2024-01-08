@@ -5,6 +5,10 @@ date: 2023-12-20
 author:
   name: Frankie Roberto
   url: https://github.com/frankieroberto
+image:
+  src: /assets/posts/govuk-services-frontend-stats/illustration.png
+  alt: 24 tally marks, of which 14 have a diagonal fifth mark crossed through them.
+  opengraphImage: true
 ---
 
 To celebrate the release of [GOV.UK Frontend version 5](https://github.com/alphagov/govuk-frontend/releases/tag/v5.0.0), as a fun end-of-year project, I’ve written a script to report which version of GOV.UK Frontend different government services are currently using.
