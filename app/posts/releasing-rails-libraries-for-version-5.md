@@ -11,7 +11,7 @@ image:
   opengraphImage: true
 ---
 
-Version 5 of the GOV.UK Design System was released on December 8th 2023. Half an hour later, we released version 5 of the x-govuk [form builder](https://govuk-form-builder.netlify.app/) and [components](https://govuk-components.netlify.app/) libraries.
+Version 5 of the GOV.UK Design System was released on 8 December 2023. Half an hour later, we released version 5 of the x-govuk [form builder](https://govuk-form-builder.netlify.app/) and [components](https://govuk-components.netlify.app/) libraries.
 
 The short turnaround time might suggest it was a quick job, but work on the included features started in May and we've made some significant improvements since then.
 
@@ -21,25 +21,25 @@ Without these and other projects like it, teams working on GOV.UK services would
 
 > Time spent on [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) is time spent not focussing on user needs.
 
-When working on anything that's used by lots of teams, like [referring serious teacher misconduct](https://refer-serious-misconduct.education.gov.uk), [whistleblowing at a company](https://make-a-business-whistleblower-report.service.gov.uk/) or even [GOV.UK forms itself](https://www.forms.service.gov.uk/), there's a great deal of pressure not to break anything. This responsibility forces us to make changes with a degree of caution and to rigorously test and review.
+When working on anything that's used by lots of teams, like [referring serious teacher misconduct](https://refer-serious-misconduct.education.gov.uk), [whistleblowing at a company](https://make-a-business-whistleblower-report.service.gov.uk/) or even [GOV.UK Forms itself](https://www.forms.service.gov.uk/), there's a great deal of pressure not to break anything. This responsibility forces us to make changes with a degree of caution and to rigorously test and review.
 
 There are two main reasons for us making changes:
 
-- **following upstream changes** --- like adding a new GOV.UK component or adding support for a new version of Ruby or Rails
-- **improvements we feel make the library better** --- like adding features, tidying code or making the tests run faster
+- **following upstream changes** — like adding a new GOV.UK component or adding support for a new version of Ruby or Rails
+- **improvements we feel make the library better** — like adding features, tidying code or making the tests run faster
 
 Conveniently, the two main updates in version 5 fit squarely into these categories.
 
 ## The task list
 
-The [GOV.UK design system task list component](https://design-system.service.gov.uk/components/task-list/) has been a long time in the making with discussions [stretching back to 2018](https://github.com/alphagov/govuk-design-system-backlog/issues/72). However, thanks to Frankie Roberto and the GOV.UK design system team's tireless efforts, [the PR](https://github.com/alphagov/govuk-frontend/pull/2261) was finally approved and merged in June.
+The [GOV.UK Design System task list component](https://design-system.service.gov.uk/components/task-list/) has been a long time in the making with discussions [stretching back to 2018](https://github.com/alphagov/govuk-design-system-backlog/issues/72). However, thanks to Frankie Roberto and the GOV.UK Design System team's tireless efforts, [the pull request](https://github.com/alphagov/govuk-frontend/pull/2261) was finally approved and merged in June.
 
 Task lists are intended to help users manage many tasks, especially when the user:
 
 - might not be able to do them all in one sitting
 - is able to complete them in any order
 
-Like with the other components, the Rails implementation borrows heavily from the GOV.UK design system reference, but translates it into an syntax that will be immediately familiar to Ruby on Rails developers.
+Like with the other components, the Rails implementation borrows heavily from the GOV.UK Design System reference, but translates it into an syntax that will be immediately familiar to Ruby on Rails developers.
 
 ```erb
 <h2 class="govuk-heading-m">Confirm your identity</h2>
@@ -80,20 +80,20 @@ The above snippet will render this task list:
 
 The govuk-components link and button helpers are probably the most widely used feature offered by the gem.
 
-Their role is to take `some text` and `#a-hyperlink` and generate a link with design system classes like `govuk-link`, so:
+Their role is to take `some text` and `/a-link` and generate a link with design system classes like `govuk-link`, so:
 
 ```erb
-<%= govuk_link_to("some text", "#a-hyperlink") %>
+<%= govuk_link_to("some text", "/a-link") %>
 
 <!-- or -->
 
-<%= govuk_link_to("#a-hyperlink") do %>
+<%= govuk_link_to("/a-link") do %>
   some text
 <% end %>
 
 <!-- becomes -->
 
-<a class="govuk-link" href="#a-hyperlink">some text</a>
+<a class="govuk-link" href="/a-link">some text</a>
 ```
 
 In November 2022 [I tried to add a new feature](https://github.com/x-govuk/govuk-components/pull/363) to `govuk_link_to` which allowed developers to call it with `new_tab: true`, and the resulting link would open pages in a new tab.
@@ -121,3 +121,5 @@ Now developers can reliably build complex link markup with confidence:
   View<span class="govuk-visually-hidden"> my profile</span>
 </a>
 ```
+
+## What's next
