@@ -15,13 +15,15 @@ Version 5 of the GOV.UK Design System was released on 8 December 2023. Half an h
 
 The short turnaround time might suggest it was a quick job, but work on the included features started in May and we've made some significant improvements since then.
 
-For the uninitiated, the form builder and components libraries are implementations of the [GOV.UK Design System](https://design-system.service.gov.uk/) for [Ruby on Rails](https://rubyonrails.org/), one of the most popular web frameworks used across government.
+The form builder and components libraries are implementations of the [GOV.UK Design System](https://design-system.service.gov.uk/) for [Ruby on Rails](https://rubyonrails.org/), one of the most popular web frameworks used across government.
 
 Without these and other projects like it, teams working on GOV.UK services would need to implement all the patterns and behaviour described in the design system themselves. This would be huge a waste of effort and slow down delivery to a crawl.
 
 > Time spent on [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) is time spent not focussing on user needs.
 
-When working on anything that's used by lots of teams, like [referring serious teacher misconduct](https://refer-serious-misconduct.education.gov.uk), [whistleblowing at a company](https://make-a-business-whistleblower-report.service.gov.uk/) or even [GOV.UK Forms itself](https://www.forms.service.gov.uk/), there's a great deal of pressure not to break anything. This responsibility forces us to make changes with a degree of caution and to rigorously test and review.
+The form builder and components libarries are used by more than 100 live services and some form building platforms use them too, including [GOV.UK Forms](https://www.forms.service.gov.uk/) and [Ministry of Justice Forms](https://moj-forms.service.justice.gov.uk/).
+
+Given the serious nature of things they're used for and the large number of users, there's a great deal of pressure not to break anything. This responsibility forces us to make changes with a degree of caution and to rigorously test and review.
 
 There are two main reasons for us making changes:
 
@@ -98,7 +100,9 @@ Their role is to take `some text` and `/a-link` and generate a link with design 
 
 In November 2022 [I tried to add a new feature](https://github.com/x-govuk/govuk-components/pull/363) to `govuk_link_to` which allowed developers to call it with `new_tab: true`, and the resulting link would open pages in a new tab.
 
-Unfortunately [I had to revert the change shortly afterwards](https://github.com/x-govuk/govuk-components/pull/399) because mixing new positional keyword arguments, which were added to Ruby in 2019 with Rails' link helpers, which haven't really changed since 2004, caused lots of problems. Thankfully we uncovered these in our pre-release testing so didn't break anything important.
+Unfortunately [I had to revert the change shortly afterwards](https://github.com/x-govuk/govuk-components/pull/399) because mixing new Ruby positional keyword arguments (added in 2019) with old Rails link helpers (unchanged since 2004) caused lots of problems.
+
+Thankfully we uncovered the problems in our pre-release testing so didn't break anything important.
 
 Still, opening links in a new tab was something I wanted to address. It's more complicated than the other modifiers like `no_underline` because it adds multiple new attributes to links. Developers often forget the `rel` attribute, leaving users open to [reverse tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). We can provide real value for users by supporting this feature.
 
