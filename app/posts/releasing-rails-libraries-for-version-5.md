@@ -127,3 +127,5 @@ Now developers can reliably build complex link markup with confidence:
 ```
 
 ## What's next
+
+Now version 5 is released we'll slow the pace for a while and let the dust settle. This should give developers the opportunity to try out the new features and provide feedback or report bugs.
