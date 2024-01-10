@@ -41,7 +41,7 @@ Task lists are intended to help users manage many tasks, especially when the use
 - might not be able to do them all in one sitting
 - is able to complete them in any order
 
-Like with the other components, the Rails implementation borrows heavily from the GOV.UK Design System reference, but translates it into an syntax that will be immediately familiar to Ruby on Rails developers.
+Like with the other components, the Rails implementation borrows heavily from the GOV.UK Design System reference, but translates it into syntax that will be immediately familiar to Ruby on Rails developers.
 
 ```erb
 <h2 class="govuk-heading-m">Confirm your identity</h2>
