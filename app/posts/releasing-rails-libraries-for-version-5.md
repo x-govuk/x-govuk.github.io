@@ -21,7 +21,7 @@ Without these and other projects like it, teams working on GOV.UK services would
 
 > Time spent on [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) is time spent not focussing on user needs.
 
-The form builder and components libarries are used by more than 100 live services and some form building platforms use them too, including [GOV.UK Forms](https://www.forms.service.gov.uk/) and [Ministry of Justice Forms](https://moj-forms.service.justice.gov.uk/).
+The form builder and components libraries are used by more than 100 live services and some form building platforms use them too, including [GOV.UK Forms](https://www.forms.service.gov.uk/) and [Ministry of Justice Forms](https://moj-forms.service.justice.gov.uk/).
 
 Given the serious nature of things they're used for and the large number of users, there's a great deal of pressure not to break anything. This responsibility forces us to make changes with a degree of caution and to rigorously test and review.
 
