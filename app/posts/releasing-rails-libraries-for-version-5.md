@@ -21,7 +21,7 @@ Without these and other projects like it, teams working on GOV.UK services would
 
 > Time spent on [boilerplate](https://en.wikipedia.org/wiki/Boilerplate_code) is time spent not focussing on user needs.
 
-The form builder and components libarries are used by more than 100 live services and some form building platforms use them too, including [GOV.UK Forms](https://www.forms.service.gov.uk/) and [Ministry of Justice Forms](https://moj-forms.service.justice.gov.uk/).
+The form builder and components libraries are used by more than 100 live services and some form building platforms use them too, including [GOV.UK Forms](https://www.forms.service.gov.uk/) and [Ministry of Justice Forms](https://moj-forms.service.justice.gov.uk/).
 
 Given the serious nature of things they're used for and the large number of users, there's a great deal of pressure not to break anything. This responsibility forces us to make changes with a degree of caution and to rigorously test and review.
 
@@ -41,7 +41,7 @@ Task lists are intended to help users manage many tasks, especially when the use
 - might not be able to do them all in one sitting
 - is able to complete them in any order
 
-Like with the other components, the Rails implementation borrows heavily from the GOV.UK Design System reference, but translates it into an syntax that will be immediately familiar to Ruby on Rails developers.
+Like with the other components, the Rails implementation borrows heavily from the GOV.UK Design System reference, but translates it into syntax that will be immediately familiar to Ruby on Rails developers.
 
 ```erb
 <h2 class="govuk-heading-m">Confirm your identity</h2>
