@@ -56,6 +56,7 @@ description: A community-maintained collection of resources which are useful for
 - [Department for Education style guide](https://design.education.gov.uk/content-design/style-guide/)
 - [GOV.WALES style guide](https://gov.wales/govwales-style-guide)
 - [HMRC content style guide](https://design.tax.service.gov.uk/hmrc-content-style-guide/)
+- [Home Office style guide](https://design.homeoffice.gov.uk/content-style-guide)
 - [NHS content style guide](https://service-manual.nhs.uk/content)
 
 ### Prototyping
