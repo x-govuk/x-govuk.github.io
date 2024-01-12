@@ -53,7 +53,7 @@ description: A community-maintained collection of resources which are useful for
 ### Content design
 
 - [Government Digital Service style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)
-- [Department for Education glossary](https://dfe-glossary.herokuapp.com)
+- [Department for Education style guide](https://design.education.gov.uk/content-design/style-guide/)
 - [GOV.WALES style guide](https://gov.wales/govwales-style-guide)
 - [HMRC content style guide](https://design.tax.service.gov.uk/hmrc-content-style-guide/)
 - [NHS content style guide](https://service-manual.nhs.uk/content)
