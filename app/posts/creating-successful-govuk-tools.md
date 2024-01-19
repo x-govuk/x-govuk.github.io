@@ -64,3 +64,24 @@ So far, nearly all suggestions made have been accommodated.
 I was incredibly lucky that the team building [Apply for teacher training](https://www.gov.uk/apply-for-teacher-training) were just getting started when I launched the form builder. It's one of the Department for Education's flagship projects and if they are confident enough to use it hopefully others would be too.
 
 Real users find real bugs and limitations, it's crucial in taking your hobby project to the next level.
+
+## What's left to build?
+
+I'm most familiar with the Rails ecosystem for building GOV.UK services and many of the building blocks you'll need for most services are catered for. You can:
+
+* render content with [govuk_markdown](https://github.com/DFE-Digital/govuk-markdown)
+* provide accessible autocompletion for fields with [dfe-autocomplete](https://github.com/DFE-Digital/dfe-autocomplete/)
+* easily write tests that make sure your service is workign properly with [govuk-rspec-helpers](https://x-govuk.github.io/govuk-rspec-helpers/)
+* build pages with [govuk-components](https://github.com/x-govuk/govuk-components)
+* generate forms with [govuk-form-builder](https://github.com/x-govuk/govuk-form-builder)
+* send emails and text messages via [GOV.UK Notify](https://notifications.service.gov.uk) with [notifications-ruby-client](https://github.com/alphagov/notifications-ruby-client)
+
+However, there are stil some common features and patterns that haven't been fully addressed and are often re-implemented.
+
+Here are a few that spring to mind, you'll probably find an example in every Rails service:
+
+* a GOV.UK-themed admin tool like [RailsAdmin](https://github.com/railsadminteam/rails_admin) or [Administrate](https://github.com/thoughtbot/administrate), to easily build admin interfaces for apps
+* a multi page journey or wizard builder - there have been several attempts to solve this but there isn't an established leader, at least until [GOV.UK Wizardry](https://github.com/DFE-Digital/govuk-wizardry) is finished!
+* a date validator that follows the [the design system](https://design-system.service.gov.uk/components/date-input/#error-messages)'s suggestion of individually validating the day, month and year
+
+For an idea of which tools exist in your programming language or framework of choice, take a look at the [X-GOVUK resources list](https://x-govuk.github.io/#resources).
