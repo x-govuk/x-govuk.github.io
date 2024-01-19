@@ -67,7 +67,7 @@ Real users find real bugs and limitations, it's crucial in taking your hobby pro
 
 ## What's left to build?
 
-I'm most familiar with the Rails ecosystem for building GOV.UK services and many of the building blocks you'll need for most services are catered for. You can:
+I'm most familiar with the Rails ecosystem for building GOV.UK services and many of the building blocks you'll need already exist. You can:
 
 * render content with [govuk_markdown](https://github.com/DFE-Digital/govuk-markdown)
 * provide accessible autocompletion for fields with [dfe-autocomplete](https://github.com/DFE-Digital/dfe-autocomplete/)
@@ -83,5 +83,6 @@ Here are a few that spring to mind, you'll probably find an example in every Rai
 * a GOV.UK-themed admin tool like [RailsAdmin](https://github.com/railsadminteam/rails_admin) or [Administrate](https://github.com/thoughtbot/administrate), to easily build admin interfaces for apps
 * a multi page journey or wizard builder - there have been several attempts to solve this but there isn't an established leader, at least until [GOV.UK Wizardry](https://github.com/DFE-Digital/govuk-wizardry) is finished!
 * a date validator that follows the [the design system](https://design-system.service.gov.uk/components/date-input/#error-messages)'s suggestion of individually validating the day, month and year
+* a tool which collates validation errors your users trigger and displays them in a dashboard, to help you diagnose problems and create a better user experience
 
 For an idea of which tools exist in your programming language or framework of choice, take a look at the [X-GOVUK resources list](https://x-govuk.github.io/#resources).
