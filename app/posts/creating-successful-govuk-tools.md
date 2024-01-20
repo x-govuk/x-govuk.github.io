@@ -19,11 +19,11 @@ I remember how refreshing it felt to join an organisation where working collabor
 >
 > <cite>[The GOV.UK Service Standard, point 13.](https://www.gov.uk/service-manual/service-standard/point-13-use-common-standards-components-patterns)</cite>
 
-My first job on the project was to work out how we were going capture all the information from applicants. We knew we were going to be using the newly-released GOV.UK Design System, and because Rails was popular across government we thought there would be established tools we could lean on.
+My first job on the project was to work out how we were going capture all the information we needed from applicants. We knew we were going to be using the newly-released GOV.UK Design System, and because Rails was popular across government we thought there would be established tools we could lean on.
 
 Forms are the main part of any transactional service, and Rails makes creating forms really straightforward. There must be something out there that combines the two.
 
-Unfortunately, there wasn't. We had a really tight deadline so repurposed the [Ministry of Justice's GOV.UK Elements form builder](https://github.com/ministryofjustice/govuk_elements_form_builder) for the GOV.UK Design System. It worked for us but never felt quite right.
+Unfortunately, there wasn't. We had a really tight deadline so we decided to repurpose the [Ministry of Justice's GOV.UK Elements form builder](https://github.com/ministryofjustice/govuk_elements_form_builder). It was an older library that was designed to work with GOV.UK Elements, the forerunner to the GOV.UK Design System. With a bit of work we had something useable but it wasn't elegant and didn't support some of the design system's new accessibility features, like the error summary linking to the corresponding form input.
 
 But, I'd found a gap. Something I thought should exist but didn't. Something I was certain others would find useful. Something I thought I could do.
 
