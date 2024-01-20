@@ -29,7 +29,9 @@ But, I'd found a gap. Something I thought should exist but didn't. Something I w
 
 I decided to have a go at building and sharing a form builder from scratch and spent my free time over the next month working on it. I announced it [via a very nervous-sounding YouTube screencast](https://www.youtube.com/watch?v=PhoFZ0qXAlA) and, thankfully, it was well received.
 
-It was my first time building and publishing a library before, but having used plenty I had a good idea of what to prioritise if I wanted to make it a success. For me at the time, success meant a other teams finding it useful enough to use. Here's my list:
+It was my first time building and publishing a library, but having used plenty I had a good idea of what to prioritise if I wanted to make it a success. At the time, success meant a few other teams within the department might find it useful, I never imagined that there would be [more than 130 live services using it](https://github.com/x-govuk/govuk-form-builder/network/dependents).
+
+So, in addition to having a good idea here's my list of things that will help make your project successful.
 
 ### 1. Active development
 
