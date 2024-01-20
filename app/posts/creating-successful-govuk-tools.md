@@ -23,7 +23,7 @@ My first job on the project was to work out how we were going capture all the in
 
 Forms are the main part of any transactional service, and Rails makes creating forms really straightforward. There must be something out there that combines the two.
 
-Unfortunately, there wasn't. We had a really tight deadline so repurposing the [Ministry of Justice's GOV.UK Elements form builder](https://github.com/ministryofjustice/govuk_elements_form_builder) for the GOV.UK Design System. It worked for us but never felt quite right.
+Unfortunately, there wasn't. We had a really tight deadline so repurposed the [Ministry of Justice's GOV.UK Elements form builder](https://github.com/ministryofjustice/govuk_elements_form_builder) for the GOV.UK Design System. It worked for us but never felt quite right.
 
 But, I'd found a gap. Something I thought should exist but didn't. Something I was certain others would find useful. Something I thought I could do.
 
