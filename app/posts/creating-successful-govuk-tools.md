@@ -1,7 +1,7 @@
 ---
 title: Building useful tools
 description: Thoughts on what it takes to make something other teams will use
-date: 2024-01-16
+date: 2024-01-22
 author:
   name: Peter Yates
   url: https://github.com/peteryates
