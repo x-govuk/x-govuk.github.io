@@ -6,7 +6,7 @@ author:
   name: Peter Yates
   url: https://github.com/peteryates
 image:
-  src: /assets/posts/creating-successful-govuk-tools/illustration.png
+  src: /assets/posts/building-useful-tools/illustration.png
   alt: Illustration of a red ruby gem, with multiple colours emanating from it.
   opengraphImage: true
 ---
@@ -49,7 +49,7 @@ The GOV.UK Design System has a reference implementation written in [Nunjucks](ht
 
 Good documentation is probably the best way to give projects an air of legitimacy. A user guide with copyable code snippets and fully rendered examples is a worthwhile investment, especially when it has fantastic artwork on the homepage (thanks [Paul](https://github.com/paulrobertlloyd)!)
 
-![A screenshot of the GOV.UK form builder documentation site](/assets/posts/creating-successful-govuk-tools/form-builder-docs.png)
+![A screenshot of the GOV.UK form builder documentation site](/assets/posts/building-useful-tools/form-builder-docs.png)
 
 ### 5. Going the extra mile
 
