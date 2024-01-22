@@ -82,7 +82,7 @@ I'm most familiar with the Rails ecosystem for building GOV.UK services and many
 - generate forms with [govuk-form-builder](https://github.com/x-govuk/govuk-form-builder)
 - send emails and text messages via [GOV.UK Notify](https://notifications.service.gov.uk) with [notifications-ruby-client](https://github.com/alphagov/notifications-ruby-client)
 
-However, there are stil some common features and patterns that haven't been fully addressed and are often re-implemented.
+However, there are still some common features and patterns that haven't been fully addressed and are often re-implemented.
 
 Here are a few that spring to mind, you'll probably find an example in every Rails service:
 
