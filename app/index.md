@@ -40,7 +40,6 @@ description: A community-maintained collection of resources which are useful for
 - [BATHNES Digital Toolkit](https://style.bathnes.gov.uk/)
 - [Maidstone Design System](https://digitalservices.maidstone.gov.uk/about-us/design-system)
 - [Essex County Council's design and patterns library](https://www.essex.gov.uk/essex-county-councils-design-and-patterns-library)
-- [DfE Design Manual and System](https://design.education.gov.uk/)
 
 #### Other design resources
 
