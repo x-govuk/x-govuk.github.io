@@ -36,6 +36,10 @@ description: A community-maintained collection of resources which are useful for
 - [Transport for West Midlands Design System](https://designsystem.tfwm.org.uk)
 - [Hackney Design System](https://design-system.hackney.gov.uk)
 - [Croydon design and content guidelines](https://www.croydon.gov.uk/design-and-content-guidelines)
+- [Bristol Design System](https://design.bristol.gov.uk/)
+- [BATHNES Digital Toolkit](https://style.bathnes.gov.uk/)
+- [Maidstone Design System](https://digitalservices.maidstone.gov.uk/about-us/design-system)
+- [Essex County Council's design and patterns library](https://www.essex.gov.uk/essex-county-councils-design-and-patterns-library)
 
 #### Other design resources
 
