@@ -81,7 +81,6 @@ description: A community-maintained collection of resources which are useful for
 - [GOV.UK Vue](https://govukvue.org)
 - [Markdown extension for Marked](https://github.com/x-govuk/govuk-markdown)
 - [Markdown plugin for markdown-it](https://github.com/x-govuk/markdown-it-govuk)
-- [R Markdown](https://github.com/ukgovdatascience/govdown)
 - [Twirl](https://github.com/hmrc/play-frontend-hmrc)
 - [WTForms](https://github.com/LandRegistry/govuk-frontend-wtf)
 
