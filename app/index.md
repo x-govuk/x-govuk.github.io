@@ -49,6 +49,7 @@ description: A community-maintained collection of resources which are useful for
 
 ### User research
 
+- [Department for Education User Research manual](https://user-research.education.gov.uk)
 - [Local government user research library](https://research.localgov.digital/)
 
 </div>
