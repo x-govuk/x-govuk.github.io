@@ -63,7 +63,7 @@ We have GOV.UK Pay for one-off and recurring payments. A possible future extensi
 
 This might make it easier for more services to switch from charging a upfront payment every year or so, allowing users to spread the cost and avoid forgetting to renew.
 
-### 7. Statistics publishing
+### 7. Statistics and data publishing
 
 The Office for National Statistics (ONS) has a whole platform for this, but central government also publish a lot of official stats separately on GOV.UK. Currently these are most published as Excel files, PDFs or in other file formats.
 
