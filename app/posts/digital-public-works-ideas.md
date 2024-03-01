@@ -5,6 +5,10 @@ date: 2024-03-01
 author:
   name: Frankie Roberto
   url: https://github.com/frankieroberto
+image:
+  src: /assets/posts/digital-public-works-ideas/illustration.png
+  alt: GOV.UK crown icon sat on a background of colourful interconnecting shapes.
+  opengraphImage: true
 ---
 
 A recent blog post from dxw suggests that [there needs to be more support for digital public works](https://www.dxw.com/2024/01/there-needs-to-be-more-support-for-digital-public-works/), described as platforms and tools which work across government to make it easier and faster to build services.
@@ -21,7 +25,7 @@ However, were this to be possible, I do have a list of ideas for what these serv
 
 ### 1. Analytics
 
-There are plenty of existing commercial and open source tools for this, so I’m not suggesting rebuilding those, but instead picking one and building a service on top of it. 
+There are plenty of existing commercial and open source tools for this, so I’m not suggesting rebuilding those, but instead picking one and building a service on top of it.
 
 The team would do the hard work of navigating the trade-offs between privacy, security and usability to give teams the design patterns and technical implementation for collecting consent and then data.
 
@@ -53,7 +57,7 @@ A central service could allow users to collect all their certifications on a sin
 
 Unlike the previous version, this could be a platform for the many services which need to maintain public information such as registered landlords, childminders or building inspectors.
 
-There would be tools for organisations to maintain the data, as well as ways for the public to browse and search it. 
+There would be tools for organisations to maintain the data, as well as ways for the public to browse and search it.
 
 Large-scale registers, such the company register, would still need their own bespoke service, but for small and medium registers a platform would allow these to be built far more quickly and easily.
 
@@ -83,4 +87,8 @@ The platform could also make it easier for the public to be discover or be notif
 
 These are just my ideas, based on the work and conversations I’ve been part of.
 
-I’m interested in what your ideas might be - and whether there could be a way for teams to share these ideas and collaboratively explore whether some of them have the potential to become shared services. 
+I’m interested in what your ideas might be - and whether there could be a way for teams to share these ideas and collaboratively explore whether some of them have the potential to become shared services.
+
+---
+
+<small>The background pattern in this post’s illustration was created using [Fractalpuzzlejs](https://github.com/proceduraljigsaw/Fractalpuzzlejs).</small>
