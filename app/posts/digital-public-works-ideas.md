@@ -43,7 +43,7 @@ A central digital team could help by maintaining an API, design patterns and cod
 
 This might have been tried once before, with [PaaS then being decommissioned](https://gds.blog.gov.uk/2022/07/12/why-weve-decided-to-decommission-gov-uk-paas-platform-as-a-service/), but it’s still a good idea.
 
-A rebooted service could be simpler but more opinionated, with the benefit of taking care of more of the low-level issues like operating systems, backups, monitoring and scaling.
+A rebooted service could be simpler but more opinionated, with the benefit of taking care of more of common issues like operating systems, backups, monitoring and scaling, leaving teams to focus on issues unique to their service.
 
 It could also support easy hosting of prototypes.
 
