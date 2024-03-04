@@ -89,7 +89,9 @@ The platform could also make it easier for the public to be discover or be notif
 
 These are just my ideas, based on the work and conversations I’ve been part of.
 
-I’m interested in what your ideas might be - and whether there could be a way for teams to share these ideas and collaboratively explore whether some of them have the potential to become shared services.
+I’m interested in what your ideas are too.
+
+Perhaps there a could be a way for teams to share these ideas and collaboratively explore whether some of them have the potential to become shared services?
 
 ---
 
