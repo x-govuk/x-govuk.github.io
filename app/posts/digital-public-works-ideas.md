@@ -63,7 +63,7 @@ Large-scale registers, such the company register, would still need their own bes
 
 ### 6. Monthly payments
 
-We have GOV.UK Pay for one-off and recurring payments. A possible future extension of this might be users having a single monthly payment to government which includes all the services or licences they currently subscribe to?
+We have GOV.UK Pay for one-off and recurring payments. A possible future extension of this might be users having a single monthly payment to government which includes all the services or licences they currently subscribe to.
 
 This might make it easier for more services to switch from charging a upfront payment every year or so, allowing users to spread the cost and avoid forgetting to renew.
 
