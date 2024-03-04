@@ -37,7 +37,7 @@ They might also build a simple web service to help teams view and understand the
 
 The [public sector geospatial agreement](https://www.ordnancesurvey.co.uk/customers/public-sector/public-sector-geospatial-agreement) means that all public sector services should have access to high quality databases of UK addresses. However that doesn’t mean they are easy to integrate with, and some services still end up using commercial services.
 
-A central digital team could help by maintaining an API, design patterns and code to make it super easy for teams to let users lookup and select addresses from postcodes.
+A central digital team could help by maintaining an API, design patterns and code to make it super easy for teams to let users lookup and select addresses.
 
 ### 3. Hosting
 
@@ -65,7 +65,7 @@ Large-scale registers, such [the company register](https://find-and-update.compa
 
 ### 6. Monthly payments
 
-We have GOV.UK Pay for one-off and recurring payments. A possible future extension of this might be users having a single monthly payment to government which includes all the services or licences they currently subscribe to?
+We have GOV.UK Pay for one-off and recurring payments. A possible future extension of this might be users having a single monthly payment to government which includes all the services or licences they currently subscribe to.
 
 This might make it easier for more services to switch from charging a upfront payment every year or so, allowing users to spread the cost and avoid forgetting to renew.
 
