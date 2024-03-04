@@ -59,7 +59,7 @@ Unlike the previous version, this could be a platform for the many services whic
 
 There would be tools for organisations to maintain the data, as well as ways for the public to browse and search it.
 
-Large-scale registers, such the company register, would still need their own bespoke service, but for small and medium registers a platform would allow these to be built far more quickly and easily.
+Large-scale registers, such [the company register](https://find-and-update.company-information.service.gov.uk), would still need their own bespoke service, but for small and medium registers a platform would allow these to be built far more quickly and easily.
 
 ### 6. Monthly payments
 
