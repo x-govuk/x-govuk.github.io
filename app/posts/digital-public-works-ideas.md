@@ -11,7 +11,9 @@ image:
   opengraphImage: true
 ---
 
-A recent blog post from dxw suggests that [there needs to be more support for digital public works](https://www.dxw.com/2024/01/there-needs-to-be-more-support-for-digital-public-works/), described as platforms and tools which work across government to make it easier and faster to build services.
+A recent blog post from dxw suggests that [there needs to be more support for digital public works](https://www.dxw.com/2024/01/there-needs-to-be-more-support-for-digital-public-works/).
+
+‘Digital public works’ are platforms and tools that make it easier and faster to build digital public services.
 
 I’m also big supporter of these. This unofficial X-GOVUK community is one way to support cross-government collaboration and tools, but many digital public works would need full-time teams to support them.
 
