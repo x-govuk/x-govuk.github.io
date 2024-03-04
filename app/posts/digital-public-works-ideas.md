@@ -15,7 +15,7 @@ A recent blog post from dxw suggests that [there needs to be more support for di
 
 ‘Digital public works’ are platforms and tools that make it easier and faster to build digital public services.
 
-I’m also big supporter of these. This unofficial X-GOVUK community is one way to support cross-government collaboration and tools, but many digital public works would need full-time teams to support them.
+I’m also a big supporter of these. This unofficial X-GOVUK community is one way to support cross-government collaboration and tools, but many digital public works would need full-time teams to support them.
 
 There’s lots to be thankful for. The [platforms developed by the Government Digital Service](https://www.gov.uk/service-toolkit#platforms-and-tools) – Notify, Pay, Forms and One Login – are all super useful.
 
