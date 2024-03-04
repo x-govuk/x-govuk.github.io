@@ -33,7 +33,7 @@ They might also build a simple web service to help teams view and understand the
 
 ### 2. Address lookup
 
-The [public sector geospatial agreement](https://www.ordnancesurvey.co.uk/customers/public-sector/public-sector-geospatial-agreement) means that all public sector services should have access to high quality databases of UK addresses. However that doesn’t mean they are easy to integrate with, and some services still end up using Google or other commercial services.
+The [public sector geospatial agreement](https://www.ordnancesurvey.co.uk/customers/public-sector/public-sector-geospatial-agreement) means that all public sector services should have access to high quality databases of UK addresses. However that doesn’t mean they are easy to integrate with, and some services still end up using commercial services.
 
 A central digital team could help by maintaining an API, design patterns and code to make it super easy for teams to let users lookup and select addresses from postcodes.
 
