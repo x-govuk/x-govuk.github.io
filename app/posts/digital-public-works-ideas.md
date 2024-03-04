@@ -85,7 +85,7 @@ A central service for running consultations might not only save organisations mo
 
 The platform could also make it easier for the public to be discover or be notified about consultations that might affect them, and to find out about the outcomes of consultations they’ve contributed to.
 
-## Closing thoughts
+## Next steps
 
 These are just my ideas, based on the work and conversations I’ve been part of.
 
