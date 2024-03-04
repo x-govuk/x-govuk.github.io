@@ -55,7 +55,7 @@ A central service could allow users to collect all their certifications on a sin
 
 ### 5. Registers
 
-Unlike the previous version, this could be a platform for the many services which need to maintain public information such as registered landlords, childminders or building inspectors.
+Unlike the previous version, this could be a platform for the many services which maintain public information such as registered landlords, childminders or building inspectors.
 
 There would be tools for organisations to maintain the data, as well as ways for the public to browse and search it.
 
