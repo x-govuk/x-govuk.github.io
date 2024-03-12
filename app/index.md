@@ -5,6 +5,11 @@ title: Welcome to X-GOVUK
 description: A community-maintained collection of resources which are useful for working on GOV.UK services.
 ---
 
+### Online event: Thursday 21 March 2024, 3-4pm
+Join a show and tell of design, development and prototyping tools built by the cross-government community.
+
+[**Get a free ticket**](https://www.eventbrite.co.uk/e/cross-government-tools-and-collaboration-a-show-and-tell-tickets-853651784467)
+
 {% include "../app/includes/shared_projects.njk" %}
 
 {% include "../app/includes/posts.njk" %}
