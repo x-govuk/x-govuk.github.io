@@ -1,6 +1,10 @@
 const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
+const rssPlugin = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.addPlugin(rssPlugin);
+
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     icons: {
       mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-mask-icon.svg?raw=true',
