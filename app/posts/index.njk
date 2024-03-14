@@ -19,10 +19,6 @@
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.post | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
-  <author>
-    <name>{{ metadata.author.name }}</name>
-    <email>{{ metadata.author.email }}</email>
-  </author>
   {%- for post in collections.post | reverse %}
   {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
@@ -30,6 +26,19 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
+    {% if post.data.authors %}
+      {% for author in post.data.authors %}
+        <author>
+          <name>{{ author.name }}</name>
+          <uri>{{ author.url }}</uri>
+        </author>
+      {% endfor %}
+    {% elif post.data.author %}
+      <author>
+        <name>{{ post.data.author.name }}</name>
+        <uri>{{ post.data.author.url }}</uri>
+      </author>
+    {% endif %}
     <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
