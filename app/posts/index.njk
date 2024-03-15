@@ -39,7 +39,9 @@
         {% if post.data.author.url %}<uri>{{ post.data.author.url }}</uri>{% endif %}
       </author>
     {% endif %}
-    <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content xml:lang="{{ metadata.language }}" type="html">
+      <![CDATA[ {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }} ]]>
+    </content>
   </entry>
   {%- endfor %}
 </feed>
