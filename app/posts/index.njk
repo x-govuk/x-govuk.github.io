@@ -30,13 +30,13 @@
       {% for author in post.data.authors %}
         <author>
           <name>{{ author.name }}</name>
-          <uri>{{ author.url }}</uri>
+          {% if author.url %}<uri>{{ author.url }}</uri>{% endif %}
         </author>
       {% endfor %}
     {% elif post.data.author %}
       <author>
         <name>{{ post.data.author.name }}</name>
-        <uri>{{ post.data.author.url }}</uri>
+        {% if post.data.author.url %}<uri>{{ post.data.author.url }}</uri>{% endif %}
       </author>
     {% endif %}
     <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
