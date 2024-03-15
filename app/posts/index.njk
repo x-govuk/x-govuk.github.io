@@ -18,7 +18,7 @@
   <link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.post | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-  <id>{{ metadata.url }}</id>
+  <id>{{ metadata.url }}/</id>
   {%- for post in collections.post | reverse %}
   {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
