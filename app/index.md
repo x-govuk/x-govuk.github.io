@@ -85,6 +85,10 @@ description: A community-maintained collection of resources which are useful for
 - [Twirl](https://github.com/hmrc/play-frontend-hmrc)
 - [WTForms](https://github.com/LandRegistry/govuk-frontend-wtf)
 
+### Analysis
+
+- [Quarto templates](https://github.com/DataS-DHSC/dhsc_quarto_template) 
+
 </div>
 </div>
 
