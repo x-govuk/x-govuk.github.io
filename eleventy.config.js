@@ -22,6 +22,14 @@ module.exports = function (eleventyConfig) {
       logotype: 'x-govuk'
     },
     footer: {
+      meta: {
+        items: [
+          {
+            href: "/feed.xml",
+            text: "Subscribe to feed"
+          }
+        ]
+      },
       contentLicence: {
         html: 'An unofficial community project. <a class="govuk-footer__link" href="https://github.com/x-govuk/x-govuk.github.io">GitHub source</a>.'
       },
