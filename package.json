@@ -24,7 +24,7 @@
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^4.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@x-govuk/govuk-eleventy-plugin": "^6.0.0"
+    "@x-govuk/govuk-eleventy-plugin": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0",

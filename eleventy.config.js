@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
     },
     opengraphImageUrl:
       'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
-    feedUrl: 'https://x-govuk.github.io/posts.xml',
+    feedUrl: 'posts.xml',
     homeKey: 'X-GOVUK',
     url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/',
     header: {
