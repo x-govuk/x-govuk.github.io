@@ -89,6 +89,14 @@ description: A community-maintained collection of resources which are useful for
 
 - [Quarto templates](https://github.com/DataS-DHSC/dhsc_quarto_template) 
 
+### Product management
+
+- [Product management learning list](https://docs.google.com/spreadsheets/d/15bimOfA5EYpvfC3UbU8MUV-qUjhSKdcrukHisQqNzhU/edit#gid=0)
+- [Learn by doing (for associate and mid-level product managers)](https://github.com/alphagov/Product-Managers-Learn-By-Doing)
+- [Learn by doing (for senior and lead product managers)](https://github.com/alphagov/Product-Leadership-skills)
+- [Join the product manager buddy scheme](https://docs.google.com/forms/d/e/1FAIpQLSf4RMKfyzMi0ZlASGhmJMDaQHDNI4h0g2XYubv0o9hrYH77qw/viewform)
+- Things to do as a new product manager in your first 30 days ([Trello board](https://trello.com/b/UjAn4OBa) or [Notion board](https://www.notion.so/stevenjmesser/216be86b0fe04ff8b0fbe61e0928178e?v=2368cfc6cf734d8890fb09aa59225423))
+
 </div>
 </div>
 
