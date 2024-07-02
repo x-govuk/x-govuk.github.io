@@ -96,6 +96,6 @@ Perhaps there a could be a way for teams to share these ideas and collaborativel
 ---
 
 <small>The background pattern in this post’s illustration was created using [Fractalpuzzlejs](https://github.com/proceduraljigsaw/Fractalpuzzlejs).
-  
+
 Thanks to Steve Messer, Claire Hughes and Ed Horsford for reviewing this post.
 </small>
