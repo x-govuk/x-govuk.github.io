@@ -1,9 +1,8 @@
 const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
-const rssPlugin = require("@11ty/eleventy-plugin-rss");
+const rssPlugin = require('@11ty/eleventy-plugin-rss')
 
 module.exports = function (eleventyConfig) {
-
-  eleventyConfig.addPlugin(rssPlugin);
+  eleventyConfig.addPlugin(rssPlugin)
 
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     icons: {
@@ -25,8 +24,8 @@ module.exports = function (eleventyConfig) {
       meta: {
         items: [
           {
-            href: "/feed.xml",
-            text: "Subscribe to feed"
+            href: '/feed.xml',
+            text: 'Subscribe to feed'
           }
         ]
       },
