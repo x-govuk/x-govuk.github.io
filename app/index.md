@@ -87,7 +87,7 @@ description: A community-maintained collection of resources which are useful for
 
 ### Analysis
 
-- [Quarto templates](https://github.com/DataS-DHSC/dhsc_quarto_template) 
+- [Quarto templates](https://github.com/DataS-DHSC/dhsc_quarto_template)
 
 ### Product management
 
