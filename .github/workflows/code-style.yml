@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   test_build:
-    name: Test build
+    name: Code style check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
