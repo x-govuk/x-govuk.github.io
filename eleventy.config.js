@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
       'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
     feedUrl: 'feed.xml',
     homeKey: 'X-GOVUK',
+    titleSuffix: 'X-GOVUK',
     url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/',
     header: {
       logotype: 'x-govuk'
