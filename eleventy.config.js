@@ -1,5 +1,5 @@
-const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
+const govukEleventyPlugin = require('@x-govuk/govuk-eleventy-plugin')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin)
