@@ -1,6 +1,6 @@
-const EleventyFetch = require('@11ty/eleventy-fetch')
+import EleventyFetch from '@11ty/eleventy-fetch'
 
-module.exports = async function () {
+export default async function () {
   const url = 'https://api.github.com/orgs/x-govuk/repos'
 
   return EleventyFetch(url, {
