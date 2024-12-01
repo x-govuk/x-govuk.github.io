@@ -21,9 +21,9 @@
     "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-fetch": "^4.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-fetch": "^5.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.0",
     "@x-govuk/govuk-eleventy-plugin": "^6.6.1"
   },
   "devDependencies": {
