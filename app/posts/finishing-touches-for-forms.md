@@ -60,7 +60,7 @@ And now our error summary is in the right spot.
 
 ![Two screenshots side by side showing a form with errors. The left one has the error summary after the h1 and the right one has the error summary first](/assets/posts/finishing-touches-for-forms/error-summary-side-by-side.png)
 
-## Prefixing the page title with `Error:`
+## Prefixing the page title with 'Error:'
 
 When a form submission results in a validation failure we need to make it clear to the user that something is wrong.
 
@@ -70,31 +70,26 @@ When a form submission results in a validation failure we need to make it clear 
 
 This is a little tricky because we need some logic that can determine whether there's an error on the page, and we set the `<title>` in the document `<head>` before we've rendered the form in the `<body>`.
 
-We can use `content_for` to our advantage here, too.
-
-First, we set page titles using a [helper method](https://www.rubyguides.com/2020/01/rails-helpers/) and pass in the text and value that represents whether or not there are any errors on the page:
+We can use `content_for` to our advantage here too to place the title where we need it.
 
 ```html
-<%
-  page_title(
-    "How many implements can you juggle with?",
-    error: @object.errors.any?
-  )
-%>
+<head>
+  <%= tag.title(yield(:page_title)) %>
+  <!-- other head content -->
+</head>
 ```
 
-If there are errors we can add the 'Error:' prefix:
+Now we can the components library's [title with error prefix](https://govuk-components.netlify.app/helpers/title-with-error-prefix/) helper to add the 'Error:' prefix whenever `@object.errors.any?` is `true`.
 
 ```ruby
-def page_title(text, error: false)
-  title_content = if error
-                    "Error: #{text}"
-                  else
-                    text
-                  end
-
-  content_for(:page_title) { title_content }
-end
+<%
+  content_for(:page_title) do
+    title_with_error_prefix(
+      "How many implements can you juggle with?",
+      error: @object.errors.any?
+    )
+  end
+%>
 ```
 
 And so long as we have a corresponding `yield(:page_title)` in the layout, our titles will now be prefixed with 'Error:' whenever something's wrong.
