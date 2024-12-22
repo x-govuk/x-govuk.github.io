@@ -27,11 +27,7 @@ In addition to making it clear that something is wrong, we also need to tell the
 
 > Put the error summary at the top of the main container. If your page includes breadcrumbs or a back link, place it below these, but above the `<h1>`.
 
-This causes a few problems.
-
-The GOV.UK design system includes some complex rules around linking to fields from the error summary. For example, errors on checkbox or radio button fields should link to the first checkbox or radio button.
-
-Rails doesn't support this and for it to work the hyperlinks and targets need to be consistent. Because forms can contain custom logic, it's vital that the form builder is responsible for generating both.
+This is problematic because the form often isn't the first thing on the page but the form builder needs to be responsible for rendering the error summary to ensure the links and targets are consistent.
 
 We could solve the problem by wrapping the whole page in a `<form>` element, which would allow us to place the error summary wherever we like, but it's a hack. It isn't semantically correct and is likely to lead to other problems.
 
@@ -92,11 +88,62 @@ Now we can the components library's [title with error prefix](https://govuk-comp
 %>
 ```
 
-And so long as we have a corresponding `yield(:page_title)` in the layout, our titles will now be prefixed with 'Error:' whenever something's wrong.
+## Making sure our check boxes and radio button error links work
 
-```html
-<head>
-  <%= tag.title(yield(:page_title)) %>
-  <!-- other head content -->
-</head>
+The form builder comes with two ways to build lists of check boxes and radio buttons.
+
+The simplest is to use `#govuk_collection_check_boxes` and `#govuk_collection_radio_buttons`, which mimic the behaviour of [their Rails counterparts](https://edgeapi.rubyonrails.org/classes/ActionView/Helpers/FormBuilder.html#method-i-collection_checkboxes).
+
+You just pass in the list of options and the form builder will render them. This works for simple lists.
+
+Sometimes, however, the list needs to be customised a little further. For example we might need [a conditionally revealed questions](https://design-system.service.gov.uk/components/checkboxes#conditionally-revealing-a-related-question) or [a divider](https://design-system.service.gov.uk/components/checkboxes/#add-an-option-for-none).
+
+To support this the form builder comes with the more powerful `#govuk_check_boxes_fieldset` and `#govuk_radio_buttons_fieldset` methods which let the developer build the form field by field.
+
+This power comes at a cost. For example you could write something like this. Here the `delete` will only be shown to admins:
+
+```ruby
+f.govuk_radio_buttons_fieldset(:close_ticket)) do
+
+  if @user.admin?
+    f.govuk_radio_button(
+      :close_ticket,
+      'delete'
+    )
+  end
+
+  f.govuk_radio_button(
+    :close_ticket,
+    'archive'
+  )
+
+  # the rest of the options
+end
 ```
+
+This would make it impossible for the error summary to accurately link to the first check box or radio button without repeating the logic --- an approach that's going to lead to bugs when it's updated in one place but not the other.
+
+Instead, we have to help the error summary by 'marking' the field we want the error summary to link to with `link_error: true`. This overrides the ID generation so the link in the error summary will match it.
+
+```ruby
+f.govuk_radio_buttons_fieldset(:close_ticket)) do
+
+  if @user.admin?
+    f.govuk_radio_button(
+      :close_ticket,
+      'delete',
+      link_errors: true
+    )
+  end
+
+  f.govuk_radio_button(
+    :close_ticket,
+    'archive',
+    link_errors: @user.regular_user?
+  )
+
+  # the rest of the options
+end
+```
+
+Now when there's a validation error, regardless of whether the user is an admin or not the error summary will link to the first option. It's a good idea to write some tests to ensure future changes don't affect it.
