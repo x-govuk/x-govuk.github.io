@@ -11,11 +11,11 @@ image:
   opengraphImage: true
 ---
 
-The [GOV.UK formbuilder](https://govuk-form-builder.netlify.app) makes it easy for Ruby on Rails developers to build forms that follow the rules set out in the [GOV.UK design system](https://design-system.service.gov.uk/).
+The [GOV.UK formbuilder](https://govuk-form-builder.netlify.app) makes it easy for Ruby on Rails developers to build forms that follow the rules set out in the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
 It generates the correct HTML, provides a nice API for customising the fields to meet the needs of your service and takes care of clearly displaying any error messages.
 
-There are, however, some suggestions in the design system guidance that go beyond the remit of the form builder.
+There are, however, some suggestions in the Design System guidance that go beyond the remit of the form builder.
 
 They are often forgotten, we'll go over some simple ways to solve them here.
 
