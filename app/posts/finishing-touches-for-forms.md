@@ -5,6 +5,10 @@ description: Some tips on making sure forms written in Ruby on Rails are accessi
 author:
   name: Peter Yates
   url: https://github.com/peteryates
+image:
+  src: /assets/posts/finishing-touches-for-forms/illustration.png
+  alt: Illustration of somebody straightening a picture frame on a wall which says ‘form sweet form’.
+  opengraphImage: true
 ---
 
 The [GOV.UK formbuilder](https://govuk-form-builder.netlify.app) makes it easy for Ruby on Rails developers to build forms that follow the rules set out in the [GOV.UK design system](https://design-system.service.gov.uk/).
