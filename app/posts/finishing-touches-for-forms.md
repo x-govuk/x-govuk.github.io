@@ -68,7 +68,7 @@ When a form submission results in a validation failure we need to make it clear 
 
 > Add ‘Error: ’ to the beginning of the page `<title>` so screen readers read it out as soon as possible
 
-This is a little tricky because we need a some logic that can determine whether there's an error on the page, and we set the `<title>` in the document `<head>` before we've rendered the form in the `<body>`.
+This is a little tricky because we need some logic that can determine whether there's an error on the page, and we set the `<title>` in the document `<head>` before we've rendered the form in the `<body>`.
 
 We can use `content_for` to our advantage here, too.
 
