@@ -75,7 +75,7 @@ We can use `content_for` to our advantage here too to place the title where we n
 </head>
 ```
 
-Now we can the components library's [title with error prefix](https://govuk-components.netlify.app/helpers/title-with-error-prefix/) helper to add the 'Error:' prefix whenever `@object.errors.any?` is `true`.
+We can use the [GOV.UK Components](https://govuk-components.netlify.app/) [title with error prefix helper](https://govuk-components.netlify.app/helpers/title-with-error-prefix/) to add the 'Error:' prefix whenever `@object.errors.any?` is `true`.
 
 ```ruby
 <%
