@@ -66,7 +66,7 @@ When a form submission results in a validation failure we need to make it clear 
 
 This is a little tricky because we need some logic that can determine whether there's an error on the page, and we set the `<title>` in the document `<head>` before we've rendered the form in the `<body>`.
 
-We can use `content_for` to our advantage here too to place the title where we need it.
+We can use `content_for` here too to place the title where we need it.
 
 ```html
 <head>
@@ -75,7 +75,7 @@ We can use `content_for` to our advantage here too to place the title where we n
 </head>
 ```
 
-We can use the [GOV.UK Components](https://govuk-components.netlify.app/) [title with error prefix helper](https://govuk-components.netlify.app/helpers/title-with-error-prefix/) to add the 'Error:' prefix whenever `@object.errors.any?` is `true`.
+We can use the [GOV.UK Components](https://govuk-components.netlify.app/) [title with error prefix helper](https://govuk-components.netlify.app/helpers/title-with-error-prefix/) to add the 'Error:' prefix whenever `@object.errors.any?` is `true`, and pass the resulting string into the `page_title` content:
 
 ```ruby
 <%
