@@ -123,7 +123,7 @@ end
 
 This would make it impossible for the error summary to accurately link to the first check box or radio button without repeating the logic --- an approach that's going to lead to bugs when it's updated in one place but not the other.
 
-Instead, we have to help the error summary by 'marking' the field we want the error summary to link to with `link_error: true`. This overrides the ID generation so the link in the error summary will match it.
+Instead, we have to help the error summary by 'marking' the field we want the error summary to link to with `link_errors: true`. This overrides the ID generation so the link in the error summary will match it.
 
 ```ruby
 f.govuk_radio_buttons_fieldset(:close_ticket)) do
