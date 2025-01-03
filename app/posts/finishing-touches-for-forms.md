@@ -88,7 +88,7 @@ We can use the [GOV.UK Components](https://govuk-components.netlify.app/) [title
 %>
 ```
 
-## Making sure our check boxes and radio button error links work
+## Making sure error links to checkboxes and radios work
 
 The form builder comes with two ways to build lists of check boxes and radio buttons.
 
