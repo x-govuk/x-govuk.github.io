@@ -147,3 +147,9 @@ end
 ```
 
 Now when there's a validation error, regardless of whether the user is an admin or not the error summary will link to the first option. It's a good idea to write some tests to ensure future changes don't affect it.
+
+---
+
+These finishing touches will help make sure your forms are usable and accessible.
+
+If you have any feedback or suggestions of other form features commonly missed, [let us know](https://github.com/x-govuk/govuk-form-builder/issues/new).
