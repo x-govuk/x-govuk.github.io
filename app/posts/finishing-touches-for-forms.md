@@ -90,7 +90,7 @@ We can use the [GOV.UK Components](https://govuk-components.netlify.app/) [title
 
 ## Making sure error links to checkboxes and radios work
 
-The form builder comes with two ways to build lists of check boxes and radio buttons.
+The form builder comes with two ways to build lists of checkboxes and radio buttons.
 
 The simplest is to use `#govuk_collection_check_boxes` and `#govuk_collection_radio_buttons`, which mimic the behaviour of [their Rails counterparts](https://edgeapi.rubyonrails.org/classes/ActionView/Helpers/FormBuilder.html#method-i-collection_checkboxes).
 
@@ -121,7 +121,7 @@ f.govuk_radio_buttons_fieldset(:close_ticket)) do
 end
 ```
 
-This would make it impossible for the error summary to accurately link to the first check box or radio button without repeating the logic --- an approach that's going to lead to bugs when it's updated in one place but not the other.
+This would make it impossible for the error summary to accurately link to the first checkbox or radio button without repeating the logic --- an approach that's going to lead to bugs when it's updated in one place but not the other.
 
 Instead, we have to help the error summary by 'marking' the field we want the error summary to link to with `link_errors: true`. This overrides the ID generation so the link in the error summary will match it.
 
