@@ -100,7 +100,7 @@ Sometimes, however, the list needs to be customised a little further. For exampl
 
 To support this the form builder comes with the more powerful `#govuk_check_boxes_fieldset` and `#govuk_radio_buttons_fieldset` methods which let the developer build the form field by field.
 
-This power comes at a cost. For example you could write something like this. Here the `delete` will only be shown to admins:
+This power comes at a cost. For example you could write something like this. Here, `delete` will only be shown to admins:
 
 ```ruby
 f.govuk_radio_buttons_fieldset(:close_ticket)) do
