@@ -28,7 +28,7 @@ description: A community-maintained collection of resources which are useful for
 - [HM Land Registry Design System](https://hmlr-design-system.herokuapp.com)
 - [HMRC Design Patterns](https://design.tax.service.gov.uk/hmrc-design-patterns/)
 - [Home Office Design System](https://design.homeoffice.gov.uk)
-- [Ministry of Justice Pattern Library](https://design-patterns.service.justice.gov.uk)
+- [Ministry of Justice Design System](https://design-patterns.service.justice.gov.uk)
 - [MOD.UK Design System](https://design-system.service.mod.gov.uk)
 - [NHS Design System](https://service-manual.nhs.uk/design-system)
 - [NICE Design System](https://design-system.nice.org.uk)
@@ -62,6 +62,7 @@ description: A community-maintained collection of resources which are useful for
 - [GOV.WALES style guide](https://gov.wales/govwales-style-guide)
 - [HMRC content style guide](https://design.tax.service.gov.uk/hmrc-content-style-guide/)
 - [Home Office style guide](https://design.homeoffice.gov.uk/content-style-guide)
+- [MoJ content style guide](https://design-patterns.service.justice.gov.uk/content-standards/style-guide/)
 - [NHS content style guide](https://service-manual.nhs.uk/content)
 
 ### Prototyping
