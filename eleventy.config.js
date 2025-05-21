@@ -1,26 +1,25 @@
-import rssPlugin from '@11ty/eleventy-plugin-rss'
-import govukEleventyPlugin from '@x-govuk/govuk-eleventy-plugin'
+import { govukEleventyPlugin } from '@x-govuk/govuk-eleventy-plugin'
+
+const serviceName = 'X-GOVUK'
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPlugin(rssPlugin)
-
   eleventyConfig.addPlugin(govukEleventyPlugin, {
     icons: {
-      mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-mask-icon.svg?raw=true',
+      mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-mask.svg?raw=true',
       shortcut:
-        'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-favicon.ico',
+        'https://raw.githubusercontent.com/x-govuk/logo/main/images/favicon.ico',
       touch:
-        'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-apple-touch-icon.png'
+        'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-180.png'
     },
     opengraphImageUrl:
       'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
-    feedUrl: 'feed.xml',
-    homeKey: 'X-GOVUK',
-    titleSuffix: 'X-GOVUK',
+    themeColor: '#2288aa',
+    titleSuffix: serviceName,
+    homeKey: serviceName,
+    showBreadcrumbs: false,
+    headingPermalinks: true,
     url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/',
-    header: {
-      logotype: 'x-govuk'
-    },
+    stylesheets: ['/assets/application.css'],
     footer: {
       meta: {
         items: [
@@ -36,7 +35,8 @@ export default function (eleventyConfig) {
       copyright: {
         text: '© X-GOVUK'
       }
-    }
+    },
+    rebrand: true
   })
 
   // Collections
@@ -47,14 +47,16 @@ export default function (eleventyConfig) {
   // Pass through
   eleventyConfig.addPassthroughCopy('./app/assets')
 
+  // Enable X-GOVUK brand
+  eleventyConfig.addNunjucksGlobal('xGovuk', true)
+
   return {
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
     dir: {
       input: 'app',
-      data: 'data',
-      layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
+      data: 'data'
     }
   }
 }
