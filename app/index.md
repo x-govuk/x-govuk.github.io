@@ -5,20 +5,12 @@ title: Welcome to X-GOVUK
 description: A community-maintained collection of resources which are useful for working on GOV.UK services.
 ---
 
-{% include "../app/includes/shared_projects.njk" %}
-
-{% include "../app/includes/posts.njk" %}
-
-<hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl govuk-!-margin-top-0">
-
-<h2 class="govuk-heading-l" id="resources">Resources</h2>
-
 <div class="govuk-grid-row">
 <div class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
 
-### Design
+## Design
 
-#### Design systems, patterns and components
+### Design systems, patterns and components
 
 - [GOV.UK Design System](https://design-system.service.gov.uk)
 - [Digital Land Design System](https://digital-land.github.io/design-system/)
@@ -41,20 +33,6 @@ description: A community-maintained collection of resources which are useful for
 - [Maidstone Design System](https://digitalservices.maidstone.gov.uk/about-us/design-system)
 - [Essex County Council's design and patterns library](https://www.essex.gov.uk/essex-county-councils-design-and-patterns-library)
 
-#### Other design resources
-
-- [Accessibility Personas](https://alphagov.github.io/accessibility-personas/)
-- [Department for Education Design Manual](https://design.education.gov.uk)
-- [Statistics on usage of `govuk-frontend` components](https://github.com/x-govuk/govuk-frontend-component-stats)
-
-### User research
-
-- [Department for Education User Research manual](https://user-research.education.gov.uk)
-- [Local government user research library](https://research.localgov.digital/)
-
-</div>
-<div class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
-
 ### Content design
 
 - [Government Digital Service style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)
@@ -65,14 +43,28 @@ description: A community-maintained collection of resources which are useful for
 - [MoJ content style guide](https://design-patterns.service.justice.gov.uk/content-standards/style-guide/)
 - [NHS content style guide](https://service-manual.nhs.uk/content)
 
-### Prototyping
+### Other design resources
+
+- [Accessibility Personas](https://alphagov.github.io/accessibility-personas/)
+- [Department for Education Design Manual](https://design.education.gov.uk)
+- [Statistics on usage of `govuk-frontend` components](https://github.com/x-govuk/govuk-frontend-component-stats)
+
+## User research
+
+- [Department for Education User Research manual](https://user-research.education.gov.uk)
+- [Local government user research library](https://research.localgov.digital/)
+
+</div>
+<div class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-4">
+
+## Prototyping
 
 - [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk/docs/)
 - [GOV.UK Prototype Wizard](https://github.com/x-govuk/govuk-prototype-wizard)
 - [Navigation radios extension](https://github.com/x-govuk/prototype-navigation-radios)
 - [GOV.UK Figma library](https://www.figma.com/file/NWuFffKvPQhl3aJ9nKU0p3/GOV.UK-Design-System?node-id=0%3A1)
 
-### Frontend
+## Frontend
 
 - [GOV.UK Frontend](https://frontend.design-system.service.gov.uk)
 - [GOV.UK Frontend Flask](https://github.com/LandRegistry/govuk-frontend-flask)
@@ -86,11 +78,11 @@ description: A community-maintained collection of resources which are useful for
 - [Twirl](https://github.com/hmrc/play-frontend-hmrc)
 - [WTForms](https://github.com/LandRegistry/govuk-frontend-wtf)
 
-### Analysis
+## Analysis
 
 - [Quarto templates](https://github.com/DataS-DHSC/dhsc_quarto_template)
 
-### Product management
+## Product management
 
 - [Product management learning list](https://docs.google.com/spreadsheets/d/15bimOfA5EYpvfC3UbU8MUV-qUjhSKdcrukHisQqNzhU/edit#gid=0)
 - [Learn by doing (for associate and mid-level product managers)](https://github.com/alphagov/Product-Managers-Learn-By-Doing)
