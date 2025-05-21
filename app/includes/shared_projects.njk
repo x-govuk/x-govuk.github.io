@@ -1,4 +1,3 @@
-<h2 class="govuk-heading-l" id="projects">Projects</h2>
 <div class="govuk-grid-row">
 {% set columns = cycler("1", "2") %}
 {% for repo in repos | includes("topics", "project") | sort(false, true, "name") %}

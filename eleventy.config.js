@@ -20,6 +20,22 @@ export default function (eleventyConfig) {
     headingPermalinks: true,
     url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/',
     stylesheets: ['/assets/application.css'],
+    serviceNavigation: {
+      navigation: [
+        {
+          text: 'Home',
+          href: '/'
+        },
+        {
+          text: 'Community projects',
+          href: '/projects'
+        },
+        {
+          text: 'Posts',
+          href: '/posts'
+        }
+      ]
+    },
     footer: {
       meta: {
         items: [
