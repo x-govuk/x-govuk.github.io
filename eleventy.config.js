@@ -49,6 +49,9 @@ export default function (eleventyConfig) {
     },
     showBreadcrumbs: false,
     stylesheets: ['/assets/application.css'],
+    templates: {
+      feed: true
+    },
     themeColor: '#2288aa',
     titleSuffix: serviceName,
     url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/'
