@@ -4,6 +4,24 @@ const serviceName = 'X-GOVUK'
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(govukEleventyPlugin, {
+    footer: {
+      meta: {
+        items: [
+          {
+            href: '/feed.xml',
+            text: 'Subscribe to feed'
+          }
+        ]
+      },
+      contentLicence: {
+        html: 'An unofficial community project. <a class="govuk-footer__link" href="https://github.com/x-govuk/x-govuk.github.io">GitHub source</a>.'
+      },
+      copyright: {
+        text: '© X-GOVUK'
+      }
+    },
+    headingPermalinks: true,
+    homeKey: serviceName,
     icons: {
       mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-mask.svg?raw=true',
       shortcut:
@@ -13,13 +31,6 @@ export default function (eleventyConfig) {
     },
     opengraphImageUrl:
       'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-opengraph-image.png',
-    themeColor: '#2288aa',
-    titleSuffix: serviceName,
-    homeKey: serviceName,
-    showBreadcrumbs: false,
-    headingPermalinks: true,
-    url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/',
-    stylesheets: ['/assets/application.css'],
     serviceNavigation: {
       navigation: [
         {
@@ -36,22 +47,11 @@ export default function (eleventyConfig) {
         }
       ]
     },
-    footer: {
-      meta: {
-        items: [
-          {
-            href: '/feed.xml',
-            text: 'Subscribe to feed'
-          }
-        ]
-      },
-      contentLicence: {
-        html: 'An unofficial community project. <a class="govuk-footer__link" href="https://github.com/x-govuk/x-govuk.github.io">GitHub source</a>.'
-      },
-      copyright: {
-        text: '© X-GOVUK'
-      }
-    }
+    showBreadcrumbs: false,
+    stylesheets: ['/assets/application.css'],
+    themeColor: '#2288aa',
+    titleSuffix: serviceName,
+    url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/'
   })
 
   // Collections
