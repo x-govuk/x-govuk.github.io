@@ -2,7 +2,7 @@
 title: An introduction to X-GOVUK
 description: What the "X" in "X-GOVUK" stands for.
 date: 2022-03-16
-authors:
+author:
   - name: Frankie Roberto
     url: https://github.com/frankieroberto
   - name: Paul Lloyd
