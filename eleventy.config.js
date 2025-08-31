@@ -20,7 +20,6 @@ export default function (eleventyConfig) {
         text: '© X-GOVUK'
       }
     },
-    headingPermalinks: true,
     homeKey: serviceName,
     icons: {
       mask: 'https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-mask.svg?raw=true',
