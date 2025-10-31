@@ -11,7 +11,7 @@ image:
   opengraphImage: true
 ---
 
-The [GOV.UK formbuilder](https://govuk-form-builder.netlify.app) makes it easy for Ruby on Rails developers to build forms that follow the rules set out in the [GOV.UK Design System](https://design-system.service.gov.uk/).
+The [GOV.UK formbuilder](https://govuk-form-builder.x-govuk.org) makes it easy for Ruby on Rails developers to build forms that follow the rules set out in the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
 It generates the correct HTML, provides a nice API for customising the fields to meet the needs of your service and takes care of clearly displaying any error messages.
 
@@ -75,7 +75,7 @@ We can use `content_for` here too to place the title where we need it.
 </head>
 ```
 
-We can use the [GOV.UK Components](https://govuk-components.netlify.app/) [title with error prefix helper](https://govuk-components.netlify.app/helpers/title-with-error-prefix/) to add the 'Error:' prefix whenever `@object.errors.any?` is `true`, and pass the resulting string into the `page_title` content:
+We can use the [GOV.UK Components](https://govuk-components.x-govuk.org/) [title with error prefix helper](https://govuk-components.x-govuk.org/helpers/title-with-error-prefix/) to add the 'Error:' prefix whenever `@object.errors.any?` is `true`, and pass the resulting string into the `page_title` content:
 
 ```ruby
 <%

@@ -57,7 +57,7 @@ These inconsistencies have been resolved, alongside the ability to include the d
 
 ## GOV.UK Components and Form Builder for Ruby on Rails
 
-[Peter Yates](https://github.com/peteryates) continues his diligent stewardship of the Ruby Gems that provide [components for use with Rails’ ViewComponent framework](https://govuk-components.netlify.app/) and [form components for Rails’ `FormBuilder`](https://govuk-form-builder.netlify.app/).
+[Peter Yates](https://github.com/peteryates) continues his diligent stewardship of the Ruby Gems that provide [components for use with Rails’ ViewComponent framework](https://govuk-components.x-govuk.org/) and [form components for Rails’ `FormBuilder`](https://govuk-form-builder.x-govuk.org/).
 
 Updates to both gems in support of the rebrand will be released on 25 June.
 

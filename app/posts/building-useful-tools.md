@@ -55,7 +55,7 @@ Good documentation is probably the best way to give projects an air of legitimac
 
 While the upstream Nunjucks macros are a great starting point, I took every opportunity to make the developer experience a bit smoother.
 
-Being able to make a [tag](https://design-system.service.gov.uk/components/tag/) blue with `colour: blue` instead of passing in `classes: "govuk-tag--blue"`, or open [a link](https://govuk-components.netlify.app/helpers/link/) in a new tab with `new_tab: true` rather than `rel="noreferrer noopener" target="_blank"` are small improvements, but they add up.
+Being able to make a [tag](https://design-system.service.gov.uk/components/tag/) blue with `colour: blue` instead of passing in `classes: "govuk-tag--blue"`, or open [a link](https://govuk-components.x-govuk.org/helpers/link/) in a new tab with `new_tab: true` rather than `rel="noreferrer noopener" target="_blank"` are small improvements, but they add up.
 
 ### 6. Encouraging contributions
 

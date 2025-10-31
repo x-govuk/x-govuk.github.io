@@ -11,7 +11,7 @@ image:
   opengraphImage: true
 ---
 
-Version 5 of the GOV.UK Design System was released on 8 December 2023. Half an hour later, we released version 5 of the x-govuk [form builder](https://govuk-form-builder.netlify.app/) and [components](https://govuk-components.netlify.app/) libraries.
+Version 5 of the GOV.UK Design System was released on 8 December 2023. Half an hour later, we released version 5 of the x-govuk [form builder](https://govuk-form-builder.x-govuk.org/) and [components](https://govuk-components.x-govuk.org/) libraries.
 
 The short turnaround time might suggest it was a quick job, but work on the included features started in May and we've made some significant improvements since then.
 
@@ -106,7 +106,7 @@ Thankfully we uncovered the problems in our pre-release testing so didn't break 
 
 Still, opening links in a new tab was something I wanted to address. It's more complicated than the other modifiers like `no_underline` because it adds multiple new attributes to links. Developers often forget the `rel` attribute, leaving users open to [reverse tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). We can provide real value for users by supporting this feature.
 
-In the new version, all of the design system options for links and buttons are represented by keyword arguments. They allow us to [support a large number of parameters](https://govuk-components.netlify.app/helpers/link/) while keeping [the code](https://github.com/x-govuk/govuk-components/blob/main/app/helpers/govuk_link_helper.rb) clean and succinct.
+In the new version, all of the design system options for links and buttons are represented by keyword arguments. They allow us to [support a large number of parameters](https://govuk-components.x-govuk.org/helpers/link/) while keeping [the code](https://github.com/x-govuk/govuk-components/blob/main/app/helpers/govuk_link_helper.rb) clean and succinct.
 
 Now developers can reliably build complex link markup with confidence:
 
