@@ -11,7 +11,7 @@ project:
       title: Fix Common Accessibility Mistakes
       description: Learn how to fix common accessibility mistakes in government digital services.
 
-  - url: https://govuk-components.x-govuk.org/
+  - url: https://govuk-components.x-govuk.org
     data:
       title: GOV.UK Components for Ruby on Rails
       description: Build GOV.UK services using Ruby on Rails components.
@@ -21,7 +21,7 @@ project:
       title: GOV.UK Design History
       description: Document and share design decisions. Create a permanent record of how your service has developed over time.
 
-  - url: https://govuk-form-builder.x-govuk.org/
+  - url: https://govuk-form-builder.x-govuk.org
     data:
       title: GOV.UK Form Builder for Ruby on Rails
       description: Build GOV.UK services using Ruby on Rails’ form builder.
@@ -61,7 +61,7 @@ project:
       title: GOV.UK Services Frontend Stats
       description: Current versions of GOV.UK Frontend used by different services, based on their publicly available source code.
 
-  - url: https://govuk-digital-services.herokuapp.com/
+  - url: https://govuk-digital-services.herokuapp.com
     data:
       title: GOV.UK Services List
       description: A catalogue of digital services from the UK government and its agencies.
