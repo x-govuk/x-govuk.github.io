@@ -81,9 +81,9 @@ One area where these options felt limiting (and possibly prone to misuse) was th
 
 Another issue was the lack of support for [GitHub-style alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
 
-Version 8 of the GOV.UK Eleventy Plugin changes [the way block quotes get rendered](https://x-govuk.org/govuk-eleventy-plugin/example/markdown/#blockquotes), instead using the design used on GOV.UK where paragraphs display hanging quotation marks. They can now also include an attribution.
+Version 8 of the GOV.UK Eleventy Plugin changes [the way block quotes get rendered](https://govuk-eleventy-plugin.x-govuk.org/example/markdown/#blockquotes), instead using the design used on GOV.UK where paragraphs display hanging quotation marks. They can now also include an attribution.
 
-[Alerts instead use the inset text component](https://x-govuk.org/govuk-eleventy-plugin/example/markdown/#alerts) (with the alert type provided as a visually hidden label). The lowest alert level, ‘note’, has the same appearance as that for inset text, while the remaining alert levels have different border and background colours.
+[Alerts instead use the inset text component](https://govuk-eleventy-plugin.x-govuk.org/example/markdown/#alerts) (with the alert type provided as a visually hidden label). The lowest alert level, ‘note’, has the same appearance as that for inset text, while the remaining alert levels have different border and background colours.
 
 The NHS.UK Eleventy Plugin takes [a slightly different approach for alerts](https://x-govuk.org/nhsuk-eleventy-plugin/example/markdown/#alerts):
 
@@ -125,5 +125,5 @@ Happy website building! 🎈
 ---
 
 - [Get started with the NHS.UK Eleventy Plugin](https://x-govuk.org/nhsuk-eleventy-plugin/get-started/)
-- [Get started with the GOV.UK Eleventy Plugin](https://x-govuk.org/govuk-eleventy-plugin/get-started/)
-- [Upgrade from v7 to v8 of GOV.UK Eleventy Plugin](https://x-govuk.org/govuk-eleventy-plugin/get-started/upgrading/7-to-8/)
+- [Get started with the GOV.UK Eleventy Plugin](https://govuk-eleventy-plugin.x-govuk.org/get-started/)
+- [Upgrade from v7 to v8 of GOV.UK Eleventy Plugin](https://govuk-eleventy-plugin.x-govuk.org/get-started/upgrading/7-to-8/)

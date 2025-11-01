@@ -23,11 +23,11 @@ However, as the number of websites using this template has grown, the harder it 
 
 ## A plugin for Eleventy
 
-The [GOV.UK Eleventy Plugin](https://x-govuk.org/govuk-eleventy-plugin/) makes it easy to start writing documentation rather than spend time building a website for it.
+The [GOV.UK Eleventy Plugin](https://govuk-eleventy-plugin.x-govuk.org) makes it easy to start writing documentation rather than spend time building a website for it.
 
-It does this by providing [a set of layouts](https://x-govuk.org/govuk-eleventy-plugin/layouts/) for different content types and uses [typography classes from the GOV.UK Design System](https://design-system.service.gov.uk/styles/) to ensure documents look familiar to users of other GOV.UK services. (This is achieved via [a plugin for markdown-it](https://github.com/x-govuk/markdown-it-govuk), which can be used on other projects if desired).
+It does this by providing [a set of layouts](https://govuk-eleventy-plugin.x-govuk.org/layouts/) for different content types and uses [typography classes from the GOV.UK Design System](https://design-system.service.gov.uk/styles/) to ensure documents look familiar to users of other GOV.UK services. (This is achieved via [a plugin for markdown-it](https://github.com/x-govuk/markdown-it-govuk), which can be used on other projects if desired).
 
-Markdown written using [an extended syntax](https://x-govuk.org/govuk-eleventy-plugin/example/markdown/) is also supported, meaning authors can easily include tables, abbreviations, footnotes and code examples in their posts, too.
+Markdown written using [an extended syntax](https://govuk-eleventy-plugin.x-govuk.org/example/markdown/) is also supported, meaning authors can easily include tables, abbreviations, footnotes and code examples in their posts, too.
 
 Knowing that teams often need to write documentation for internal users, or build websites that don’t meet [the criteria for using the GOV.UK logo and GDS Transport typeface](https://www.gov.uk/service-manual/design/making-your-service-look-like-govuk), the plugin enables the following to be customised:
 
@@ -45,6 +45,6 @@ The plugin is already being used by different teams across government who have b
 
 One of the benefits of static websites is they don’t need a database, which means they can be hosted pretty much anywhere. Popular platforms for hosting static websites include [GitHub Pages](https://pages.github.com) and [Netlify](https://www.netlify.com).
 
-Get started with the plugin by following the [instructions on the documentation website](https://x-govuk.org/govuk-eleventy-plugin/get-started). This project [is open source](https://github.com/x-govuk/govuk-eleventy-plugin) and contributions are welcome. If you come across an issue or have an idea for a feature, please [submit an issue](https://github.com/x-govuk/govuk-eleventy-plugin/issues). We’re excited to see how you use this tool.
+Get started with the plugin by following the [instructions on the documentation website](https://govuk-eleventy-plugin.x-govuk.org/get-started/). This project [is open source](https://github.com/x-govuk/govuk-eleventy-plugin) and contributions are welcome. If you come across an issue or have an idea for a feature, please [submit an issue](https://github.com/x-govuk/govuk-eleventy-plugin/issues). We’re excited to see how you use this tool.
 
 [^1]: If you’re wondering, the possum tied to a red balloon is Eleventy’s mascot. The [illustration is by Geri Coady](https://www.11ty.dev/blog/new-mascot-from-geri-coady/).

@@ -19,7 +19,7 @@ Besides updating projects to support the refreshed brand, other updates have bee
 
 ## GOV.UK Eleventy Plugin
 
-The latest [v7.0 release to this plugin for Eleventy](https://x-govuk.org/govuk-eleventy-plugin/get-started/upgrading/6-to-7/) addresses a number of long standing issues.
+The latest [v7.0 release to this plugin for Eleventy](https://govuk-eleventy-plugin.x-govuk.org/get-started/upgrading/6-to-7/) addresses a number of long standing issues.
 
 Thanks to the [virtual templates feature](https://www.11ty.dev/docs/virtual-templates/) introduced in Eleventy 3.0, default templates provided by the plugin can now be replaced by creating a layout with the same name in your layouts directory.
 
