@@ -41,7 +41,7 @@ project:
       title: GOV.UK Frontend Stats
       description: Current versions of GOV.UK Frontend used by different services, based on their publicly available source code.
 
-  - url: https://x-govuk.org/govuk-prototype-components/
+  - url: https://govuk-prototype-components.x-govuk.org
     data:
       title: GOV.UK Prototype Components
       description: Use common components that are not yet part of the GOV.UK Design System.
