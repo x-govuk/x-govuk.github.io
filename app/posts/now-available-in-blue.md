@@ -63,7 +63,7 @@ Updates to both gems in support of the rebrand will be released on 25 June.
 
 ## GOV.UK Frontend Statistics
 
-[Frankie Roberto](https://github.com/frankieroberto)’s project attempts to track [adoption of the latest releases to GOV.UK Frontend](https://x-govuk.org/govuk-services-frontend-stats/).
+[Frankie Roberto](https://github.com/frankieroberto)’s project attempts to track [adoption of the latest releases to GOV.UK Frontend](https://govuk-services-frontend-stats.x-govuk.org).
 
 Originally created to track adoption of a release that introduced the Tudor crown, the report has been updated to show which services are ready to support the rebrand.
 
