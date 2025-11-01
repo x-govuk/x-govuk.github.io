@@ -12,7 +12,7 @@ image:
   opengraphImage: true
 ---
 
-Since its [release in April 2022](https://x-govuk.github.io/posts/govuk-eleventy-plugin/), teams across government have been adopting the GOV.UK Eleventy Plugin. Examples include:
+Since its [release in April 2022](https://x-govuk.org/posts/govuk-eleventy-plugin/), teams across government have been adopting the GOV.UK Eleventy Plugin. Examples include:
 
 - [Cross Government Software Engineering Community](https://uk-x-gov-software-community.github.io)
 - [DECS Developer Documentation](https://ukhomeoffice.github.io/hocs/) (Home Office)
@@ -24,7 +24,7 @@ Since its [release in April 2022](https://x-govuk.github.io/posts/govuk-eleventy
 - [Health and Disability Data Glossary](https://dwp-health-data-glossary.netlify.app) (DWP)
 - [Planning Data Service Handbook](https://handbook.planning.data.gov.uk) (MHCLG)
 
-The plugin also powers some of [our own documentation sites](/projects), as well as [a growing collection of design histories](https://x-govuk.github.io/govuk-design-history/directory/), a reflection of the project’s origins.
+The plugin also powers some of [our own documentation sites](/projects), as well as [a growing collection of design histories](https://x-govuk.org/govuk-design-history/directory/), a reflection of the project’s origins.
 
 ![A selection of websites using the GOV.UK Eleventy Plugin](/assets/posts/nhsuk-eleventy-plugin/govuk-eleventy-plugin-sites.png)
 
@@ -38,7 +38,7 @@ This is what teams in the NHS Digital prevention services portfolio discovered w
 
 They needed their own Eleventy plugin, one that reflected the design idioms common to the NHS website. Other teams working in the NHS may want this too.
 
-That’s why we created the [NHS.UK Eleventy Plugin](https://x-govuk.github.io/nhsuk-eleventy-plugin/).
+That’s why we created the [NHS.UK Eleventy Plugin](https://x-govuk.org/nhsuk-eleventy-plugin/).
 
 ## Stick or split?
 
@@ -81,11 +81,11 @@ One area where these options felt limiting (and possibly prone to misuse) was th
 
 Another issue was the lack of support for [GitHub-style alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
 
-Version 8 of the GOV.UK Eleventy Plugin changes [the way block quotes get rendered](https://x-govuk.github.io/govuk-eleventy-plugin/example/markdown/#blockquotes), instead using the design used on GOV.UK where paragraphs display hanging quotation marks. They can now also include an attribution.
+Version 8 of the GOV.UK Eleventy Plugin changes [the way block quotes get rendered](https://x-govuk.org/govuk-eleventy-plugin/example/markdown/#blockquotes), instead using the design used on GOV.UK where paragraphs display hanging quotation marks. They can now also include an attribution.
 
-[Alerts instead use the inset text component](https://x-govuk.github.io/govuk-eleventy-plugin/example/markdown/#alerts) (with the alert type provided as a visually hidden label). The lowest alert level, ‘note’, has the same appearance as that for inset text, while the remaining alert levels have different border and background colours.
+[Alerts instead use the inset text component](https://x-govuk.org/govuk-eleventy-plugin/example/markdown/#alerts) (with the alert type provided as a visually hidden label). The lowest alert level, ‘note’, has the same appearance as that for inset text, while the remaining alert levels have different border and background colours.
 
-The NHS.UK Eleventy Plugin takes [a slightly different approach for alerts](https://x-govuk.github.io/nhsuk-eleventy-plugin/example/markdown/#alerts):
+The NHS.UK Eleventy Plugin takes [a slightly different approach for alerts](https://x-govuk.org/nhsuk-eleventy-plugin/example/markdown/#alerts):
 
 - ‘note‘ and ‘tip’ alerts use the inset text style
 - ‘important‘, ‘warning‘ and ‘caution’ alerts use the warning callout style
@@ -124,6 +124,6 @@ Happy website building! 🎈
 
 ---
 
-- [Get started with the NHS.UK Eleventy Plugin](https://x-govuk.github.io/nhsuk-eleventy-plugin/get-started/)
-- [Get started with the GOV.UK Eleventy Plugin](https://x-govuk.github.io/govuk-eleventy-plugin/get-started/)
-- [Upgrade from v7 to v8 of GOV.UK Eleventy Plugin](https://x-govuk.github.io/govuk-eleventy-plugin/get-started/upgrading/7-to-8/)
+- [Get started with the NHS.UK Eleventy Plugin](https://x-govuk.org/nhsuk-eleventy-plugin/get-started/)
+- [Get started with the GOV.UK Eleventy Plugin](https://x-govuk.org/govuk-eleventy-plugin/get-started/)
+- [Upgrade from v7 to v8 of GOV.UK Eleventy Plugin](https://x-govuk.org/govuk-eleventy-plugin/get-started/upgrading/7-to-8/)

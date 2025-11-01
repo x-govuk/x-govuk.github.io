@@ -23,7 +23,7 @@ They are often forgotten, we'll go over some simple ways to solve them here.
 
 In addition to making it clear that something is wrong, we also need to tell the user exactly what happened and how to fix it.
 
-[The guidance says](https://design-system.service.gov.uk/components/error-summary#where-to-put-the-error-summary):
+[The guidance says](https://design-system.service.gov.uk/components/error-summary/#where-to-put-the-error-summary):
 
 > Put the error summary at the top of the main container. If your page includes breadcrumbs or a back link, place it below these, but above the `<h1>`.
 
@@ -96,7 +96,7 @@ The simplest is to use `#govuk_collection_check_boxes` and `#govuk_collection_ra
 
 You just pass in the list of options and the form builder will render them. This works for simple lists.
 
-Sometimes, however, the list needs to be customised a little further. For example we might need [a conditionally revealed questions](https://design-system.service.gov.uk/components/checkboxes#conditionally-revealing-a-related-question) or [a divider](https://design-system.service.gov.uk/components/checkboxes/#add-an-option-for-none).
+Sometimes, however, the list needs to be customised a little further. For example we might need [a conditionally revealed questions](https://design-system.service.gov.uk/components/checkboxes/#conditionally-revealing-a-related-question) or [a divider](https://design-system.service.gov.uk/components/checkboxes/#add-an-option-for-none).
 
 To support this the form builder comes with the more powerful `#govuk_check_boxes_fieldset` and `#govuk_radio_buttons_fieldset` methods which let the developer build the form field by field.
 

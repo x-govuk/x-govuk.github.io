@@ -77,10 +77,10 @@ I'm most familiar with the Rails ecosystem for building GOV.UK services and many
 
 - render content with [govuk_markdown](https://github.com/DFE-Digital/govuk-markdown)
 - provide accessible autocompletion for fields with [dfe-autocomplete](https://github.com/DFE-Digital/dfe-autocomplete/)
-- easily write tests that make sure your service is working properly with [govuk-rspec-helpers](https://x-govuk.github.io/govuk-rspec-helpers/)
+- easily write tests that make sure your service is working properly with [govuk-rspec-helpers](https://x-govuk.org/govuk-rspec-helpers/)
 - build pages with [govuk-components](https://github.com/x-govuk/govuk-components)
 - generate forms with [govuk-form-builder](https://github.com/x-govuk/govuk-form-builder)
-- send emails and text messages via [GOV.UK Notify](https://notifications.service.gov.uk) with [notifications-ruby-client](https://github.com/alphagov/notifications-ruby-client)
+- send emails and text messages via [GOV.UK Notify](https://www.notifications.service.gov.uk) with [notifications-ruby-client](https://github.com/alphagov/notifications-ruby-client)
 
 However, there are still some common features and patterns that haven't been fully addressed and are often re-implemented.
 
@@ -91,4 +91,4 @@ Here are a few that spring to mind, you'll probably find an example in every Rai
 - a date validator that follows the [the design system](https://design-system.service.gov.uk/components/date-input/#error-messages)'s suggestion of individually validating the day, month and year
 - a tool which collates validation errors your users trigger and displays them in a dashboard, to help you diagnose problems and create a better user experience
 
-For an idea of which tools exist in your programming language or framework of choice, take a look at the [X-GOVUK resources list](https://x-govuk.github.io/#resources).
+For an idea of which tools exist in your programming language or framework of choice, take a look at the [X-GOVUK resources list](https://x-govuk.org/#resources).

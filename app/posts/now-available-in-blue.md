@@ -19,7 +19,7 @@ Besides updating projects to support the refreshed brand, other updates have bee
 
 ## GOV.UK Eleventy Plugin
 
-The latest [v7.0 release to this plugin for Eleventy](https://x-govuk.github.io/govuk-eleventy-plugin/upgrading/6-to-7/) addresses a number of long standing issues.
+The latest [v7.0 release to this plugin for Eleventy](https://x-govuk.org/govuk-eleventy-plugin/get-started/upgrading/6-to-7/) addresses a number of long standing issues.
 
 Thanks to the [virtual templates feature](https://www.11ty.dev/docs/virtual-templates/) introduced in Eleventy 3.0, default templates provided by the plugin can now be replaced by creating a layout with the same name in your layouts directory.
 
@@ -45,11 +45,11 @@ And of course, support is provided for the GOV.UK rebrand. Setting the `rebrand`
 
 ## GOV.UK Prototype Components
 
-Alongside some under-the-hood updates (moving the project to ES and Sass modules), v4.0 of [this plugin for the GOV.UK Prototype Kit](https://x-govuk.github.io/govuk-prototype-components/) removes the deprecated Primary navigation component. You should use the [Service navigation component](https://design-system.service.gov.uk/components/service-navigation/) to help users navigate your service instead.
+Alongside some under-the-hood updates (moving the project to ES and Sass modules), v4.0 of [this plugin for the GOV.UK Prototype Kit](https://x-govuk.org/govuk-prototype-components/) removes the deprecated Primary navigation component. You should use the [Service navigation component](https://design-system.service.gov.uk/components/service-navigation/) to help users navigate your service instead.
 
 ## GOV.UK Prototype Filters
 
-Recent updates to the [filters provided by this plugin](https://x-govuk.github.io/govuk-prototype-filters/) for the GOV.UK Prototype Kit have been especially fun.
+Recent updates to the [filters provided by this plugin](https://x-govuk.org/govuk-prototype-filters/) for the GOV.UK Prototype Kit have been especially fun.
 
 Turns out JavaScript runtimes have differing opinions around date formatting. How is September abbreviated (‘Sept’ or ‘Sep’)? Should a comma be included in a date that includes a time?
 
@@ -63,7 +63,7 @@ Updates to both gems in support of the rebrand will be released on 25 June.
 
 ## GOV.UK Frontend Statistics
 
-[Frankie Roberto](https://github.com/frankieroberto)’s project attempts to track [adoption of the latest releases to GOV.UK Frontend](https://x-govuk.github.io/govuk-services-frontend-stats/).
+[Frankie Roberto](https://github.com/frankieroberto)’s project attempts to track [adoption of the latest releases to GOV.UK Frontend](https://x-govuk.org/govuk-services-frontend-stats/).
 
 Originally created to track adoption of a release that introduced the Tudor crown, the report has been updated to show which services are ready to support the rebrand.
 

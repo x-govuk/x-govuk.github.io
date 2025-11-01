@@ -23,7 +23,7 @@ Both `striptags` and `lower` are examples of [filters builtin to Nunjucks](https
 
 ## Introducing GOV.UK Prototype Filters
 
-The [GOV.UK Prototype Filters](https://x-govuk.github.io/govuk-prototype-filters/) plugin provides a set of helpful filters, built specifically for users of the GOV.UK Prototype Kit.
+The [GOV.UK Prototype Filters](https://x-govuk.org/govuk-prototype-filters/) plugin provides a set of helpful filters, built specifically for users of the GOV.UK Prototype Kit.
 
 For example, it can be difficult to take dates entered into the `govukDateInput` component and then display them correctly on another page such as ‘Check your answers’. Even if you use a date library like Luxon, you still have to remember which formatting tokens to use.
 
@@ -70,7 +70,7 @@ This will output the following ISO 8601 formatted date:
 2003-02-01
 ```
 
-This isn’t very readable and doesn’t follow [the GOV.UK style guide for dates](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#dates). However, we can use it in tandem with the `govukDate` filter:
+This isn’t very readable and doesn’t follow [the GOV.UK style guide for dates](https://www.gov.uk/guidance/style-guide/a-to-z#dates). However, we can use it in tandem with the `govukDate` filter:
 
 ```njk
 {% raw %}{{ data | isoDateFromDateInput("issued") | govukDate }}{% endraw %}
@@ -82,7 +82,7 @@ Now we have a correctly formatted, human readable date:
 1 February 2003
 ```
 
-The `govukTime` filter behaves similarly. [The GOV.UK style guide for times](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#times) recommends using am and pm suffixes, and midday and midnight instead of 12:00pm and 12:00am.
+The `govukTime` filter behaves similarly. [The GOV.UK style guide for times](https://www.gov.uk/guidance/style-guide/a-to-z#times) recommends using am and pm suffixes, and midday and midnight instead of 12:00pm and 12:00am.
 
 Using the `govukTime` filter means times will always be displayed in the correct format. For example:
 
@@ -108,19 +108,19 @@ As an aside, providing either `"now"` or `"today"` to `govukDate` and `govukTime
 
 The first version of this plugin includes 21 filters grouped into 5 categories:
 
-[Array filters](https://x-govuk.github.io/govuk-prototype-filters/array/)
+[Array filters](https://x-govuk.org/govuk-prototype-filters/array/)
 : `formatList`, `isArray`, `rejectFromArray`, `selectFromArray` and `uniqueFromArray`.
 
-[Date filters](https://x-govuk.github.io/govuk-prototype-filters/date/)
+[Date filters](https://x-govuk.org/govuk-prototype-filters/date/)
 : `duration`, `govukDate`, `govukTime`, `isoDateFromDateInput` and `monthName`.
 
-[Number filters](https://x-govuk.github.io/govuk-prototype-filters/number/)
+[Number filters](https://x-govuk.org/govuk-prototype-filters/number/)
 : `currency`, `isNumber`, `ordinal` and `plural`.
 
-[Object filters](https://x-govuk.github.io/govuk-prototype-filters/object/)
+[Object filters](https://x-govuk.org/govuk-prototype-filters/object/)
 : `isObject`, `objectToArray`.
 
-[String filters](https://x-govuk.github.io/govuk-prototype-filters/string/)
+[String filters](https://x-govuk.org/govuk-prototype-filters/string/)
 : `govukMarkdown`, `isString`, `noOrphans`, `slugify` and `startsWith`.
 
 ## Installation
