@@ -77,7 +77,7 @@ I'm most familiar with the Rails ecosystem for building GOV.UK services and many
 
 - render content with [govuk_markdown](https://github.com/DFE-Digital/govuk-markdown)
 - provide accessible autocompletion for fields with [dfe-autocomplete](https://github.com/DFE-Digital/dfe-autocomplete/)
-- easily write tests that make sure your service is working properly with [govuk-rspec-helpers](https://x-govuk.org/govuk-rspec-helpers/)
+- easily write tests that make sure your service is working properly with [govuk-rspec-helpers](https://govuk-rspec-helpers.x-govuk.org)
 - build pages with [govuk-components](https://github.com/x-govuk/govuk-components)
 - generate forms with [govuk-form-builder](https://github.com/x-govuk/govuk-form-builder)
 - send emails and text messages via [GOV.UK Notify](https://www.notifications.service.gov.uk) with [notifications-ruby-client](https://github.com/alphagov/notifications-ruby-client)
