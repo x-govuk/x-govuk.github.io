@@ -66,7 +66,7 @@ project:
       title: GOV.UK Services List
       description: A catalogue of digital services from the UK government and its agencies.
 
-  - url: https://x-govuk.org/nhsuk-eleventy-plugin/
+  - url: https://nhsuk-eleventy-plugin.x-govuk.org
     data:
       title: NHS.UK Eleventy Plugin
       description: Write documentation using Markdown and publish it using NHS.UK styles.
