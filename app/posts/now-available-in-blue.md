@@ -45,7 +45,7 @@ And of course, support is provided for the GOV.UK rebrand. Setting the `rebrand`
 
 ## GOV.UK Prototype Components
 
-Alongside some under-the-hood updates (moving the project to ES and Sass modules), v4.0 of [this plugin for the GOV.UK Prototype Kit](https://x-govuk.org/govuk-prototype-components/) removes the deprecated Primary navigation component. You should use the [Service navigation component](https://design-system.service.gov.uk/components/service-navigation/) to help users navigate your service instead.
+Alongside some under-the-hood updates (moving the project to ES and Sass modules), v4.0 of [this plugin for the GOV.UK Prototype Kit](https://govuk-prototype-components.x-govuk.org) removes the deprecated Primary navigation component. You should use the [Service navigation component](https://design-system.service.gov.uk/components/service-navigation/) to help users navigate your service instead.
 
 ## GOV.UK Prototype Filters
 
