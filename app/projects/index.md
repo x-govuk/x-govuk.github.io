@@ -16,7 +16,7 @@ project:
       title: GOV.UK Components for Ruby on Rails
       description: Build GOV.UK services using Ruby on Rails components.
 
-  - url: https://x-govuk.org/govuk-design-history/
+  - url: https://govuk-design-history.x-govuk.org
     data:
       title: GOV.UK Design History
       description: Document and share design decisions. Create a permanent record of how your service has developed over time.
