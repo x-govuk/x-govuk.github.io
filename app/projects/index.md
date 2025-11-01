@@ -6,7 +6,7 @@ pagination:
   data: project
   size: 20
 project:
-  - url: https://x-govuk.org/govuk-accessibility-mistakes-forms/
+  - url: https://fix-common-accessibility-mistakes.x-govuk.org
     data:
       title: Fix Common Accessibility Mistakes
       description: Learn how to fix common accessibility mistakes in government digital services.
