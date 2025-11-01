@@ -24,7 +24,7 @@ Since its [release in April 2022](https://x-govuk.org/posts/govuk-eleventy-plugi
 - [Health and Disability Data Glossary](https://dwp-health-data-glossary.netlify.app) (DWP)
 - [Planning Data Service Handbook](https://handbook.planning.data.gov.uk) (MHCLG)
 
-The plugin also powers some of [our own documentation sites](/projects), as well as [a growing collection of design histories](https://x-govuk.org/govuk-design-history/directory/), a reflection of the project’s origins.
+The plugin also powers some of [our own documentation sites](/projects), as well as [a growing collection of design histories](https://govuk-design-history.x-govuk.org/directory/), a reflection of the project’s origins.
 
 ![A selection of websites using the GOV.UK Eleventy Plugin](/assets/posts/nhsuk-eleventy-plugin/govuk-eleventy-plugin-sites.png)
 

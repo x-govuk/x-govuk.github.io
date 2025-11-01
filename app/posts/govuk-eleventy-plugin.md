@@ -11,7 +11,7 @@ image:
   opengraphImage: true
 ---
 
-Back in 2018, the Becoming a teacher team at the Department for Education wanted to [document the design evolution of the services they were building](https://x-govuk.org/govuk-design-history/case-study/). A small website was built using the [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk/docs/), but this soon became difficult to manage as more people joined the team and wanted to write posts.
+Back in 2018, the Becoming a teacher team at the Department for Education wanted to [document the design evolution of the services they were building](https://govuk-design-history.x-govuk.org/case-study/). A small website was built using the [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk/docs/), but this soon became difficult to manage as more people joined the team and wanted to write posts.
 
 Looking for alternatives, the team chose [Eleventy](https://www.11ty.dev), a static website generator developed by Zach Leatherman[^1]. Like the Prototype Kit, it uses Node.js, yet is designed around organising and publishing content-focused websites.
 
