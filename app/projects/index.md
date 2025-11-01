@@ -46,7 +46,7 @@ project:
       title: GOV.UK Prototype Components
       description: Use common components that are not yet part of the GOV.UK Design System.
 
-  - url: https://x-govuk.org/govuk-prototype-filters/
+  - url: https://govuk-prototype-filters.x-govuk.org
     data:
       title: GOV.UK Prototype Filters
       description: Prototype with data using helpful template filters.
