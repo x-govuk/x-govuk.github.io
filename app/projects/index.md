@@ -56,7 +56,7 @@ project:
       title: GOV.UK Prototype Wizard
       description: Build and iterate ‘one thing per page’ user journeys when prototyping GOV.UK services.
 
-  - url: https://x-govuk.org/govuk-rspec-helpers/
+  - url: https://govuk-rspec-helpers.x-govuk.org
     data:
       title: GOV.UK RSpec Helpers
       description: Test GOV.UK services using the RSpec framework.
