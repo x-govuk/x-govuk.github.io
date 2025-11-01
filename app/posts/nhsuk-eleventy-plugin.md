@@ -38,7 +38,7 @@ This is what teams in the NHS Digital prevention services portfolio discovered w
 
 They needed their own Eleventy plugin, one that reflected the design idioms common to the NHS website. Other teams working in the NHS may want this too.
 
-That’s why we created the [NHS.UK Eleventy Plugin](https://x-govuk.org/nhsuk-eleventy-plugin/).
+That’s why we created the [NHS.UK Eleventy Plugin](https://nhsuk-eleventy-plugin.x-govuk.org).
 
 ## Stick or split?
 
@@ -85,7 +85,7 @@ Version 8 of the GOV.UK Eleventy Plugin changes [the way block quotes get render
 
 [Alerts instead use the inset text component](https://govuk-eleventy-plugin.x-govuk.org/example/markdown/#alerts) (with the alert type provided as a visually hidden label). The lowest alert level, ‘note’, has the same appearance as that for inset text, while the remaining alert levels have different border and background colours.
 
-The NHS.UK Eleventy Plugin takes [a slightly different approach for alerts](https://x-govuk.org/nhsuk-eleventy-plugin/example/markdown/#alerts):
+The NHS.UK Eleventy Plugin takes [a slightly different approach for alerts](https://nhsuk-eleventy-plugin.x-govuk.org/example/markdown/#alerts):
 
 - ‘note‘ and ‘tip’ alerts use the inset text style
 - ‘important‘, ‘warning‘ and ‘caution’ alerts use the warning callout style
@@ -124,6 +124,6 @@ Happy website building! 🎈
 
 ---
 
-- [Get started with the NHS.UK Eleventy Plugin](https://x-govuk.org/nhsuk-eleventy-plugin/get-started/)
+- [Get started with the NHS.UK Eleventy Plugin](https://nhsuk-eleventy-plugin.x-govuk.org/get-started/)
 - [Get started with the GOV.UK Eleventy Plugin](https://govuk-eleventy-plugin.x-govuk.org/get-started/)
 - [Upgrade from v7 to v8 of GOV.UK Eleventy Plugin](https://govuk-eleventy-plugin.x-govuk.org/get-started/upgrading/7-to-8/)
