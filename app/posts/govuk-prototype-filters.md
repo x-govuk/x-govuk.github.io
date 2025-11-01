@@ -23,7 +23,7 @@ Both `striptags` and `lower` are examples of [filters builtin to Nunjucks](https
 
 ## Introducing GOV.UK Prototype Filters
 
-The [GOV.UK Prototype Filters](https://x-govuk.org/govuk-prototype-filters/) plugin provides a set of helpful filters, built specifically for users of the GOV.UK Prototype Kit.
+The [GOV.UK Prototype Filters](https://govuk-prototype-filters.x-govuk.org) plugin provides a set of helpful filters, built specifically for users of the GOV.UK Prototype Kit.
 
 For example, it can be difficult to take dates entered into the `govukDateInput` component and then display them correctly on another page such as ‘Check your answers’. Even if you use a date library like Luxon, you still have to remember which formatting tokens to use.
 
@@ -108,19 +108,19 @@ As an aside, providing either `"now"` or `"today"` to `govukDate` and `govukTime
 
 The first version of this plugin includes 21 filters grouped into 5 categories:
 
-[Array filters](https://x-govuk.org/govuk-prototype-filters/array/)
+[Array filters](https://govuk-prototype-filters.x-govuk.org/array/)
 : `formatList`, `isArray`, `rejectFromArray`, `selectFromArray` and `uniqueFromArray`.
 
-[Date filters](https://x-govuk.org/govuk-prototype-filters/date/)
+[Date filters](https://govuk-prototype-filters.x-govuk.org/date/)
 : `duration`, `govukDate`, `govukTime`, `isoDateFromDateInput` and `monthName`.
 
-[Number filters](https://x-govuk.org/govuk-prototype-filters/number/)
+[Number filters](https://govuk-prototype-filters.x-govuk.org/number/)
 : `currency`, `isNumber`, `ordinal` and `plural`.
 
-[Object filters](https://x-govuk.org/govuk-prototype-filters/object/)
+[Object filters](https://govuk-prototype-filters.x-govuk.org/object/)
 : `isObject`, `objectToArray`.
 
-[String filters](https://x-govuk.org/govuk-prototype-filters/string/)
+[String filters](https://govuk-prototype-filters.x-govuk.org/string/)
 : `govukMarkdown`, `isString`, `noOrphans`, `slugify` and `startsWith`.
 
 ## Installation

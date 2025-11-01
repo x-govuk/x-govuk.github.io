@@ -49,7 +49,7 @@ Alongside some under-the-hood updates (moving the project to ES and Sass modules
 
 ## GOV.UK Prototype Filters
 
-Recent updates to the [filters provided by this plugin](https://x-govuk.org/govuk-prototype-filters/) for the GOV.UK Prototype Kit have been especially fun.
+Recent updates to the [filters provided by this plugin](https://govuk-prototype-filters.x-govuk.org) for the GOV.UK Prototype Kit have been especially fun.
 
 Turns out JavaScript runtimes have differing opinions around date formatting. How is September abbreviated (‘Sept’ or ‘Sep’)? Should a comma be included in a date that includes a time?
 
