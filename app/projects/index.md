@@ -36,11 +36,6 @@ project:
       title: GOV.UK Eleventy Plugin
       description: Write documentation using Markdown and publish it using GOV.UK styles.
 
-  - url: https://x-govuk.org/govuk-services-frontend-stats/
-    data:
-      title: GOV.UK Frontend Stats
-      description: Current versions of GOV.UK Frontend used by different services, based on their publicly available source code.
-
   - url: https://govuk-prototype-components.x-govuk.org
     data:
       title: GOV.UK Prototype Components
@@ -60,6 +55,11 @@ project:
     data:
       title: GOV.UK RSpec Helpers
       description: Test GOV.UK services using the RSpec framework.
+
+  - url: https://govuk-services-frontend-stats.x-govuk.org
+    data:
+      title: GOV.UK Services Frontend Stats
+      description: Current versions of GOV.UK Frontend used by different services, based on their publicly available source code.
 
   - url: https://govuk-digital-services.herokuapp.com/
     data:
