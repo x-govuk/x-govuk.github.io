@@ -15,8 +15,8 @@ description: A community-maintained collection of resources which are useful for
 - [GOV.UK Design System](https://design-system.service.gov.uk)
 - [Digital Land Design System](https://digital-land.github.io/design-system/)
 - [Digital Scotland Design System](https://designsystem.gov.scot)
-- [DWP Design System](https://design-system.dwp.gov.uk/index)
-- [GOV.WALES components](https://gov.wales/govwales-components)
+- [DWP Design System](https://design-system.dwp.gov.uk)
+- [GOV.WALES components](https://www.gov.wales/govwales-components)
 - [HM Land Registry Design System](https://hmlr-design-system.herokuapp.com)
 - [HMRC Design Patterns](https://design.tax.service.gov.uk/hmrc-design-patterns/)
 - [Home Office Design System](https://design.homeoffice.gov.uk)
@@ -35,9 +35,9 @@ description: A community-maintained collection of resources which are useful for
 
 ### Content design
 
-- [Government Digital Service style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)
-- [Department for Education style guide](https://design.education.gov.uk/content-design/style-guide/)
-- [GOV.WALES style guide](https://gov.wales/govwales-style-guide)
+- [Government Digital Service style guide](https://www.gov.uk/guidance/style-guide/a-to-z)
+- [Department for Education style guide](https://design.education.gov.uk/content-design/style-guide)
+- [GOV.WALES style guide](https://www.gov.wales/govwales-style-guide)
 - [HMRC content style guide](https://design.tax.service.gov.uk/hmrc-content-style-guide/)
 - [Home Office style guide](https://design.homeoffice.gov.uk/content-style-guide)
 - [MoJ content style guide](https://design-patterns.service.justice.gov.uk/content-standards/style-guide/)
@@ -69,7 +69,7 @@ description: A community-maintained collection of resources which are useful for
 - [GOV.UK Frontend](https://frontend.design-system.service.gov.uk)
 - [GOV.UK Frontend Flask](https://github.com/LandRegistry/govuk-frontend-flask)
 - [GOV.UK Frontend Jinja](https://github.com/LandRegistry/govuk-frontend-jinja)
-- [GOV.UK Form Builder for Ruby on Rails](https://github.com/x-govuk/govuk-formbuilder)
+- [GOV.UK Form Builder for Ruby on Rails](https://github.com/x-govuk/govuk-form-builder)
 - [GOV.UK Components for Ruby on Rails](https://github.com/x-govuk/govuk-components)
 - [GOV.UK Design System for ASP.NET MVC and Umbraco](https://github.com/thepensionsregulator/govuk-frontend-aspnetcore-extensions)
 - [GOV.UK Vue](https://govukvue.org)
