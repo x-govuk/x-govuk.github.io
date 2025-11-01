@@ -11,7 +11,8 @@
     "url": "https://github.com/x-govuk/x-govuk.github.io.git"
   },
   "scripts": {
-    "build": "eleventy --quiet",
+    "build": "eleventy",
+    "prestart": "npm run build",
     "start": "eleventy --serve --quiet",
     "lint:prettier": "prettier . --check",
     "lint:prettier:fix": "prettier . --write",
