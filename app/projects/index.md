@@ -31,7 +31,7 @@ project:
       title: GOV.UK Frontend for ASP.NET Core
       description: Build GOV.UK services using ASP.NET Core components.
 
-  - url: https://x-govuk.org/govuk-eleventy-plugin/
+  - url: https://govuk-eleventy-plugin.x-govuk.org
     data:
       title: GOV.UK Eleventy Plugin
       description: Write documentation using Markdown and publish it using GOV.UK styles.
