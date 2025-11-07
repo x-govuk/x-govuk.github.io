@@ -34,4 +34,4 @@ Well done to:
 - GOV.UK Platform as a Service
 - Product safety database
 
-If your service isn’t included in the full list, you can add it by [contributing to the X-GOVUK services list](https://govuk-digital-services.herokuapp.com/contribute).
+If your service isn’t included in the full list, you can add it by [contributing to the X-GOVUK services list](https://govuk-services-list.x-govuk.org/contribute).

@@ -61,7 +61,7 @@ project:
       title: GOV.UK Services Frontend Stats
       description: Current versions of GOV.UK Frontend used by different services, based on their publicly available source code.
 
-  - url: https://govuk-digital-services.herokuapp.com
+  - url: https://govuk-services-list.x-govuk.org
     data:
       title: GOV.UK Services List
       description: A catalogue of digital services from the UK government and its agencies.

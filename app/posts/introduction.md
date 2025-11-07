@@ -28,7 +28,7 @@ The “X” also stands for “experimental”, as this can be a space for ideas
 Projects include:
 
 - a [template for writing design histories](https://github.com/x-govuk/govuk-design-history-template)
-- a [crowdsourced list of UK government digital services](https://govuk-digital-services.herokuapp.com)
+- a [crowdsourced list of UK government digital services](https://govuk-services-list.x-govuk.org)
 - an [extension for the GOV.UK Prototype Kit to enable forking questions based on radios](https://github.com/x-govuk/prototype-navigation-radios)
 - a [wizard tool](https://github.com/x-govuk/govuk-prototype-wizard) for building and iterating ‘one thing per page’ user journeys in prototypes
 

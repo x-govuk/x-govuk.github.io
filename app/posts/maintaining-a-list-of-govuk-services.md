@@ -23,7 +23,7 @@ There used to be a ‘register of services on a service.gov.uk subdomain’, but
 
 ## A community-maintained list
 
-To fill this gap, I’ve been helping to run a [community-maintained list of government services](https://govuk-digital-services.herokuapp.com). There’s now over 400 services listed.
+To fill this gap, I’ve been helping to run a [community-maintained list of government services](https://govuk-services-list.x-govuk.org). There’s now over 400 services listed.
 
 Why do this? Lots of people have found it useful. Designers like being able to find other services to get inspiration from. Product managers working on platforms like GOV.UK Pay and GOV.UK One Login use it to work out which services might use their platform. Researchers from outside government have even used it as a starting point for academic work.
 
@@ -36,7 +36,7 @@ Maintaining this list is hard. So far I’ve used numerous sources, including:
 
 ## Contributing to the list
 
-Individuals across government have been in touch to point out missing services, corrections, or where a service has been retired. So if you spot anything, please [contribute to the list](https://govuk-digital-services.herokuapp.com/contribute).
+Individuals across government have been in touch to point out missing services, corrections, or where a service has been retired. So if you spot anything, please [contribute to the list](https://govuk-services-list.x-govuk.org/contribute).
 
 There’s no strict definition of a government digital service, but if it’s run by the UK government or its agencies and is GOV.UK branded (at least to some degree), then it counts. Usefulness of the list beats precision in its scope.
 
@@ -44,9 +44,9 @@ Each service can include metadata including a brief description, the organisatio
 
 Finally, I’ve also added a few fun bonus features which use the data:
 
-- the list of services [organised by the verb they start with](https://govuk-digital-services.herokuapp.com/verbs)
-- a page containing [screenshots of the first page for each service](https://govuk-digital-services.herokuapp.com/screenshots)
-- a [list of the domains and subdomains](https://govuk-digital-services.herokuapp.com/domains) the services run on
-- the [list of the original 25 exemplars](https://govuk-digital-services.herokuapp.com/original-25-exemplars)
+- the list of services [organised by the verb they start with](https://govuk-services-list.x-govuk.org/verbs)
+- a page containing [screenshots of the first page for each service](https://govuk-services-list.x-govuk.org/screenshots)
+- a [list of the domains and subdomains](https://govuk-services-list.x-govuk.org/domains) the services run on
+- the [list of the original 25 exemplars](https://govuk-services-list.x-govuk.org/original-25-exemplars)
 
 Let us know if you find it useful in any way, or have any suggestions for improvements.
