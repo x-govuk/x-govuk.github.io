@@ -90,6 +90,11 @@ description: A community-maintained collection of resources which are useful for
 - [Join the product manager buddy scheme](https://docs.google.com/forms/d/e/1FAIpQLSf4RMKfyzMi0ZlASGhmJMDaQHDNI4h0g2XYubv0o9hrYH77qw/viewform)
 - Things to do as a new product manager in your first 30 days ([Trello board](https://trello.com/b/UjAn4OBa) or [Notion board](https://www.notion.so/stevenjmesser/216be86b0fe04ff8b0fbe61e0928178e?v=2368cfc6cf734d8890fb09aa59225423))
 
+## Other useful lists
+
+- [Cymru Ddigidol](https://cymruddigidol.github.io)
+- [GOV Reuse Library](https://dev.reuselibrary.service.justice.gov.uk)
+
 </div>
 </div>
 
