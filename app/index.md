@@ -13,6 +13,7 @@ description: A community-maintained collection of resources which are useful for
 ### Design systems, patterns and components
 
 - [GOV.UK Design System](https://design-system.service.gov.uk)
+- [Department for Education Design System](https://design.education.gov.uk/design-system)
 - [Digital Land Design System](https://digital-land.github.io/design-system/)
 - [Digital Scotland Design System](https://designsystem.gov.scot)
 - [DWP Design System](https://design-system.dwp.gov.uk)
@@ -32,6 +33,7 @@ description: A community-maintained collection of resources which are useful for
 - [BATHNES Digital Toolkit](https://style.bathnes.gov.uk/)
 - [Maidstone Design System](https://digitalservices.maidstone.gov.uk/about-us/design-system)
 - [Essex County Council's design and patterns library](https://www.essex.gov.uk/essex-county-councils-design-and-patterns-library)
+- [Centre for Digital Public Services (Wales) Pattern Library](https://digitalpublicservices.gov.wales/service-pattern-library)
 
 ### Content design
 
