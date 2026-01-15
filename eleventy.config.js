@@ -55,7 +55,7 @@ export default function (eleventyConfig) {
     },
     themeColor: '#2288aa',
     titleSuffix: serviceName,
-    url: process.env.GITHUB_ACTIONS && 'http://x-govuk.github.io/'
+    url: process.env.GITHUB_ACTIONS && 'https://x-govuk.github.io/'
   })
 
   // Collections
