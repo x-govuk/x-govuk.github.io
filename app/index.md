@@ -34,6 +34,7 @@ description: A community-maintained collection of resources which are useful for
 - [Maidstone Design System](https://digitalservices.maidstone.gov.uk/about-us/design-system)
 - [Essex County Council's design and patterns library](https://www.essex.gov.uk/essex-county-councils-design-and-patterns-library)
 - [Centre for Digital Public Services (Wales) Pattern Library](https://digitalpublicservices.gov.wales/service-pattern-library)
+- [National Archives Design System](https://design-system.nationalarchives.gov.uk/)
 
 ### Content design
 
