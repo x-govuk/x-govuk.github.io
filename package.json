@@ -1,6 +1,7 @@
 {
   "name": "x-govuk",
   "version": "1.0.0",
+  "private": true,
   "description": "A blog about collaboration across the UK government",
   "homepage": "https://x-govuk.org",
   "bugs": {
@@ -10,16 +11,17 @@
     "type": "git",
     "url": "https://github.com/x-govuk/x-govuk.github.io.git"
   },
+  "type": "module",
   "scripts": {
     "build": "eleventy",
-    "prestart": "npm run build",
-    "start": "eleventy --serve --quiet",
-    "lint:prettier": "prettier . --check",
-    "lint:prettier:fix": "prettier . --write",
+    "lint": "npm run lint:prettier && npm run lint:js",
+    "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix",
     "lint:js": "eslint '**/*.js'",
     "lint:js:fix": "eslint '**/*.js' --fix",
-    "lint": "npm run lint:prettier && npm run lint:js",
-    "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix"
+    "lint:prettier": "prettier . --check",
+    "lint:prettier:fix": "prettier . --write",
+    "prestart": "npm run build",
+    "start": "eleventy --serve --quiet"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -31,7 +33,5 @@
   },
   "engines": {
     "node": ">=22"
-  },
-  "private": true,
-  "type": "module"
+  }
 }
