@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
-    "@x-govuk/govuk-eleventy-plugin": "^9.0.1"
+    "@x-govuk/govuk-eleventy-plugin": "^9.0.2"
   },
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.2",
