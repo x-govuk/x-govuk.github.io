@@ -28,7 +28,7 @@
     "@x-govuk/govuk-eleventy-plugin": "^9.0.2"
   },
   "devDependencies": {
-    "@x-govuk/eslint-config": "^0.0.2",
+    "@x-govuk/eslint-config": "^0.0.3",
     "prettier": "^3.9.4"
   },
   "engines": {
